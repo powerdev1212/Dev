@@ -36,6 +36,7 @@ DATABASES = {
         "USER": "djangouser",
     },
 }
+SITE_ID=1
 """
 
 DATABASES = {

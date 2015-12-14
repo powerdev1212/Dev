@@ -25,6 +25,7 @@ def experts_list_json(request):
                     "phone",
                     "email",
                     "profile_picture",
+                    'specialities'
                     )
             e = {k:unicode(v) or "" for k,v in expert.__dict__.iteritems() if not k.startswith("_")}
             exp["listing"].append(e)
@@ -32,14 +33,16 @@ def experts_list_json(request):
         pass
     return JsonResponse(exp)
 
-
+from experts import serializers
 def expert_instance_json(request, expert_id):
-    exp = {}
-    try:
-        expert = Expert.objects.select_related().get(pk=expert_id)
         exp = {}
-        e = {k:unicode(v) or "" for k,v in expert.__dict__.iteritems() if not k.startswith("_")}
-        exp = e
-    except:
-        pass
-    return JsonResponse(exp)
+#    try:
+        expert = Expert.objects.select_related().get(pk=expert_id)
+        expert = Expert.objects.get(pk=expert_id)
+        exp = {}
+        e = {k:unicode(v) or "" for k,v in expert.__dict__.iteritems()}
+        exp = serializers.Expert(expert)
+        exp = exp.data
+#    except:
+#        pass
+        return JsonResponse(exp)

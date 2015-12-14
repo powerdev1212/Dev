@@ -1,7 +1,7 @@
 $(function(){
-    var expert = $(".expert-title");
-    
+    var expert = $(".expert-title").find('.inner');
+
     expert.click(function(){
-        $(this).parent().parent().parent().find(".profile-togglable").toggle();
+        $(this).parent().parent().parent().parent().find(".profile-togglable").toggle();
     });
 });
