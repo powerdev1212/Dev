@@ -1,0 +1,21 @@
+<div id="modalContent" class="modal deseases-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+            <h4 class="modal-title" id="modal-title">List of Cancers{{ dlist }}</h4>
+        </div>
+       <div class="modal-body" id="scrolled-modal-body">
+            <div id="modal-body-wrapper">
+                <ul id="deseases-in-category">
+                    {% for i in dlist %}
+                    <li>
+                        <a href="{{i.link}}">{{ i.inner_name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>

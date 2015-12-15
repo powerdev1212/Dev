@@ -1,0 +1,24 @@
+{% extends 'components/sidenav_authenticated.html'%}
+
+{% block menu_for_model %}
+	<li>
+	<a href="/a/#/admin/seo" class="">
+		<md-icon style="color:white;">dashboard</md-icon>
+		<span>SEO</span> 
+	</a>
+	</li>
+
+	<li>
+	<a href="/a/#/admin/coordinators" class="">
+		<md-icon style="color:white;">group</md-icon>
+		<span>Coordinators</span> 
+	</a>
+	</li>
+	<li>
+	<a href="/a/#/admin/experts" class="">
+		<i class="fa fa-medkit" style="width:24px;"></i>
+		<span>Experts</span> 
+	</a>
+	</li>
+{% endblock %}
+

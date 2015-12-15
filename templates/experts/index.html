@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row">
+        {% block breadcrumbs %}{% include "breadcrumbs.html" %}{% endblock breadcrumbs %}
+    </div>
+    <div class="row">
+        <div class="col-xs-12 card force-padding definition">
+            <h3>{{ ditem.inner_name }}</h3>
+            {{ ditem.definition|safe }}
+        </div>
+        
+    </div>
+    
+    <div class="row">
+        
+        <!-- listing -->
+        {% include "components/optionsnav.html" %}
+        <!-- listing (end) -->
+        <div class="col-md-9 card">
+            <p>Item selected: {{ ditem }}</p>
+            <p>Experts selected: {{ experts }}</p>
+        </div>
+    </div>
+    
+{% endblock content %}

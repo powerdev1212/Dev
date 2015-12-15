@@ -1,0 +1,1982 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Summary >
+<Summary id="CDR0000062675" LegacyPDQID="">
+  <SummaryMetaData>
+    <SummaryType>Treatment</SummaryType>
+    <SummaryAudience>Health professionals</SummaryAudience>
+    <SummaryLanguage>English</SummaryLanguage>
+    <SummaryDescription>Expert-reviewed information summary about the treatment of adult Hodgkin lymphoma.</SummaryDescription>
+    <SummaryURL xref="http://cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq">Adult Hodgkin Lymphoma (PDQ®): Treatment</SummaryURL>
+    <MainTopics>
+      <TermRef ref="CDR0000040208">adult Hodgkin lymphoma</TermRef>
+    </MainTopics>
+  </SummaryMetaData>
+  <SummaryTitle>Adult Hodgkin Lymphoma Treatment (PDQ®)</SummaryTitle>
+  <AltTitle TitleType="Short">Adult Hodgkin Lymphoma Treatment</AltTitle>
+  <SummarySection id="_1">
+    <SectMetaData>
+      <SpecificDiagnosis ref="CDR0000040208">adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SectionType>Prognosis--legacy</SectionType>
+    </SectMetaData>
+    <Title>General Information About Adult Hodgkin Lymphoma (HL)</Title>
+    <SummarySection id="_470">
+      <Title>Incidence and Mortality</Title>
+      <Para id="_331">
+        Estimated new cases and deaths from HL in the United States in 2015:
+        <Reference refidx="1" />
+      </Para>
+      <ItemizedList id="_332" Style="bullet">
+        <ListItem>New cases: 9,050.</ListItem>
+        <ListItem>Deaths: 1,150.</ListItem>
+      </ItemizedList>
+    </SummarySection>
+    <Para id="_3">
+      More than 75% of all newly diagnosed patients with adult HL can be cured with combination chemotherapy and/or radiation therapy.
+      <Reference refidx="2" />
+      National mortality has fallen more rapidly for adult HL than for any other malignancy over the last 5 decades.
+      <Reference refidx="2" />
+    </Para>
+    <SummarySection id="_645">
+      <Title>Prognosis and Survival Factors</Title>
+      <Para id="_4">
+        Prognosis for a given patient depends on several factors.  The most important
+        factors are the presence or absence of systemic symptoms, the stage of disease,
+        presence of large masses, and the quality and suitability of the treatment
+        administered.  Other important factors are age, sex, erythrocyte sedimentation rate, extent of abdominal involvement, hematocrit, and absolute
+        number of nodal sites of involvement.
+        <Reference refidx="3" />
+        <Reference refidx="4" />
+        <Reference refidx="5" />
+      </Para>
+      <Para id="_231">
+        HL is the main cause of death over the first 15 years after treatment.  By
+        15 to 20 years after therapy, the cumulative mortality from a second malignancy
+        will exceed the cumulative mortality from HL.
+        <Reference refidx="6" />
+        <Reference refidx="7" />
+        <Reference refidx="8" />
+      </Para>
+    </SummarySection>
+    <SummarySection id="_547">
+      <Title>Related Summaries</Title>
+      <Para id="_548">Other PDQ summaries containing information related to Hodgkin lymphoma include the following:</Para>
+      <ItemizedList id="_549" Style="bullet">
+        <ListItem>
+          <SummaryRef href="CDR0000062940" url="/types/lymphoma/hp/aids-related-treatment-pdq">AIDS-Related Lymphoma Treatment</SummaryRef>
+        </ListItem>
+        <ListItem>
+          <SummaryRef href="CDR0000062933" url="/types/lymphoma/hp/child-hodgkin-treatment-pdq">Childhood Hodgkin Lymphoma Treatment</SummaryRef>
+        </ListItem>
+      </ItemizedList>
+    </SummarySection>
+    <ReferenceSection>
+      <Citation idx="1">
+        American Cancer Society: Cancer Facts and Figures 2015. Atlanta, Ga: American Cancer Society, 2015.
+        <ExternalRef xref="http://www.cancer.org/acs/groups/content/@editorial/documents/document/acspc-044552.pdf">Available online</ExternalRef>
+        . Last accessed April 1, 2015.
+      </Citation>
+      <Citation idx="2" PMID="18096762">Brenner H, Gondos A, Pulte D: Ongoing improvement in long-term survival of patients with Hodgkin disease at all ages and recent catch-up of older patients. Blood 111 (6): 2977-83, 2008.</Citation>
+      <Citation idx="3">
+        American Cancer Society: Cancer Facts and Figures 2007. Atlanta, Ga: American Cancer Society, 2007.
+        <ExternalRef xref="http://www.cancer.org/acs/groups/content/@nho/documents/document/caff2007pwsecuredpdf.pdf">Also available online.</ExternalRef>
+        Last accessed April 22, 2015.
+      </Citation>
+      <Citation idx="4" PMID="1389523" MedlineID="93001594">Cosset JM, Henry-Amar M, Meerwaldt JH, et al.: The EORTC trials for limited stage Hodgkin's disease. The EORTC Lymphoma Cooperative Group. Eur J Cancer 28A (11): 1847-50, 1992.</Citation>
+      <Citation idx="5" PMID="22117038">Evens AM, Helenowski I, Ramsdale E, et al.: A retrospective multicenter analysis of elderly Hodgkin lymphoma: outcomes and prognostic factors in the modern era. Blood 119 (3): 692-5, 2012.</Citation>
+      <Citation idx="6" PMID="9166452">Mauch PM, Kalish LA, Marcus KC, et al.: Long-Term Survival in Hodgkin's Disease Cancer J Sci Am 1 (1): 33-42, 1995.</Citation>
+      <Citation idx="7" PMID="9920825" MedlineID="99120947">Aisenberg AC: Problems in Hodgkin's disease management. Blood 93 (3): 761-79, 1999.</Citation>
+      <Citation idx="8" PMID="12885835">Aleman BM, van den Belt-Dusebout AW, Klokman WJ, et al.: Long-term cause-specific mortality of patients treated for Hodgkin's disease. J Clin Oncol 21 (18): 3431-9, 2003.</Citation>
+    </ReferenceSection>
+  </SummarySection>
+  <SummarySection id="_295">
+    <SectMetaData>
+      <SpecificDiagnosis ref="CDR0000040208">adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SectionType>Cellular classification--legacy</SectionType>
+    </SectMetaData>
+    <Title>Cellular Classification of Adult  HL</Title>
+    <Para id="_6">
+      Pathologists currently use the World Health Organization (WHO) modification of
+      the Revised European-American Lymphoma (REAL) classification for the histologic
+      classification for adult Hodgkin lymphoma (HL).
+      <Reference refidx="1" />
+      <Reference refidx="2" />
+    </Para>
+    <SummarySection id="_179">
+      <Para id="_329">
+        <Strong>WHO/REAL classification</Strong>
+      </Para>
+      <ItemizedList id="_9" Style="bullet">
+        <ListItem>
+          Classical HL.
+          <ItemizedList id="_188" Style="dash">
+            <ListItem>Nodular sclerosis HL.</ListItem>
+            <ListItem>Mixed-cellularity HL.</ListItem>
+            <ListItem>Lymphocyte depletion HL.</ListItem>
+            <ListItem>Lymphocyte-rich classical HL.</ListItem>
+          </ItemizedList>
+        </ListItem>
+        <ListItem>Nodular lymphocyte–predominant HL.</ListItem>
+      </ItemizedList>
+      <Para id="_602">
+        Among 10,019 patients who underwent central expert pathology review for the German Hodgkin Study Group, 84 patients (&lt;1%) were identified as having lymphocyte-depleted classical HL.
+        <Reference refidx="3" />
+        These patients present with more advanced-stage HL and usually with B symptoms.
+      </Para>
+    </SummarySection>
+    <SummarySection id="_533">
+      <Title>Nodular Lymphocyte–Predominant HL</Title>
+      <Para id="_534">
+        Nodular lymphocyte–predominant HL is a clinicopathologic entity
+        of B-cell origin that is distinct from classic HL.
+        <Reference refidx="4" />
+        <Reference refidx="5" />
+        <Reference refidx="6" />
+        The
+        typical immunophenotype for lymphocyte-predominant disease is CD15-, CD20+,
+        CD30-, CD45+, while the profile for classic HL is CD15+, CD20-,
+        CD30+, CD45-.  Patients with lymphocyte-predominant disease have earlier-stage
+        disease, longer survival, and fewer treatment failures than those with classic
+        HL.
+        <Reference refidx="7" />
+        Despite a usually favorable prognosis, there is a tendency for histologic transformation to diffuse large B-cell lymphoma in around 10% of patients by 10 years.
+        <Reference refidx="8" />
+        Lymphocyte-predominant HL is usually
+        diagnosed in asymptomatic young males with cervical or inguinal lymph nodes
+        but usually without mediastinal involvement. Based on retrospective analyses spanning several decades and because of  the rarity of this histology, limited-field radiation therapy is the most common treatment approach for patients with early-stage disease.
+        <Reference refidx="9" />
+        <Reference refidx="10" />
+        <Reference refidx="11" />
+      </Para>
+      <Para id="_535">
+        The REAL Classification of
+        Lymphoid Neoplasms proposed separating nodular lymphocyte–predominant HL (CD15-, CD20+, CD30-) from lymphocyte-rich classical HL
+        (CD15+, CD20-, CD30+), on the basis of these immunophenotypic
+        differences.
+        <Reference refidx="2" />
+        <Reference refidx="12" />
+        The largest retrospective report of 426 cases showed no
+        significant difference in clinical response or outcome to standard therapies
+        for these two subgroups.
+        <Reference refidx="13" />
+        [
+        <LOERef href="CDR0000335150">Level of evidence: 3iiiA</LOERef>
+        ]  Of interest, with a median
+        follow-up of 7 to 8 years, more patients died of treatment-related toxic
+        effects (acute and long-term) than from Hodgkin recurrence.  Limitation of
+        radiation dose and fields and avoidance of leukemogenic chemotherapeutic
+        agents, along with watchful waiting policies, should be investigated for these
+        subgroups.
+        <Reference refidx="14" />
+        <Reference refidx="15" />
+        For patients with advanced-stage nodular lymphocyte–predominant HL, chemotherapy regimens designed for non-HLs may be preferred, based on a retrospective review.
+        <Reference refidx="16" />
+        [
+        <LOERef href="CDR0000335155">Level of evidence: 3iiiDii</LOERef>
+        ]
+      </Para>
+    </SummarySection>
+    <ReferenceSection>
+      <Citation idx="1">Lukes RJ, Craver LF, Hall TC, et al.: Report of the Nomenclature Committee. Cancer Res  26 (1): 1311, 1966.</Citation>
+      <Citation idx="2" PMID="10462322" MedlineID="99389418">Harris NL: Hodgkin's lymphomas: classification, diagnosis, and grading. Semin Hematol 36 (3): 220-32, 1999.</Citation>
+      <Citation idx="3" PMID="21911729">Klimm B, Franklin J, Stein H, et al.: Lymphocyte-depleted classical Hodgkin's lymphoma: a comprehensive analysis from the German Hodgkin study group. J Clin Oncol 29 (29): 3914-20, 2011.</Citation>
+      <Citation idx="4" PMID="9327746" MedlineID="97468681">von Wasielewski R, Mengel M, Fischer R, et al.: Classical Hodgkin's disease. Clinical impact of the immunophenotype. Am J Pathol 151 (4): 1123-30, 1997.</Citation>
+      <Citation idx="5" PMID="9294468" MedlineID="97440160">Bodis S, Kraus MD, Pinkus G, et al.: Clinical presentation and outcome in lymphocyte-predominant Hodgkin's disease. J Clin Oncol 15 (9): 3060-6, 1997.</Citation>
+      <Citation idx="6" PMID="9322899" MedlineID="97462672">Orlandi E, Lazzarino M, Brusamolino E, et al.: Nodular lymphocyte predominance Hodgkin's disease: long-term observation reveals a continuous pattern of recurrence. Leuk Lymphoma 26 (3-4): 359-68, 1997.</Citation>
+      <Citation idx="7" PMID="18086799">Nogová L, Reineke T, Brillant C, et al.: Lymphocyte-predominant and classical Hodgkin's lymphoma: a comprehensive analysis from the German Hodgkin Study Group. J Clin Oncol 26 (3): 434-9, 2008.</Citation>
+      <Citation idx="8" PMID="20048177">Al-Mansour M, Connors JM, Gascoyne RD, et al.: Transformation to aggressive lymphoma in nodular lymphocyte-predominant Hodgkin's lymphoma. J Clin Oncol 28 (5): 793-9, 2010.</Citation>
+      <Citation idx="9" PMID="19933914">Chen RC, Chin MS, Ng AK, et al.: Early-stage, lymphocyte-predominant Hodgkin's lymphoma: patient outcomes from a large, single-institution series with long follow-up. J Clin Oncol 28 (1): 136-41, 2010.</Citation>
+      <Citation idx="10" PMID="16093276">Nogová L, Reineke T, Eich HT, et al.: Extended field radiotherapy, combined modality treatment or involved field radiotherapy for patients with stage IA lymphocyte-predominant Hodgkin's lymphoma: a retrospective analysis from the German Hodgkin Study Group (GHSG). Ann Oncol 16 (10): 1683-7, 2005.</Citation>
+      <Citation idx="11" PMID="11920535">Wilder RB, Schlembach PJ, Jones D, et al.: European Organization for Research and Treatment of Cancer and Groupe d'Etude des Lymphomes de l'Adulte very favorable and favorable, lymphocyte-predominant Hodgkin disease. Cancer 94 (6): 1731-8, 2002.</Citation>
+      <Citation idx="12" PMID="16009944">Shimabukuro-Vornhagen A, Haverkamp H, Engert A, et al.: Lymphocyte-rich classical Hodgkin's lymphoma: clinical presentation and treatment outcome in 100 patients treated within German Hodgkin's Study Group trials. J Clin Oncol 23 (24): 5739-45, 2005.</Citation>
+      <Citation idx="13" PMID="10071266" MedlineID="99168824">Diehl V, Sextro M, Franklin J, et al.: Clinical presentation, course, and prognostic factors in lymphocyte-predominant Hodgkin's disease and lymphocyte-rich classical Hodgkin's disease: report from the European Task Force on Lymphoma Project on Lymphocyte-Predominant Hodgkin's Disease. J Clin Oncol 17 (3): 776-83, 1999.</Citation>
+      <Citation idx="14" PMID="10071261" MedlineID="99168819">Aster JC: Lymphocyte-predominant Hodgkin's disease: how little therapy is enough? J Clin Oncol 17 (3): 744-6, 1999.</Citation>
+      <Citation idx="15" PMID="12885814">Pellegrino B, Terrier-Lacombe MJ, Oberlin O, et al.: Lymphocyte-predominant Hodgkin's lymphoma in children: therapeutic abstention after initial lymph node resection--a Study of the French Society of Pediatric Oncology. J Clin Oncol 21 (15): 2948-52, 2003.</Citation>
+      <Citation idx="16" PMID="19933898">Canellos GP, Mauch P: What is the appropriate systemic chemotherapy for lymphocyte-predominant Hodgkin's lymphoma? J Clin Oncol 28 (1): e8, 2010.</Citation>
+    </ReferenceSection>
+  </SummarySection>
+  <SummarySection id="_12">
+    <SectMetaData>
+      <SpecificDiagnosis ref="CDR0000040208">adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SectionType>Stage explanation--legacy</SectionType>
+    </SectMetaData>
+    <Title>Stage Information for Adult  HL</Title>
+    <Para id="_477">
+      Clinical staging
+      for patients with Hodgkin lymphoma (HL) includes a history, physical examination, laboratory studies (including
+      sedimentation rate), and thoracic and abdominal/pelvic computerized tomographic
+      (CT) scans.
+      <Reference refidx="1" />
+    </Para>
+    <Para id="_14">
+      Positron emission tomography (PET) scans, usually combined with CT scans, have replaced gallium scans and lymphangiography for clinical staging.
+      <Reference refidx="2" />
+      <Reference refidx="3" />
+      <Reference refidx="4" />
+      A prospective, multinational study of 260 newly diagnosed patients with HL obtained PET scans at baseline and after two cycles (four doses) of ABVD (doxorubicin plus bleomycin plus vinblastine plus dacarbazine); with a median follow-up of 2.2 years, the 2-year progression-free survival was 12.8% with a positive PET scan after two cycles and 95% with a negative PET scan after two cycles (
+      <Emphasis>P</Emphasis>
+      &lt; .0001).
+      <Reference refidx="5" />
+      In a prospective trial of BEACOPP-based therapy—which includes the drugs bleomycin, etoposide, doxorubicin hydrochloride, cyclophosphamide, vincristine sulfate, procarbazine, and prednisone— for previously untreated patients with advanced-stage HL, patients with residual abnormalities measuring 2.5 cm or more received a PET scan at the end of therapy.
+      <Reference refidx="6" />
+      A negative PET scan predicted no progression or relapse within 1 year for 94% of patients (confidence interval, 91%–97%).  Whether consolidation with radiation therapy can be omitted for PET-negative patients must await overall survival data at 5 years. Only further prospective studies that compare a PET response–adapted strategy versus standard therapy without alteration can assess whether improved outcomes can be achieved by altering the therapeutic strategy based on PET scan results.
+      <Reference refidx="7" />
+      <Reference refidx="8" />
+    </Para>
+    <Para id="_478">
+      Bone marrow involvement occurs in 5% of patients; biopsy may be indicated
+      in the presence of constitutional B symptoms or anemia, leukopenia, or
+      thrombocytopenia.  In a retrospective review of 454 patients, no patients with a positive bone marrow biopsy had only stage I or II disease on PET-CT scans; omission of the bone marrow biopsy for PET-CT–designated early-stage patients  did not change treatment selection.
+      <Reference refidx="9" />
+      Staging laparotomy is no longer recommended; it
+      should be considered only when the results will allow substantial reduction in
+      treatment.  It should not be done in patients who require chemotherapy.  If the laparotomy is required for treatment decisions, the risks
+      of potential morbidity should be considered.
+      <Reference refidx="10" />
+      <Reference refidx="11" />
+      <Reference refidx="12" />
+      <Reference refidx="13" />
+      The staging classification
+      that is currently used for HL was adopted in 1971 at the Ann
+      Arbor Conference
+      <Reference refidx="14" />
+      with some modifications 18 years later from the Cotswolds
+      meeting.
+      <Reference refidx="1" />
+    </Para>
+    <SummarySection id="_15">
+      <Para id="_330">
+        <Strong>Subclassification of stage</Strong>
+      </Para>
+      <Para id="_16">
+        Stages I, II, III, and IV adult HL can be subclassified into A
+        and B categories:  B for those with defined general symptoms and A for those
+        without B symptoms.  The B designation is given to patients with any of the
+        following symptoms:
+      </Para>
+      <ItemizedList id="_17" Style="bullet">
+        <ListItem>
+          Unexplained loss of more than 10% of body weight in the 6 months before
+          diagnosis.
+        </ListItem>
+        <ListItem>Unexplained fever with temperatures above 38°C.</ListItem>
+        <ListItem>
+          Drenching night sweats. (Refer to the PDQ summary on
+          <SummaryRef href="CDR0000062742" url="/about-cancer/treatment/side-effects/sexuality-fertility-women/hot-flashes-hp-pdq">Hot Flashes and Night Sweats</SummaryRef>
+          for more information.)
+        </ListItem>
+      </ItemizedList>
+      <Para id="_18">
+        <Note>
+          The most significant B symptoms are fevers and weight loss.  Night
+          sweats alone do not confer an adverse prognosis.  Pruritus as a systemic
+          symptom remains controversial and is not considered a B symptom in the Ann
+          Arbor staging system. (Refer to the PDQ summary on
+          <SummaryRef href="CDR0000062748" url="/about-cancer/treatment/side-effects/skin-nail-changes/pruritus-hp-pdq">Pruritus</SummaryRef>
+          for more information.)  This symptom is hard to define quantitatively and
+          uniformly, but when it is recurrent, generalized, and otherwise unexplained, and
+          when it ebbs and flows parallel to disease activity, it may be the equivalent
+          of a B symptom.
+        </Note>
+      </Para>
+      <Para id="_19">
+        The designation E is used when well-localized extranodal lymphoid malignancies
+        arise in or extend to tissues beyond, but near, the major lymphatic aggregates. 
+        Stage IV refers to disease that is diffusely spread throughout an extranodal
+        site, such as the liver.  If pathologic proof of involvement of one  or more
+        extralymphatic sites has been documented, the symbol for the site of
+        involvement, followed by a plus sign (+), is listed.
+      </Para>
+      <Table id="_180">
+        <Title>Table 1.  Notations for Identifying Sites</Title>
+        <TGroup Cols="4">
+          <ColSpec ColName="col1" ColNum="1" ColWidth="25.00%" />
+          <ColSpec ColName="col2" ColNum="2" ColWidth="25.00%" />
+          <ColSpec ColName="col3" ColNum="3" ColWidth="25.00%" />
+          <ColSpec ColName="col4" ColNum="4" ColWidth="25.00%" />
+          <TBody>
+            <Row>
+              <entry>N = nodes</entry>
+              <entry>H = liver</entry>
+              <entry>L = lung</entry>
+              <entry>M = bone marrow</entry>
+            </Row>
+            <Row>
+              <entry>S = spleen</entry>
+              <entry>P = pleura</entry>
+              <entry>O = bone</entry>
+              <entry>D = skin</entry>
+            </Row>
+          </TBody>
+        </TGroup>
+      </Table>
+      <Para id="_23">
+        Current practice is to assign a clinical stage (CS) based on the findings of
+        the clinical evaluation and a pathologic stage (PS) based on the findings of
+        invasive procedures.
+      </Para>
+      <Para id="_24">
+        For example, a patient who has disease in the chest and neck, systemic
+        symptoms, and a negative lymphangiogram might be found at laparotomy to have
+        involvement of the spleen, liver, and bone marrow.  Thus, the precise stage of
+        such a patient would be CS IIB, PS IVB (S+)(H+)(M+).
+      </Para>
+      <Para id="_601">
+        The American Joint Committee on Cancer (AJCC) has designated staging using the Ann Arbor classification system to define adult Hodgkin lymphoma.
+        <Reference refidx="15" />
+      </Para>
+      <Table id="_532">
+        <Title>
+          Table 2.  Anatomic Stage/Prognostic Groups
+          <Superscript>a</Superscript>
+        </Title>
+        <TGroup Cols="2">
+          <ColSpec ColName="col1" ColNum="1" ColWidth="11.18%" />
+          <ColSpec ColName="col2" ColNum="2" ColWidth="88.81%" />
+          <THead>
+            <Row>
+              <entry Align="Center">Stage</entry>
+              <entry Align="Center">Prognostic Groups</entry>
+            </Row>
+          </THead>
+          <TFoot>
+            <Row>
+              <entry NameEnd="col2" NameSt="col1">
+                <Superscript>a</Superscript>
+                Reprinted with permission from AJCC: Hodgkin and non-Hodgkin lymphomas. In: Edge SB, Byrd DR, Compton CC, et al., eds.: AJCC Cancer Staging Manual. 7th ed. New York, NY: Springer, 2010, pp 607-11.
+              </entry>
+            </Row>
+          </TFoot>
+          <TBody>
+            <Row>
+              <entry Align="Center" MoreRows="1">I</entry>
+              <entry>Involvement of a single lymphatic site (i.e., nodal region, Waldeyer ring, thymus or spleen) (I).</entry>
+            </Row>
+            <Row>
+              <entry>Localized involvement of a single extralymphatic organ or site in the absence of any lymph node involvement (IE) (rare in Hodgkin lymphoma).</entry>
+            </Row>
+            <Row>
+              <entry Align="Center" MoreRows="2">II</entry>
+              <entry>Involvement of ≥2 lymph node regions on the same side of the diaphragm (II).</entry>
+            </Row>
+            <Row>
+              <entry>Localized involvement of a single extralymphatic organ or site in association with regional lymph node involvement with or without involvement of other lymph node regions on the same side of the diaphragm (IIE).</entry>
+            </Row>
+            <Row>
+              <entry>
+                The number of regions involved may be indicated by an arabic numeral, as in, for example, II
+                <Subscript>3</Subscript>
+                .
+              </entry>
+            </Row>
+            <Row>
+              <entry Align="Center" MoreRows="1">III</entry>
+              <entry>Involvement of lymph node regions on both sides of the diaphragm (III), which also may be accompanied by extralymphatic extension in association with adjacent lymph node involvement (IIIE) or by involvement of the spleen (IIIS) or both (IIIE, S).</entry>
+            </Row>
+            <Row>
+              <entry>Splenic involvement is designated by the letter S.</entry>
+            </Row>
+            <Row>
+              <entry Align="Center" MoreRows="2">IV</entry>
+              <entry>Diffuse or disseminated involvement of one or more extralymphatic organs, with or without associated lymph node involvement.</entry>
+            </Row>
+            <Row>
+              <entry>Isolated extralymphatic organ involvement in the absence of adjacent regional lymph node involvement, but in conjunction with disease in distant site(s).</entry>
+            </Row>
+            <Row>
+              <entry>Stage IV includes any involvement of the liver or bone marrow, lungs (other than by direct extension from another site), or cerebrospinal fluid.</entry>
+            </Row>
+          </TBody>
+        </TGroup>
+      </Table>
+    </SummarySection>
+    <SummarySection id="_31">
+      <Para id="_33">
+        Massive mediastinal disease has been defined by the Cotswolds meeting as a
+        thoracic ratio of maximum transverse mass diameter of 33% or more of the internal transverse thoracic diameter measured at the T5/6
+        intervertebral disc level on chest radiography.
+        <Reference refidx="1" />
+        Some investigators have
+        designated a lymph node mass measuring 10 cm or more in greatest
+        dimension as massive disease.
+        <Reference refidx="16" />
+        Other investigators use a measurement of the
+        maximum width of the mediastinal mass divided by the maximum intrathoracic
+        diameter.
+        <Reference refidx="17" />
+      </Para>
+      <Para id="_352">
+        Many investigators and many new clinical trials employ a clinical staging system that divides patients into four major groups that are also useful for the practicing physician:
+        <Reference refidx="18" />
+      </Para>
+      <ItemizedList id="_353" Style="bullet" Compact="No">
+        <ListItem>
+          <Strong>Early favorable:</Strong>
+          Clinical stage I or II without any risk factors.
+        </ListItem>
+        <ListItem>
+          <Strong>Early unfavorable:</Strong>
+          Clinical stage I or II with one or more of the following risk factors:
+          <ItemizedList id="_413" Style="dash">
+            <ListItem>Large mediastinal mass (&gt;33% of the  thoracic width on the chest x-ray, ≥10 cm on CT scan).</ListItem>
+            <ListItem>Extranodal involvement.</ListItem>
+            <ListItem>Elevated erythrocyte sedimentation rate  (&gt;30 mm/h for B stage, &gt;50 mm/h for A stage).</ListItem>
+            <ListItem>Three or more  lymph node areas' involvement.</ListItem>
+            <ListItem>B symptoms.</ListItem>
+          </ItemizedList>
+        </ListItem>
+        <ListItem>
+          <Strong>Advanced favorable:</Strong>
+          Clinical stage III or IV with zero to three adverse risk factors listed below. Patients with advanced favorable disease have a 60% to 80% freedom-from-progression at 5 years from treatment with first-line chemotherapy.
+          <Reference refidx="19" />
+          [
+          <LOERef href="CDR0000335158">Level of evidence: 3iiiDiii</LOERef>
+          ]
+        </ListItem>
+        <ListItem>
+          <Strong>Advanced unfavorable:</Strong>
+          Clinical stage III or IV  with four or more adverse risk factors listed below.
+          <Reference refidx="19" />
+          Patients with advanced unfavorable disease showed a 42% to 51% freedom-from-progression at 5 years from treatment with first-line chemotherapy.
+          <Reference refidx="19" />
+          [
+          <LOERef href="CDR0000335158">Level of evidence: 3iiiDiii</LOERef>
+          ]. For patients with advanced-stage HL, the International Prognostic Factors Project has
+          developed an International Prognostic Index with a  prognostic score that is based on the following seven adverse factors:
+          <Reference refidx="19" />
+          <ItemizedList id="_358" Style="dash">
+            <ListItem>Albumin level of &lt;4.0 g/dL.</ListItem>
+            <ListItem>Hemoglobin level of &lt;10.5 g/dL.</ListItem>
+            <ListItem>Male sex.</ListItem>
+            <ListItem>Age of ≥45 years.</ListItem>
+            <ListItem>Stage IV disease.</ListItem>
+            <ListItem>
+              White blood cell
+              (WBC)  count of ≥15,000/mm
+              <Superscript>3</Superscript>
+              .
+            </ListItem>
+            <ListItem>
+              Absolute lymphocytic
+              count of &lt;600/mm
+              <Superscript>3</Superscript>
+              or a lymphocyte count that was &lt;8% of the total WBC count.
+            </ListItem>
+          </ItemizedList>
+        </ListItem>
+      </ItemizedList>
+    </SummarySection>
+    <ReferenceSection>
+      <Citation idx="1" PMID="2809679" MedlineID="90039442">Lister TA, Crowther D, Sutcliffe SB, et al.: Report of a committee convened to discuss the evaluation and staging of patients with Hodgkin's disease: Cotswolds meeting. J Clin Oncol 7 (11): 1630-6, 1989.</Citation>
+      <Citation idx="2" PMID="11255273">Jerusalem G, Beguin Y, Fassotte MF, et al.: Whole-body positron emission tomography using 18F-fluorodeoxyglucose compared to standard procedures for staging patients with Hodgkin's disease. Haematologica 86 (3): 266-73, 2001.</Citation>
+      <Citation idx="3" PMID="14760374">Naumann R, Beuthien-Baumann B, Reiss A, et al.: Substantial impact of FDG PET imaging on the therapy decision in patients with early-stage Hodgkin's lymphoma. Br J Cancer 90 (3): 620-5, 2004.</Citation>
+      <Citation idx="4" PMID="15520074">Munker R, Glass J, Griffeth LK, et al.: Contribution of PET imaging to the initial staging and prognosis of patients with Hodgkin's disease. Ann Oncol 15 (11): 1699-704, 2004.</Citation>
+      <Citation idx="5" PMID="17646666">Gallamini A, Hutchings M, Rigacci L, et al.: Early interim 2-[18F]fluoro-2-deoxy-D-glucose positron emission tomography is prognostically superior to international prognostic score in advanced-stage Hodgkin's lymphoma: a report from a joint Italian-Danish study. J Clin Oncol 25 (24): 3746-52, 2007.</Citation>
+      <Citation idx="6" PMID="18757777">Kobe C, Dietlein M, Franklin J, et al.: Positron emission tomography has a high negative predictive value for progression or early relapse for patients with residual disease after first-line chemotherapy in advanced-stage Hodgkin lymphoma. Blood 112 (10): 3989-94, 2008.</Citation>
+      <Citation idx="7" PMID="19273713">Terasawa T, Lau J, Bardet S, et al.: Fluorine-18-fluorodeoxyglucose positron emission tomography for interim response assessment of advanced-stage Hodgkin's lymphoma and diffuse large B-cell lymphoma: a systematic review. J Clin Oncol 27 (11): 1906-14, 2009.</Citation>
+      <Citation idx="8" PMID="22932799">Gallamini A, Kostakoglu L: Interim FDG-PET in Hodgkin lymphoma: a compass for a safe navigation in clinical trials? Blood 120 (25): 4913-20, 2012.</Citation>
+      <Citation idx="9" PMID="23150698">El-Galaly TC, d'Amore F, Mylam KJ, et al.: Routine bone marrow biopsy has little or no therapeutic consequence for positron emission tomography/computed tomography-staged treatment-naive patients with Hodgkin lymphoma. J Clin Oncol 30 (36): 4508-14, 2012.</Citation>
+      <Citation idx="10" PMID="1736106" MedlineID="92140465">Urba WJ, Longo DL: Hodgkin's disease. N Engl J Med 326 (10): 678-87, 1992.</Citation>
+      <Citation idx="11" PMID="8436520" MedlineID="93171113">Sombeck MD, Mendenhall NP, Kaude JV, et al.: Correlation of lymphangiography, computed tomography, and laparotomy in the staging of Hodgkin's disease. Int J Radiat Oncol Biol Phys 25 (3): 425-9, 1993.</Citation>
+      <Citation idx="12" PMID="2299369" MedlineID="90132832">Mauch P, Larson D, Osteen R, et al.: Prognostic factors for positive surgical staging in patients with Hodgkin's disease. J Clin Oncol 8 (2): 257-65, 1990.</Citation>
+      <Citation idx="13" PMID="8049435" MedlineID="94325563">Dietrich PY, Henry-Amar M, Cosset JM, et al.: Second primary cancers in patients continuously disease-free from Hodgkin's disease: a protective role for the spleen? Blood 84 (4): 1209-15, 1994.</Citation>
+      <Citation idx="14" PMID="5121694" MedlineID="72046815">Carbone PP, Kaplan HS, Musshoff K, et al.: Report of the Committee on Hodgkin's Disease Staging Classification. Cancer Res 31 (11): 1860-1, 1971.</Citation>
+      <Citation idx="15">Hodgkin and non-Hodgkin lymphomas. In: Edge SB, Byrd DR, Compton CC, et al., eds.: AJCC Cancer Staging Manual. 7th ed. New York, NY: Springer, 2010, pp 607-11.</Citation>
+      <Citation idx="16" PMID="10561314" MedlineID="20030043">Bradley AJ, Carrington BM, Lawrance JA, et al.: Assessment and significance of mediastinal bulk in Hodgkin's disease: comparison between computed tomography and chest radiography. J Clin Oncol 17 (8): 2493-8, 1999.</Citation>
+      <Citation idx="17" PMID="698907" MedlineID="79022752">Mauch P, Goodman R, Hellman S: The significance of mediastinal involvement in early stage Hodgkin's disease. Cancer 42 (3): 1039-45, 1978.</Citation>
+      <Citation idx="18" PMID="15888755">Jost LM, Stahel RA; ESMO Guidelines Task Force: ESMO Minimum Clinical Recommendations for diagnosis, treatment and follow-up of Hodgkin's disease. Ann Oncol 16 (Suppl 1): i54-5, 2005.</Citation>
+      <Citation idx="19" PMID="9819449" MedlineID="99025349">Hasenclever D, Diehl V: A prognostic score for advanced Hodgkin's disease. International Prognostic Factors Project on Advanced Hodgkin's Disease. N Engl J Med 339 (21): 1506-14, 1998.</Citation>
+    </ReferenceSection>
+  </SummarySection>
+  <SummarySection id="_36">
+    <SectMetaData>
+      <SpecificDiagnosis ref="CDR0000040208">adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SectionType>Treatment option overview--legacy</SectionType>
+    </SectMetaData>
+    <Title>Treatment Option Overview for Adult HL</Title>
+    <Para id="_252">Drug combinations described in this section include the following:</Para>
+    <ItemizedList id="_253" Style="bullet">
+      <ListItem>ABVD:   doxorubicin, bleomycin, vinblastine, and  dacarbazine.</ListItem>
+      <ListItem>BEACOPP: bleomycin, etoposide, doxorubicin,  cyclophosphamide, vincristine, procarbazine, and prednisone.</ListItem>
+      <ListItem>MOPP:    mechlorethamine, vincristine, procarbazine, and  prednisone.</ListItem>
+    </ItemizedList>
+    <Para id="_38">
+      After initial clinical staging for Hodgkin lymphoma (HL), patients with obvious stage III or IV disease,
+      bulky disease (defined as a 10 cm mass or mediastinal disease with a
+      transverse diameter exceeding 33% of the transthoracic diameter), or the
+      presence of B symptoms will require combination chemotherapy with or without
+      additional radiation therapy.
+    </Para>
+    <Para id="_236">
+      Patients with nonbulky
+      stage IA or IIA disease are considered to have clinical early-stage disease. 
+      These patients are candidates for chemotherapy, combined modality therapy,
+      or radiation therapy alone.
+      <Reference refidx="1" />
+      Staging
+      laparotomy is no longer recommended because  it may not alter management and does
+      not enhance ultimate outcome.
+      <Reference refidx="2" />
+      When chemotherapy alone or combined modality
+      therapy is applied, laparotomy is not required.
+    </Para>
+    <SummarySection id="_322">
+      <Title>Radiation Therapy</Title>
+      <Para id="_323">
+        In adult HL, the appropriate dose of radiation alone is 25 Gy  to 30 Gy to
+        clinically uninvolved sites and 35 Gy to 44 Gy to regions of initial
+        nodal involvement.
+        <Reference refidx="3" />
+        <Reference refidx="4" />
+        <Reference refidx="5" />
+        <Reference refidx="6" />
+        These recommendations are often modified in pediatric
+        or advanced-staged adult patients who also receive chemotherapy.  Treatment is
+        usually delivered to the neck, chest, and axilla (mantle field) and then to an
+        abdominal field to treat para-aortic nodes and the spleen (splenic pedicle).  In some patients, pelvic nodes are treated with
+        a third field.  The three fields constitute total nodal radiation therapy. In some
+        cases, the pelvic and para-aortic nodes are treated in a single field called an
+        inverted Y.  In patients with a favorable prognosis, treatment of the pelvic
+        lymph nodes is frequently omitted, since fertility can be preserved without
+        affecting relapse-free survival. (Refer to the PDQ summary on
+        <SummaryRef href="CDR0000062859" url="/about-cancer/treatment/side-effects/sexuality-fertility-women/sexuality-hp-pdq">Sexuality and Reproductive Issues</SummaryRef>
+        for more information on fertility.)
+      </Para>
+    </SummarySection>
+    <SummarySection id="_324">
+      <Title>Second Malignancies</Title>
+      <Para id="_325">
+        Acute nonlymphocytic leukemia may occur in patients treated with combined
+        modality therapy or with combination chemotherapy alone, especially with increasing exposure to alkylating agents.
+        <Reference refidx="7" />
+        <Reference refidx="8" />
+        At 10 years
+        following therapy with regimens containing MOPP, the risk of acute myelogenous leukemia
+        (AML) is approximately 3%, with the peak incidence occurring 5 to 9 years after
+        therapy.  The risk of acute leukemia at 10 years following therapy with
+        ABVD appears to be less than 1%.
+        <Reference refidx="9" />
+        A population-based study of more than  35,000 survivors during a  30-year time span identified 217 patients who developed AML; the excess absolute risk is significantly higher (9.9 vs. 4.2 after 1984,
+        <Emphasis>P</Emphasis>
+        &lt; .001) for older patients (i.e., &gt;35 years at diagnosis) versus younger survivors.
+        <Reference refidx="10" />
+      </Para>
+      <Para id="_359">
+        An increase in second solid tumors has also been observed,
+        especially cancers of the lung, breast, thyroid, bone/soft tissue, stomach, esophagus, colon and rectum, uterine cervix, head and neck, and mesothelioma.
+        <Reference refidx="7" />
+        <Reference refidx="11" />
+        <Reference refidx="12" />
+        <Reference refidx="13" />
+        <Reference refidx="14" />
+        <Reference refidx="15" />
+        <Reference refidx="16" />
+        These tumors occur primarily after radiation therapy or with combined modality
+        treatment, and approximately 75% occur within radiation ports.  At a 15-year
+        follow-up, the risk of second solid tumors is approximately 13%;
+        <Reference refidx="7" />
+        <Reference refidx="12" />
+        at a 20-year follow-up, the risk is approximately 17%;
+        <Reference refidx="17" />
+        and at a 25-year follow-up, the risk is approximately 22%.
+        <Reference refidx="11" />
+        <Reference refidx="18" />
+        In a cohort of 18,862 5-year survivors from 13 population-based registries, the younger patients had elevated risks for breast, colon, and rectal cancer for 10 to 25 years before the age when routine screening would be recommended in the general population.
+        <Reference refidx="16" />
+        Even with involved-field doses of 15 Gy to 25 Gy, sarcomas, breast cancers, and thyroid cancers occurred with similar incidence in young patients receiving higher-dose radiation.
+        <Reference refidx="17" />
+      </Para>
+      <Para id="_239">
+        Lung
+        cancer is seen with increased frequency, even after chemotherapy alone, and the
+        risk of this cancer is increased with cigarette smoking.
+        <Reference refidx="19" />
+        <Reference refidx="20" />
+        <Reference refidx="21" />
+        <Reference refidx="22" />
+        In a retrospective Surveillance, Epidemiology, and End Results (SEER)  analysis, stage-specific survival was decreased by 30% to 60% in HL survivors compared with patients with de novo non-small cell lung cancer.
+        <Reference refidx="23" />
+        Breast cancer
+        is seen with increased frequency after radiation therapy or combined modality
+        therapy.
+        <Reference refidx="11" />
+        <Reference refidx="13" />
+        <Reference refidx="15" />
+        <Reference refidx="24" />
+        <Reference refidx="25" />
+        <Reference refidx="26" />
+        <Reference refidx="27" />
+        The risk appears greatest for women treated with radiation
+        before age 30 years, and the incidence increases substantially after 15 years
+        of follow-up.
+        <Reference refidx="11" />
+        <Reference refidx="14" />
+        <Reference refidx="28" />
+        <Reference refidx="29" />
+        <Reference refidx="30" />
+        In two case control studies of 479 patients who developed breast cancer after therapy for HL, cumulative absolute risks for developing breast cancer were  calculated as a function of radiation therapy dose and the use of chemotherapy.
+        <Reference refidx="31" />
+        <Reference refidx="32" />
+        With a 30-year  to 40-year follow-up, cumulative absolute risks of breast cancer with exposure to radiation range from 8.5% to 39.6%, depending on the age at diagnosis. A family history of breast cancer or ovarian cancer does not confer a greater increased risk than that of radiation therapy for one of these cohorts.
+        <Reference refidx="33" />
+        These cohort studies show a continued increase in cumulative excess risk of breast cancer beyond 20 years of follow-up.
+        <Reference refidx="31" />
+        <Reference refidx="32" />
+      </Para>
+      <Para id="_613">
+        In a nested case control study and subsequent cohort study, patients who received both chemotherapy and radiation therapy had a statistically significant lower risk of developing breast cancer than those treated with radiation therapy alone.
+        <Reference refidx="25" />
+        <Reference refidx="34" />
+        Reaching early menopause  with less than 10 years of intact ovarian function appeared to account for the reduction in risk among patients who received combined modality therapy.
+        <Reference refidx="34" />
+        Reduction of radiation volume also decreased the risk of breast cancer after HL.
+        <Reference refidx="34" />
+        The risk of non-HL is also increased,
+        but this risk is not clearly related to type or extent of treatment.
+        <Reference refidx="12" />
+      </Para>
+      <Para id="_360">
+        Several studies suggest that
+        splenic-field radiation therapy and splenectomy increase the risk of a
+        treatment-related second cancer.
+        <Reference refidx="35" />
+        <Reference refidx="36" />
+        <Reference refidx="37" />
+        Late effects after autologous stem cell transplantation that is given for failure of induction chemotherapy include second malignancies, hypothyroidism, hypogonadism, herpes zoster, depression, and cardiac disease.
+        <Reference refidx="38" />
+      </Para>
+    </SummarySection>
+    <SummarySection id="_326">
+      <Title>Adverse Effects of Therapy</Title>
+      <Para id="_603">
+        A toxic effect that is primarily related to chemotherapy is infertility,
+        usually after MOPP-containing or BEACOPP-containing regimens;
+        <Reference refidx="12" />
+        <Reference refidx="39" />
+        <Reference refidx="40" />
+        <Reference refidx="41" />
+        After six to eight cycles of BEACOPP, most men had testosterone levels within normal range; however, among women younger than 30 years, 82% recovered menses (mostly within 12 months), but only 45% of women older than 30 years recovered menses.
+        <Reference refidx="42" />
+        ABVD appears to spare long-term
+        testicular and ovarian function.
+        <Reference refidx="40" />
+        <Reference refidx="43" />
+        <Reference refidx="44" />
+      </Para>
+      <Para id="_241">
+        Late complications primarily related to
+        radiation therapy include hypothyroidism and cardiac disease, which may persist through to 25 years after first treatment.
+        <Reference refidx="45" />
+        <Reference refidx="46" />
+        <Reference refidx="47" />
+        <Reference refidx="48" />
+        <Reference refidx="49" />
+        <Reference refidx="50" />
+        The absolute excess risk of fatal cardiovascular disease ranges from 11.9 to 48.9 per 10,000 patient years and is  mostly attributable to fatal myocardial infarction (MI).
+        <Reference refidx="46" />
+        <Reference refidx="47" />
+        <Reference refidx="48" />
+        <Reference refidx="50" />
+        The use of subcarinal blocking did not reduce the incidence of fatal MI in a retrospective review, perhaps because of the  exposure of the proximal coronary arteries to radiation.
+        <Reference refidx="47" />
+        In a cohort of 7,033 HL patients, MI mortality risk persisted through to 25 years after first treatment with supradiaphragmatic radiation therapy (dependent on the details of treatment planning), doxorubicin, or vincristine.
+        <Reference refidx="50" />
+        HL patients treated with mediastinal radiation compared with a normal-matched population have been reported to be at increased risk with the use of  cardiac procedures.
+        <Reference refidx="51" />
+      </Para>
+      <Para id="_604">
+        Impairment of
+        pulmonary function may occur as a result of mantle-field radiation therapy; this
+        impairment is not usually clinically evident, and recovery in pulmonary testing
+        often occurs after 2 to 3 years.
+        <Reference refidx="52" />
+        Pulmonary toxic effects from bleomycin as used in ABVD are seen in older patients (especially those older than 40 years).
+        <Reference refidx="53" />
+        Avascular necrosis of bone has
+        been observed in patients treated with chemotherapy and is most likely related
+        to corticosteroid therapy.
+        <Reference refidx="54" />
+      </Para>
+      <Para id="_605">
+        Bacterial sepsis may occur rarely after
+        splenectomy performed during staging laparotomy for HL;
+        <Reference refidx="55" />
+        it
+        is much more frequent in children than in adults.  The Advisory Committee on
+        Immunization Practices recommends that all patients with HL,
+        whether or not they have had a splenectomy, should be immunized with
+        <ScientificName>Haemophilus</ScientificName>
+        <Emphasis>influenzae</Emphasis>
+        type b conjugate, meningococcal, and pneumococcal vaccines at least 1
+        week before treatment.
+        <Reference refidx="56" />
+        Some investigators recommend reimmunization with
+        all three vaccines 2 years after completion of treatment and with pneumococcal
+        vaccine every 6 years thereafter.
+        <Reference refidx="57" />
+      </Para>
+      <Para id="_41">
+        Fatigue is a commonly reported symptom of patients who have completed
+        chemotherapy.  In a case-control study design, a majority of HL
+        survivors reported significant fatigue lasting for more than 6 months after
+        therapy compared  with age-matched controls.
+        <Reference refidx="58" />
+      </Para>
+      <Para id="_361">
+        Patients older than 60 years with HL experience more treatment-related morbidity and mortality and typically receive a lower dose intensity of chemotherapy because of  poorer tolerance of treatment than comparably staged younger patients.
+        <Reference refidx="59" />
+        <Reference refidx="60" />
+        <Reference refidx="61" />
+      </Para>
+    </SummarySection>
+    <ReferenceSection>
+      <Citation idx="1" PMID="20818856">Armitage JO: Early-stage Hodgkin's lymphoma. N Engl J Med 363 (7): 653-62, 2010.</Citation>
+      <Citation idx="2" PMID="10462327" MedlineID="99389423">Advani RH, Horning SJ: Treatment of early-stage Hodgkin's disease. Semin Hematol 36 (3): 270-81, 1999.</Citation>
+      <Citation idx="3" PMID="8988739" MedlineID="97142717">Sears JD, Greven KM, Ferree CR, et al.: Definitive irradiation in the treatment of Hodgkin's disease. Analysis of outcome, prognostic factors, and long-term complications. Cancer 79 (1): 145-51, 1997.</Citation>
+      <Citation idx="4" PMID="10462329" MedlineID="99389425">Ng AK, Mauch PM: Radiation therapy in Hodgkin's lymphoma. Semin Hematol 36 (3): 290-302, 1999.</Citation>
+      <Citation idx="5" PMID="11387364" MedlineID="21281042">Dühmke E, Franklin J, Pfreundschuh M, et al.: Low-dose radiation is sufficient for the noninvolved extended-field treatment in favorable early-stage Hodgkin's disease: long-term results of a randomized trial of radiotherapy alone. J Clin Oncol 19 (11): 2905-14, 2001.</Citation>
+      <Citation idx="6" PMID="10348284" MedlineID="99276040">Mendenhall NP, Rodrigue LL, Moore-Higgs GJ, et al.: The optimal dose of radiation in Hodgkin's disease: an analysis of clinical and treatment factors affecting in-field disease control. Int J Radiat Oncol Biol Phys 44 (3): 551-61, 1999.</Citation>
+      <Citation idx="7" PMID="21969511">Swerdlow AJ, Higgins CD, Smith P, et al.: Second cancer risk after chemotherapy for Hodgkin's lymphoma: a collaborative British cohort study. J Clin Oncol 29 (31): 4096-104, 2011.</Citation>
+      <Citation idx="8" PMID="23295809">Koontz MZ, Horning SJ, Balise R, et al.: Risk of therapy-related secondary leukemia in Hodgkin lymphoma: the Stanford University experience over three generations of clinical trials. J Clin Oncol 31 (5): 592-8, 2013.</Citation>
+      <Citation idx="9" PMID="3711960" MedlineID="86226417">Valagussa P, Santoro A, Fossati-Bellani F, et al.: Second acute leukemia and other malignancies following treatment for Hodgkin's disease. J Clin Oncol 4 (6): 830-7, 1986.</Citation>
+      <Citation idx="10" PMID="16449681">Schonfeld SJ, Gilbert ES, Dores GM, et al.: Acute myeloid leukemia following Hodgkin lymphoma: a population-based study of 35,511 patients. J Natl Cancer Inst 98 (3): 215-8, 2006.</Citation>
+      <Citation idx="11" PMID="12177110" MedlineID="22166575">Dores GM, Metayer C, Curtis RE, et al.: Second malignant neoplasms among long-term survivors of Hodgkin's disease: a population-based evaluation over 25 years. J Clin Oncol 20 (16): 3484-94, 2002.</Citation>
+      <Citation idx="12" PMID="1392790" MedlineID="93006081">Swerdlow AJ, Douglas AJ, Hudson GV, et al.: Risk of second primary cancers after Hodgkin's disease by type of treatment: analysis of 2846 patients in the British National Lymphoma Investigation. BMJ 304 (6835): 1137-43, 1992.</Citation>
+      <Citation idx="13" PMID="1403050" MedlineID="93019427">Yahalom J, Petrek JA, Biddinger PW, et al.: Breast cancer in patients irradiated for Hodgkin's disease: a clinical and pathologic analysis of 45 events in 37 patients. J Clin Oncol 10 (11): 1674-81, 1992.</Citation>
+      <Citation idx="14" PMID="8611686" MedlineID="96199398">Mauch PM, Kalish LA, Marcus KC, et al.: Second malignancies after treatment for laparotomy staged IA-IIIB Hodgkin's disease: long-term analysis of risk factors and outcome. Blood 87 (9): 3625-32, 1996.</Citation>
+      <Citation idx="15" PMID="16984979">Franklin J, Pluetschow A, Paus M, et al.: Second malignancy risk associated with treatment of Hodgkin's lymphoma: meta-analysis of the randomised trials. Ann Oncol 17 (12): 1749-60, 2006.</Citation>
+      <Citation idx="16" PMID="17372278">Hodgson DC, Gilbert ES, Dores GM, et al.: Long-term solid cancer risk among 5-year survivors of Hodgkin's lymphoma. J Clin Oncol 25 (12): 1489-97, 2007.</Citation>
+      <Citation idx="17" PMID="20124178">O'Brien MM, Donaldson SS, Balise RR, et al.: Second malignant neoplasms in survivors of pediatric Hodgkin's lymphoma treated with low-dose radiation and chemotherapy. J Clin Oncol 28 (7): 1232-9, 2010.</Citation>
+      <Citation idx="18" PMID="15862748">Bonadonna G, Viviani S, Bonfante V, et al.: Survival in Hodgkin's disease patients--report of 25 years of experience at the Milan Cancer Institute. Eur J Cancer 41 (7): 998-1006, 2005.</Citation>
+      <Citation idx="19" PMID="7563187" MedlineID="96003708">van Leeuwen FE, Klokman WJ, Stovall M, et al.: Roles of radiotherapy and smoking in lung cancer following Hodgkin's disease. J Natl Cancer Inst 87 (20): 1530-7, 1995.</Citation>
+      <Citation idx="20" PMID="11250989" MedlineID="21150308">Swerdlow AJ, Schoemaker MJ, Allerton R, et al.: Lung cancer after Hodgkin's disease: a nested case-control study of the relation to treatment. J Clin Oncol 19 (6): 1610-8, 2001.</Citation>
+      <Citation idx="21" PMID="11830608" MedlineID="21819103">Travis LB, Gospodarowicz M, Curtis RE, et al.: Lung cancer following chemotherapy and radiotherapy for Hodgkin's disease. J Natl Cancer Inst 94 (3): 182-92, 2002.</Citation>
+      <Citation idx="22" PMID="16198983">Lorigan P, Radford J, Howell A, et al.: Lung cancer after treatment for Hodgkin's lymphoma: a systematic review. Lancet Oncol 6 (10): 773-9, 2005.</Citation>
+      <Citation idx="23" PMID="21692074">Milano MT, Li H, Constine LS, et al.: Survival after second primary lung cancer: a population-based study of 187 Hodgkin lymphoma patients. Cancer 117 (24): 5538-47, 2011.</Citation>
+      <Citation idx="24" PMID="9616274" MedlineID="98279230">Cutuli B, Dhermain F, Borel C, et al.: Breast cancer in patients treated for Hodgkin's disease: clinical and pathological analysis of 76 cases in 63 patients. Eur J Cancer 33 (14): 2315-20, 1997.</Citation>
+      <Citation idx="25" PMID="12837833">van Leeuwen FE, Klokman WJ, Stovall M, et al.: Roles of radiation dose, chemotherapy, and hormonal factors in breast cancer following Hodgkin's disease. J Natl Cancer Inst 95 (13): 971-80, 2003.</Citation>
+      <Citation idx="26" PMID="12934780">Wahner-Roedler DL, Nelson DF, Croghan IT, et al.: Risk of breast cancer and breast cancer characteristics in women treated with supradiaphragmatic radiation for Hodgkin lymphoma: Mayo Clinic experience. Mayo Clin Proc 78 (6): 708-15, 2003.</Citation>
+      <Citation idx="27" PMID="12876089">Travis LB, Hill DA, Dores GM, et al.: Breast cancer following radiotherapy and chemotherapy among young women with Hodgkin disease. JAMA 290 (4): 465-75, 2003.</Citation>
+      <Citation idx="28" PMID="8416252" MedlineID="93095141">Hancock SL, Tucker MA, Hoppe RT: Breast cancer after treatment of Hodgkin's disease. J Natl Cancer Inst 85 (1): 25-31, 1993.</Citation>
+      <Citation idx="29" PMID="8622057" MedlineID="96208818">Sankila R, Garwicz S, Olsen JH, et al.: Risk of subsequent malignant neoplasms among 1,641 Hodgkin's disease patients diagnosed in childhood and adolescence: a population-based cohort study in the five Nordic countries. Association of the Nordic Cancer Registries and the Nordic Society of Pediatric Hematology and Oncology. J Clin Oncol 14 (5): 1442-6, 1996.</Citation>
+      <Citation idx="30" PMID="18538497">Alm El-Din MA, Hughes KS, Finkelstein DM, et al.: Breast cancer after treatment of Hodgkin's lymphoma: risk factors that really matter. Int J Radiat Oncol Biol Phys 73 (1): 69-74, 2009.</Citation>
+      <Citation idx="31" PMID="16204692">Travis LB, Hill D, Dores GM, et al.: Cumulative absolute breast cancer risk for young women treated for Hodgkin lymphoma. J Natl Cancer Inst 97 (19): 1428-37, 2005.</Citation>
+      <Citation idx="32" PMID="22734026">Swerdlow AJ, Cooke R, Bates A, et al.: Breast cancer risk after supradiaphragmatic radiotherapy for Hodgkin's lymphoma in England and Wales: a National Cohort Study. J Clin Oncol 30 (22): 2745-52, 2012.</Citation>
+      <Citation idx="33" PMID="16051739">Hill DA, Gilbert E, Dores GM, et al.: Breast cancer risk following radiotherapy for Hodgkin lymphoma: modification by other risk factors. Blood 106 (10): 3358-65, 2005.</Citation>
+      <Citation idx="34" PMID="19667275">De Bruin ML, Sparidans J, van't Veer MB, et al.: Breast cancer risk in female survivors of Hodgkin's lymphoma: lower risk after smaller radiation volumes. J Clin Oncol 27 (26): 4239-46, 2009.</Citation>
+      <Citation idx="35" PMID="8049435" MedlineID="94325563">Dietrich PY, Henry-Amar M, Cosset JM, et al.: Second primary cancers in patients continuously disease-free from Hodgkin's disease: a protective role for the spleen? Blood 84 (4): 1209-15, 1994.</Citation>
+      <Citation idx="36" PMID="3403068" MedlineID="88297890">van der Velden JW, van Putten WL, Guinee VF, et al.: Subsequent development of acute non-lymphocytic leukemia in patients treated for Hodgkin's disease. Int J Cancer 42 (2): 252-5, 1988.</Citation>
+      <Citation idx="37" PMID="2403650" MedlineID="90098005">Kaldor JM, Day NE, Clarke EA, et al.: Leukemia following Hodgkin's disease. N Engl J Med 322 (1): 7-13, 1990.</Citation>
+      <Citation idx="38" PMID="15870180">Lavoie JC, Connors JM, Phillips GL, et al.: High-dose chemotherapy and autologous stem cell transplantation for primary refractory or relapsed Hodgkin lymphoma: long-term outcome in the first 100 patients treated in Vancouver. Blood 106 (4): 1473-8, 2005.</Citation>
+      <Citation idx="39" PMID="16234521">Behringer K, Breuer K, Reineke T, et al.: Secondary amenorrhea after Hodgkin's lymphoma is influenced by age at treatment, stage of disease, chemotherapy regimen, and the use of oral contraceptives during therapy: a report from the German Hodgkin's Lymphoma Study Group. J Clin Oncol 23 (30): 7555-64, 2005.</Citation>
+      <Citation idx="40" PMID="17515571">van der Kaaij MA, Heutte N, Le Stang N, et al.: Gonadal function in males after chemotherapy for early-stage Hodgkin's lymphoma treated in four subsequent trials by the European Organisation for Research and Treatment of Cancer: EORTC Lymphoma Group and the Groupe d'Etude des Lymphomes de l'Adulte. J Clin Oncol 25 (19): 2825-32, 2007.</Citation>
+      <Citation idx="41" PMID="20720088">Scholz M, Engert A, Franklin J, et al.: Impact of first- and second-line treatment for Hodgkin's lymphoma on the incidence of AML/MDS and NHL--experience of the German Hodgkin's Lymphoma Study Group analyzed by a parametric model of carcinogenesis. Ann Oncol 22 (3): 681-8, 2011.</Citation>
+      <Citation idx="42" PMID="23150709">Behringer K, Mueller H, Goergen H, et al.: Gonadal function and fertility in survivors after Hodgkin lymphoma treatment within the German Hodgkin Study Group HD13 to HD15 trials. J Clin Oncol 31 (2): 231-9, 2013.</Citation>
+      <Citation idx="43">Viviani S, Santoro A, Ragni G, et al.: Pre- and post-treatment testicular dysfunction in Hodgkin's disease (HD). [Abstract] Proceedings of the American Society of Clinical Oncology  7: A-877, 227, 1988.</Citation>
+      <Citation idx="44" PMID="22184372">van der Kaaij MA, Heutte N, Meijnders P, et al.: Premature ovarian failure and fertility in long-term survivors of Hodgkin's lymphoma: a European Organisation for Research and Treatment of Cancer Lymphoma Group and Groupe d'Etude des Lymphomes de l'Adulte Cohort Study. J Clin Oncol 30 (3): 291-9, 2012.</Citation>
+      <Citation idx="45" PMID="2105920" MedlineID="90153586">Tarbell NJ, Thompson L, Mauch P: Thoracic irradiation in Hodgkin's disease: disease control and long-term complications. Int J Radiat Oncol Biol Phys 18 (2): 275-81, 1990.</Citation>
+      <Citation idx="46" PMID="10386715" MedlineID="99313286">Reinders JG, Heijmen BJ, Olofsen-van Acht MJ, et al.: Ischemic heart disease after mantlefield irradiation for Hodgkin's disease in long-term follow-up. Radiother Oncol 51 (1): 35-42, 1999.</Citation>
+      <Citation idx="47" PMID="8411552" MedlineID="94017078">Hancock SL, Tucker MA, Hoppe RT: Factors affecting late mortality from heart disease after treatment of Hodgkin's disease. JAMA 270 (16): 1949-55, 1993.</Citation>
+      <Citation idx="48" PMID="17194904">Heidenreich PA, Schnittger I, Strauss HW, et al.: Screening for coronary artery disease after mediastinal irradiation for Hodgkin's disease. J Clin Oncol 25 (1): 43-9, 2007.</Citation>
+      <Citation idx="49" PMID="17194900">Dabaja B, Cox JD, Buchholz TA: Radiation therapy can still be used safely in combined modality approaches in patients with Hodgkin's lymphoma. J Clin Oncol 25 (1): 3-5, 2007.</Citation>
+      <Citation idx="50" PMID="17284715">Swerdlow AJ, Higgins CD, Smith P, et al.: Myocardial infarction mortality risk after treatment for Hodgkin disease: a collaborative British cohort study. J Natl Cancer Inst 99 (3): 206-14, 2007.</Citation>
+      <Citation idx="51" PMID="20858859">Galper SL, Yu JB, Mauch PM, et al.: Clinically significant cardiac disease in patients with Hodgkin lymphoma treated with mediastinal irradiation. Blood 117 (2): 412-8, 2011.</Citation>
+      <Citation idx="52" PMID="7509383" MedlineID="94157607">Horning SJ, Adhikari A, Rizk N, et al.: Effect of treatment for Hodgkin's disease on pulmonary function: results of a prospective study. J Clin Oncol 12 (2): 297-305, 1994.</Citation>
+      <Citation idx="53" PMID="16186594">Martin WG, Ristow KM, Habermann TM, et al.: Bleomycin pulmonary toxicity has a negative impact on the outcome of patients with Hodgkin's lymphoma. J Clin Oncol 23 (30): 7614-20, 2005.</Citation>
+      <Citation idx="54" PMID="7260869" MedlineID="81258293">Prosnitz LR, Lawson JP, Friedlaender GE, et al.: Avascular necrosis of bone in Hodgkin's disease patients treated with combined modality therapy. Cancer 47 (12): 2793-7, 1981.</Citation>
+      <Citation idx="55" PMID="1200037" MedlineID="76085342">Schimpff SC, O'Connell MJ, Greene WH, et al.: Infections in 92 splenectomized patients with Hodgkin's disease. A clinical review. Am J Med 59 (5): 695-701, 1975.</Citation>
+      <Citation idx="56" PMID="8474421" MedlineID="93233599">Recommendations of the Advisory Committee on Immunization Practices (ACIP): use of vaccines and immune globulins for persons with altered immunocompetence. MMWR Recomm Rep 42 (RR-4): 1-18, 1993.</Citation>
+      <Citation idx="57" PMID="7486464" MedlineID="96061861">Molrine DC, George S, Tarbell N, et al.: Antibody responses to polysaccharide and polysaccharide-conjugate vaccines after treatment of Hodgkin disease. Ann Intern Med 123 (11): 828-34, 1995.</Citation>
+      <Citation idx="58" PMID="10458240" MedlineID="99385422">Loge JH, Abrahamsen AF, Ekeberg O, et al.: Hodgkin's disease survivors more fatigued than the general population. J Clin Oncol 17 (1): 253-61, 1999.</Citation>
+      <Citation idx="59" PMID="15598949">Ballova V, Rüffer JU, Haverkamp H, et al.: A prospectively randomized trial carried out by the German Hodgkin Study Group (GHSG) for elderly patients with advanced Hodgkin's disease comparing BEACOPP baseline and COPP-ABVD (study HD9elderly). Ann Oncol 16 (1): 124-31, 2005.</Citation>
+      <Citation idx="60" PMID="15955904">Engert A, Ballova V, Haverkamp H, et al.: Hodgkin's lymphoma in elderly patients: a comprehensive retrospective analysis from the German Hodgkin's Study Group. J Clin Oncol 23 (22): 5052-60, 2005.</Citation>
+      <Citation idx="61" PMID="23509310">Böll B, Görgen H, Fuchs M, et al.: ABVD in older patients with early-stage Hodgkin lymphoma treated within the German Hodgkin Study Group HD10 and HD11 trials. J Clin Oncol 31 (12): 1522-9, 2013.</Citation>
+    </ReferenceSection>
+  </SummarySection>
+  <SummarySection id="_362">
+    <SectMetaData>
+      <SpecificDiagnosis ref="CDR0000040961">stage I adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SpecificDiagnosis ref="CDR0000041815">stage II adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SectionType>Treatment options by stage</SectionType>
+      <SectionType>Treatment options by prognostic factors</SectionType>
+    </SectMetaData>
+    <Title>Early Favorable  HL</Title>
+    <Para id="_387">
+      <Strong>Drug combinations described in this section include the following:</Strong>
+    </Para>
+    <ItemizedList id="_388" Style="bullet">
+      <ListItem>ABV: doxorubicin, bleomycin, and vinblastine.</ListItem>
+      <ListItem>ABVD:   doxorubicin, bleomycin, vinblastine, and dacarbazine (1 cycle = 1 month of therapy).</ListItem>
+      <ListItem>AV: doxorubicin and vinblastine.</ListItem>
+      <ListItem>AVD: doxorubicin, vinblastine, and  dacarbazine.</ListItem>
+      <ListItem>MOPP-ABV: mechlorethamine, vincristine, procarbazine, prednisone, doxorubicin, bleomycin, and vincristine.</ListItem>
+    </ItemizedList>
+    <Para id="_364">Patients are designated as having early favorable Hodgkin lymphoma (HL) if they have clinical stage I or stage II disease and no adverse risk factors.  Adverse risk factors include the following:</Para>
+    <ItemizedList id="_365" Style="bullet">
+      <ListItem>
+        B symptoms (fever ≥38°C, soaking night sweats, weight loss ≥10% within 6 months). (Refer to the PDQ summary on
+        <SummaryRef href="CDR0000062742" url="/about-cancer/treatment/side-effects/sexuality-fertility-women/hot-flashes-hp-pdq">Hot Flashes and Night Sweats</SummaryRef>
+        for more information.)
+      </ListItem>
+      <ListItem>Extranodal disease.</ListItem>
+      <ListItem>Bulky disease (≥10 cm or &gt;33% of the  chest diameter on chest x-ray).</ListItem>
+      <ListItem>Three or more sites of nodal involvement.</ListItem>
+      <ListItem>Sedimentation rate ≥50 mm/h.</ListItem>
+    </ItemizedList>
+    <Para id="_366">
+      Historically, radiation therapy alone had been the primary treatment for patients with early favorable HL, often after confirmatory negative staging laparotomy.  A randomized, prospective trial involving 542 patients with early favorable HL compared MOPP-ABV for three cycles plus involved-field radiation therapy (IF-XRT) with subtotal nodal radiation; with a median follow-up of 7.7 years, combined modality was favored in terms of 5-year event-free survival (98% vs. 74%,
+      <Emphasis>P</Emphasis>
+      &lt; .001) and 10-year overall survival (OS) (97% vs. 92%,
+      <Emphasis>P</Emphasis>
+      = .001).
+      <Reference refidx="1" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ] The late mortality from solid tumors, especially in the lung, breast, gastrointestinal tract, and connective tissue, and from cardiovascular disease makes radiation therapy a less attractive option for the best-risk patients, who have the highest probability of cure and long-term survival.
+      <Reference refidx="2" />
+      <Reference refidx="3" />
+      <Reference refidx="4" />
+      <Reference refidx="5" />
+      <Reference refidx="6" />
+      Recent clinical trials have focused on regimens with chemotherapy and IF-XRT or with chemotherapy alone.
+      <Reference refidx="7" />
+    </Para>
+    <Para id="_367">
+      A randomized, prospective trial from the National Cancer Institute of Canada involving 123 patients with early favorable HL compared ABVD for four to six cycles with subtotal nodal radiation; with a median follow-up of 11.3 years, no difference was observed in event-free survival (89% vs. 86%;
+      <Emphasis>P</Emphasis>
+      = .64) or in OS (98% vs. 98%;
+      <Emphasis>P</Emphasis>
+      = 0.95).
+      <Reference refidx="8" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_419">
+      In a randomized study from the Milan Cancer Institute of patients with clinical early-stage HL, 4 months of ABVD followed by either IF-XRT or extended-field radiation therapy (EF-XRT) showed similar OS and freedom-from-progression with a 10-year median follow-up, but the study had inadequate statistical power to determine noninferiority of IF-XRT versus EF-XRT.
+      <Reference refidx="9" />
+      [
+      <LOERef href="CDR0000335129">Level of evidence: 1iiDii</LOERef>
+      ]
+    </Para>
+    <Para id="_415">The German Hodgkin Lymphoma Study Group (GHSG) randomly assigned 1,190 patients with early favorable HL to the following:</Para>
+    <ItemizedList id="_471" Style="bullet">
+      <ListItem>Two cycles of ABVD plus 30 Gy of IF-XRT.</ListItem>
+      <ListItem>Two cycles of ABVD plus 20 Gy of IF-XRT.</ListItem>
+      <ListItem>Four cycles of ABVD plus 30 Gy of IF-XRT.</ListItem>
+      <ListItem>Four cycles of ABVD plus 20 Gy of IF-XRT.</ListItem>
+    </ItemizedList>
+    <Para id="_416">
+      With a 7.6-year median follow-up, no differences were observed in freedom-from-progression (97%) or OS (98%)  for all four    groups.
+      <Reference refidx="10" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_417">The ongoing GHSG study is comparing reduced chemotherapy schedules while maintaining IF-XRT at 30 Gy: two cycles of ABVD, two cycles of ABV, two cycles of AVD, or two cycles of AV.</Para>
+    <Para id="_370">
+      A specialized approach to therapy can be taken when patients with nonbulky lymphocyte–predominant disease presenting in unilateral
+      high neck (above the thyroid notch) or epitrochlear locations require only
+      IF-XRT after clinical staging.
+      <Reference refidx="11" />
+      A retrospective report
+      of 426 cases of lymphocyte-predominant HL (including the
+      so-called nodular lymphocyte–predominant and lymphocyte-rich classical
+      subtypes) showed that more patients died of treatment-related toxicity (both
+      acute and long term) than from recurrence of HL.
+      <Reference refidx="12" />
+      [
+      <LOERef href="CDR0000335150">
+        Level of
+        evidence: 3iiiA
+      </LOERef>
+      ]  Limitation of radiation dose and radiation fields and avoidance of
+      leukemogenic chemotherapeutic agents, along with watchful waiting policies,
+      should be investigated for these subgroups.
+      <Reference refidx="13" />
+      Patients with nonbulky
+      nodular sclerosing disease presenting in the anterior mediastinum only after
+      clinical staging also do well with mantle radiation alone.
+      <Reference refidx="14" />
+    </Para>
+    <Para id="_371">
+      <Strong>Treatment options include the following:</Strong>
+    </Para>
+    <ItemizedList id="_372" Style="bullet">
+      <ListItem>
+        ABVD for four   to six cycles.
+        <Reference refidx="7" />
+      </ListItem>
+      <ListItem>ABVD for two cycles plus IF-XRT (20 Gy or 30 Gy).</ListItem>
+      <ListItem>
+        Radiation therapy alone in special circumstances.
+        <Reference refidx="15" />
+      </ListItem>
+    </ItemizedList>
+    <SummarySection id="_TrialSearch_362_sid_5">
+      <Title>Current Clinical Trials</Title>
+      <Para id="_TrialSearch_362_10">
+        Check for U.S. clinical trials from NCI's list of cancer clinical trials that are now accepting patients with
+        <ExternalRef xref="http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?Diagnosis=40961&amp;tt=1&amp;format=2&amp;cn=1">stage I adult Hodgkin lymphoma</ExternalRef>
+        and
+        <ExternalRef xref="http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?Diagnosis=41815&amp;tt=1&amp;format=2&amp;cn=1">stage II adult Hodgkin lymphoma</ExternalRef>
+        . The list of clinical trials can be further narrowed by location, drug, intervention, and other criteria.
+      </Para>
+      <Para id="_TrialSearch_362_18">
+        General information about clinical trials is also available from the
+        <ExternalRef xref="http://www.cancer.gov/clinicaltrials">NCI Web site</ExternalRef>
+        .
+      </Para>
+    </SummarySection>
+    <ReferenceSection>
+      <Citation idx="1" PMID="17989384">Fermé C, Eghbali H, Meerwaldt JH, et al.: Chemotherapy plus involved-field radiation in early-stage Hodgkin's disease. N Engl J Med 357 (19): 1916-27, 2007.</Citation>
+      <Citation idx="2" PMID="12177110" MedlineID="22166575">Dores GM, Metayer C, Curtis RE, et al.: Second malignant neoplasms among long-term survivors of Hodgkin's disease: a population-based evaluation over 25 years. J Clin Oncol 20 (16): 3484-94, 2002.</Citation>
+      <Citation idx="3" PMID="10386715" MedlineID="99313286">Reinders JG, Heijmen BJ, Olofsen-van Acht MJ, et al.: Ischemic heart disease after mantlefield irradiation for Hodgkin's disease in long-term follow-up. Radiother Oncol 51 (1): 35-42, 1999.</Citation>
+      <Citation idx="4" PMID="16204683">Longo DL: Radiation therapy in Hodgkin disease: why risk a Pyrrhic victory? J Natl Cancer Inst 97 (19): 1394-5, 2005.</Citation>
+      <Citation idx="5" PMID="17284715">Swerdlow AJ, Higgins CD, Smith P, et al.: Myocardial infarction mortality risk after treatment for Hodgkin disease: a collaborative British cohort study. J Natl Cancer Inst 99 (3): 206-14, 2007.</Citation>
+      <Citation idx="6" PMID="17606976">Engert A, Franklin J, Eich HT, et al.: Two cycles of doxorubicin, bleomycin, vinblastine, and dacarbazine plus extended-field radiotherapy is superior to radiotherapy alone in early favorable Hodgkin's lymphoma: final results of the GHSG HD7 trial. J Clin Oncol 25 (23): 3495-502, 2007.</Citation>
+      <Citation idx="7" PMID="20159818">Canellos GP, Abramson JS, Fisher DC, et al.: Treatment of favorable, limited-stage Hodgkin's lymphoma with chemotherapy without consolidation by radiation therapy. J Clin Oncol 28 (9): 1611-5, 2010.</Citation>
+      <Citation idx="8" PMID="22149921">Meyer RM, Gospodarowicz MK, Connors JM, et al.: ABVD alone versus radiation-based therapy in limited-stage Hodgkin's lymphoma. N Engl J Med 366 (5): 399-408, 2012.</Citation>
+      <Citation idx="9" PMID="15199092">Bonadonna G, Bonfante V, Viviani S, et al.: ABVD plus subtotal nodal versus involved-field radiotherapy in early-stage Hodgkin's disease: long-term results. J Clin Oncol 22 (14): 2835-41, 2004.</Citation>
+      <Citation idx="10" PMID="20818855">Engert A, Plütschow A, Eich HT, et al.: Reduced treatment intensity in patients with early-stage Hodgkin's lymphoma. N Engl J Med 363 (7): 640-52, 2010.</Citation>
+      <Citation idx="11" PMID="6505256" MedlineID="85064727">Russell KJ, Hoppe RT, Colby TV, et al.: Lymphocyte predominant Hodgkin's disease: clinical presentation and results of treatment. Radiother Oncol 1 (3): 197-205, 1984.</Citation>
+      <Citation idx="12" PMID="10071266" MedlineID="99168824">Diehl V, Sextro M, Franklin J, et al.: Clinical presentation, course, and prognostic factors in lymphocyte-predominant Hodgkin's disease and lymphocyte-rich classical Hodgkin's disease: report from the European Task Force on Lymphoma Project on Lymphocyte-Predominant Hodgkin's Disease. J Clin Oncol 17 (3): 776-83, 1999.</Citation>
+      <Citation idx="13" PMID="10071261" MedlineID="99168819">Aster JC: Lymphocyte-predominant Hodgkin's disease: how little therapy is enough? J Clin Oncol 17 (3): 744-6, 1999.</Citation>
+      <Citation idx="14" PMID="11157025" MedlineID="21104123">Backstrand KH, Ng AK, Takvorian RW, et al.: Results of a prospective trial of mantle irradiation alone for selected patients with early-stage Hodgkin's disease. J Clin Oncol 19 (3): 736-41, 2001.</Citation>
+      <Citation idx="15" PMID="16740597">Landgren O, Axdorph U, Fears TR, et al.: A population-based cohort study on early-stage Hodgkin lymphoma treated with radiotherapy alone: with special reference to older patients. Ann Oncol 17 (8): 1290-5, 2006.</Citation>
+    </ReferenceSection>
+  </SummarySection>
+  <SummarySection id="_373">
+    <SectMetaData>
+      <SpecificDiagnosis ref="CDR0000040961">stage I adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SpecificDiagnosis ref="CDR0000041815">stage II adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SectionType>Treatment options by stage</SectionType>
+      <SectionType>Treatment options by prognostic factors</SectionType>
+    </SectMetaData>
+    <Title>Early Unfavorable  HL</Title>
+    <Para id="_379">
+      <Strong>Drug combinations described in this section include the following:</Strong>
+    </Para>
+    <ItemizedList id="_380" Style="bullet" Compact="No">
+      <ListItem>ABVD:   doxorubicin, bleomycin, vinblastine, and dacarbazine (1 cycle = 1 month of therapy).</ListItem>
+      <ListItem>AV: doxorubicin and vinblastine.</ListItem>
+      <ListItem>BEACOPP: bleomycin, etoposide, doxorubicin, cyclophosphamide, vincristine, procarbazine, and prednisone.</ListItem>
+      <ListItem>COPP/ABVD: cyclophosphamide, vincristine, procarbazine, prednisone/doxorubicin, bleomycin, vinblastine, and dacarbazine.</ListItem>
+      <ListItem>MOPP/ABV: mechlorethamine, vincristine, procarbazine, prednisone, doxorubicin, bleomycin, and vincristine.</ListItem>
+    </ItemizedList>
+    <Para id="_375">Patients are designated as having early unfavorable Hodgkin lymphoma (HL) if they have clinical stage I or stage II disease and one or more of the following risk factors:</Para>
+    <ItemizedList id="_376" Style="bullet">
+      <ListItem>B symptoms (fever ≥38°C, soaking night sweats, weight loss ≥10% within 6 months).</ListItem>
+      <ListItem>Extranodal disease.</ListItem>
+      <ListItem>Bulky disease (≥10 cm or &gt;33% of the chest diameter on chest x-ray).</ListItem>
+      <ListItem>Three or more sites of nodal involvement.</ListItem>
+      <ListItem>Sedimentation rate of ≥50 mm/h.</ListItem>
+    </ItemizedList>
+    <Para id="_377">
+      Patients with early unfavorable HL showed relapse rates greater than 30% at  5 years with radiation therapy alone, prompting evaluation of chemotherapy plus involved-field radiation therapy (IF-XRT) versus chemotherapy alone.
+      <Reference refidx="1" />
+      The late mortality from solid tumors, especially in the lung, breast, gastrointestinal tract, and connective tissue, and from cardiovascular disease makes radiation therapy a less attractive option unless therapeutic benefits exceed the long-term complications.
+      <Reference refidx="2" />
+      <Reference refidx="3" />
+      <Reference refidx="4" />
+      <Reference refidx="5" />
+      <Reference refidx="6" />
+    </Para>
+    <Para id="_378">
+      A randomized, prospective trial from the National Cancer Institute of Canada (NCIC)  involving 276 patients with early unfavorable HL compared ABVD for four   to six  cycles with ABVD for two  cycles plus extended-field radiation therapy (EF-XRT); with a median follow-up of 11.3 years, the freedom-from-progression favored combined modality therapy (86% vs. 94%;
+      <Emphasis>P</Emphasis>
+      = .006), but the overall survival (OS) was better for ABVD alone (92% vs. 81%;
+      <Emphasis>P</Emphasis>
+      = .04).
+      <Reference refidx="7" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ] The trend toward a worse  survival for the combined modality arm was attributed to excess secondary malignancies and cardiovascular deaths.  In this trial, the extended-field radiation used higher doses and significantly larger exposure to body sites than are employed in current practice.
+    </Para>
+    <Para id="_381">
+      A randomized study from the Southwest Oncology Group of clinically staged
+      patients (no laparotomy) compared subtotal lymphoid radiation with 3 months of
+      AV followed by subtotal lymphoid radiation therapy; the
+      combined modality arm showed superior failure-free survival (94% vs. 81%;
+      <Emphasis>P</Emphasis>
+      &lt; .001) but not OS at 3.3 years' median follow-up.
+      <Reference refidx="8" />
+      [
+      <LOERef href="CDR0000335131">Level of evidence: 1iiDiii</LOERef>
+      ]
+    </Para>
+    <Para id="_420">
+      In a randomized study from the Milan Cancer Institute of patients with clinical early-stage
+      HL, 4 months of ABVD followed
+      by either IF-XRT or EF-XRT showed
+      similar OS and freedom-from-progression with 10 years' median
+      follow-up, but the study had inadequate statistical power to determine noninferiority of IF-XRT versus EF-XRT.
+      <Reference refidx="9" />
+      [
+      <LOERef href="CDR0000335129">Level of evidence: 1iiDii</LOERef>
+      ]  Similarly, in a randomized study from the German Hodgkin Lymphoma Study Group (GHSG) of more than 1,000 patients with early unfavorable HL, 4 months of COPP plus ABVD followed by IF-XRT versus EF-XRT showed equivalent OS and freedom-from-treatment failure  (FFTF) with 5 years' median follow-up.
+      <Reference refidx="10" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ] Another randomized study of 996 patients with early unfavorable HL also showed no difference in OS and event-free survival at 10 years, comparing four to six cycles of MOPP-ABV plus IF-XRT versus the same chemotherapy plus subtotal nodal radiation therapy.
+      <Reference refidx="11" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_382">In the HD11 trial, the GHSG randomly assigned 1,395 patients with early unfavorable HL to:</Para>
+    <ItemizedList id="_472" Style="bullet">
+      <ListItem>Four cycles of ABVD plus 30 Gy of IF-XRT.</ListItem>
+      <ListItem>Four cycles of ABVD plus 20 Gy of IF-XRT.</ListItem>
+      <ListItem>Four cycles of BEACOPP plus 30 Gy of IF-XRT.</ListItem>
+      <ListItem>Four cycles of BEACOPP plus 20 Gy of IF-XRT.</ListItem>
+    </ItemizedList>
+    <Para id="_384">
+      With a 6.8 year median follow-up no differences were observed in OS (93%–96%) for all four groups.
+      <Reference refidx="12" />
+      <Reference refidx="13" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ] In the arms of the study with 30 Gy of IF-XRT, there was no difference in FFTF between BEACOPP and ABVD (
+      <Emphasis>P</Emphasis>
+      = .65), but a significant difference in favor of BEACOPP was seen for FFTF when 20 Gy of IF-XRT was used (
+      <Emphasis>P</Emphasis>
+      = .02).
+      <Reference refidx="13" />
+      [
+      <LOERef href="CDR0000632558">Level of evidence: 1iiD</LOERef>
+      ]
+    </Para>
+    <Para id="_617">
+      In the HD14 trial, the GHSG randomly assigned 1,528 patients with early unfavorable HL to either four cycles of ABVD plus 30 Gy of IF-XRT or two cycles of escalated BEACOPP followed by two cycles of ABVD plus 30 Gy of IF-XRT. With a median follow-up of 43 months, no difference was observed in OS.
+      <Reference refidx="14" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_422">A prospective, randomized trial from the European Organization for Research and Treatment of Cancer and Groupe d'Etudes de Lymphomes de L'Adulte of 808 patients with early unfavorable HL compared:</Para>
+    <ItemizedList id="_473" Style="bullet">
+      <ListItem>Four cycles of ABVD plus 30 Gy of IF-XRT.</ListItem>
+      <ListItem>Six cycles of ABVD plus 30 Gy of IF-XRT.</ListItem>
+      <ListItem>Four cycles of BEACOPP plus 30 Gy of IF-XRT.</ListItem>
+    </ItemizedList>
+    <Para id="_386">
+      With a 64-month median follow-up, in a preliminary report in abstract form, no differences were observed in event-free survival (89%–92%;
+      <Emphasis>P</Emphasis>
+      = .38) or OS (91%–96%;
+      <Emphasis>P</Emphasis>
+      = .98).
+      <Reference refidx="15" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_620">
+      In summary, these randomized trials support the use of ABVD for four cycles with 20 Gy to 30 Gy IF-XRT.  Could the radiation therapy be omitted to minimize late morbidity and mortality from secondary solid tumors and from cardiovascular disease?
+      <Reference refidx="16" />
+      The NCIC study is the only trial to address this question in patients with early unfavorable HL; although four  to six cycles of ABVD alone has improved OS compared with a combined modality approach, the use of EF-XRT in the combined modality arm is excessive by current standards, and late effects will be magnified with these larger fields.
+      <Reference refidx="7" />
+      In addition, chemotherapy alone was 8% worse in freedom-from-progression compared with the combined modality approach.
+    </Para>
+    <Para id="_423">
+      How can we balance an improvement in freedom-from-progression using radiation therapy with chemotherapy against late morbidity and mortality from late effects?
+      <Reference refidx="16" />
+      <Reference refidx="17" />
+      Randomized studies with or without IF-XRT would be required, but no such studies are currently under way.
+      <Reference refidx="16" />
+      An indirect comparison for using ABVD alone is that the 94% OS seen for early unfavorable patients in the NCIC study
+      <Reference refidx="7" />
+      at 11 years is equivalent to the survival seen in the GHSG's
+      <ProtocolRef href="CDR0000651981" nct_id="NCT00002561">HD6</ProtocolRef>
+      [NCT00002561],
+      <ProtocolRef href="CDR0000706752" nct_id="NCT01399931">HD10</ProtocolRef>
+      [NCT01399931], and HD11 trials using combined modality therapy at 11 years.
+      <Reference refidx="18" />
+      A Cochrane meta-analysis of 1,245 patients in five randomized, clinical trials suggested improved survival for combined modality therapy versus chemotherapy alone (HR, 0.40; 95% CI, 0.27–0.61).
+      <Reference refidx="19" />
+      However, the NCIC study does demonstrate a 92% OS for ABVD alone at a median follow-up of 11.3 years.  This would support the use of ABVD for patients with early unfavorable disease. Long-term follow-up, which would account for late toxicities and deaths from combined modality therapy, will not be forthcoming from these trials.
+      <Reference refidx="19" />
+    </Para>
+    <Para id="_389">
+      Patients with bulky disease (≥10 cm) or massive mediastinal involvement were excluded from most of the aforementioned trials.  Based on historical comparisons to chemotherapy or radiation therapy alone, these patients currently receive combined modality therapy.
+      <Reference refidx="20" />
+      <Reference refidx="21" />
+      [
+      <LOERef href="CDR0000335158">Level of evidence: 3iiiDiii</LOERef>
+      ]
+    </Para>
+    <Para id="_390">
+      <Strong>Treatment options include the following:</Strong>
+    </Para>
+    <ItemizedList id="_474" Style="bullet">
+      <ListItem>
+        Four to six cycles of ABVD.
+        <Reference refidx="7" />
+        <Reference refidx="16" />
+      </ListItem>
+      <ListItem>Four cycles of ABVD plus IF-XRT (20 Gy–30 Gy).</ListItem>
+    </ItemizedList>
+    <SummarySection id="_TrialSearch_373_sid_6">
+      <Title>Current Clinical Trials</Title>
+      <Para id="_TrialSearch_373_10">
+        Check for U.S. clinical trials from NCI's list of cancer clinical trials that are now accepting patients with
+        <ExternalRef xref="http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?Diagnosis=40961&amp;tt=1&amp;format=2&amp;cn=1">stage I adult Hodgkin lymphoma</ExternalRef>
+        and
+        <ExternalRef xref="http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?Diagnosis=41815&amp;tt=1&amp;format=2&amp;cn=1">stage II adult Hodgkin lymphoma</ExternalRef>
+        . The list of clinical trials can be further narrowed by location, drug, intervention, and other criteria.
+      </Para>
+      <Para id="_TrialSearch_373_18">
+        General information about clinical trials is also available from the
+        <ExternalRef xref="http://www.cancer.gov/clinicaltrials">NCI Web site</ExternalRef>
+        .
+      </Para>
+    </SummarySection>
+    <ReferenceSection>
+      <Citation idx="1" PMID="2462943">Tubiana M, Henry-Amar M, Carde P, et al.: Toward comprehensive management tailored to prognostic factors of patients with clinical stages I and II in Hodgkin's disease. The EORTC Lymphoma Group controlled clinical trials: 1964-1987. Blood 73 (1): 47-56, 1989.</Citation>
+      <Citation idx="2" PMID="12177110" MedlineID="22166575">Dores GM, Metayer C, Curtis RE, et al.: Second malignant neoplasms among long-term survivors of Hodgkin's disease: a population-based evaluation over 25 years. J Clin Oncol 20 (16): 3484-94, 2002.</Citation>
+      <Citation idx="3" PMID="10386715" MedlineID="99313286">Reinders JG, Heijmen BJ, Olofsen-van Acht MJ, et al.: Ischemic heart disease after mantlefield irradiation for Hodgkin's disease in long-term follow-up. Radiother Oncol 51 (1): 35-42, 1999.</Citation>
+      <Citation idx="4" PMID="16204683">Longo DL: Radiation therapy in Hodgkin disease: why risk a Pyrrhic victory? J Natl Cancer Inst 97 (19): 1394-5, 2005.</Citation>
+      <Citation idx="5" PMID="17284715">Swerdlow AJ, Higgins CD, Smith P, et al.: Myocardial infarction mortality risk after treatment for Hodgkin disease: a collaborative British cohort study. J Natl Cancer Inst 99 (3): 206-14, 2007.</Citation>
+      <Citation idx="6" PMID="17606976">Engert A, Franklin J, Eich HT, et al.: Two cycles of doxorubicin, bleomycin, vinblastine, and dacarbazine plus extended-field radiotherapy is superior to radiotherapy alone in early favorable Hodgkin's lymphoma: final results of the GHSG HD7 trial. J Clin Oncol 25 (23): 3495-502, 2007.</Citation>
+      <Citation idx="7" PMID="22149921">Meyer RM, Gospodarowicz MK, Connors JM, et al.: ABVD alone versus radiation-based therapy in limited-stage Hodgkin's lymphoma. N Engl J Med 366 (5): 399-408, 2012.</Citation>
+      <Citation idx="8" PMID="11709567" MedlineID="21566231">Press OW, LeBlanc M, Lichter AS, et al.: Phase III randomized intergroup trial of subtotal lymphoid irradiation versus doxorubicin, vinblastine, and subtotal lymphoid irradiation for stage IA to IIA Hodgkin's disease. J Clin Oncol 19 (22): 4238-44, 2001.</Citation>
+      <Citation idx="9" PMID="15199092">Bonadonna G, Bonfante V, Viviani S, et al.: ABVD plus subtotal nodal versus involved-field radiotherapy in early-stage Hodgkin's disease: long-term results. J Clin Oncol 22 (14): 2835-41, 2004.</Citation>
+      <Citation idx="10" PMID="12913100">Engert A, Schiller P, Josting A, et al.: Involved-field radiotherapy is equally effective and less toxic compared with extended-field radiotherapy after four cycles of chemotherapy in patients with early-stage unfavorable Hodgkin's lymphoma: results of the HD8 trial of the German Hodgkin's Lymphoma Study Group. J Clin Oncol 21 (19): 3601-8, 2003.</Citation>
+      <Citation idx="11" PMID="17989384">Fermé C, Eghbali H, Meerwaldt JH, et al.: Chemotherapy plus involved-field radiation in early-stage Hodgkin's disease. N Engl J Med 357 (19): 1916-27, 2007.</Citation>
+      <Citation idx="12">Diehl V, Brillant C, Engert A, et al.: Recent interim analysis of the HD11 trial of the GHSG: intensification of chemotherapy and reduction of radiation dose in early unfavorable stage Hodgkin's lymphoma. [Abstract] Blood  106 (11): A-816, 2005.</Citation>
+      <Citation idx="13" PMID="20713848">Eich HT, Diehl V, Görgen H, et al.: Intensified chemotherapy and dose-reduced involved-field radiotherapy in patients with early unfavorable Hodgkin's lymphoma: final analysis of the German Hodgkin Study Group HD11 trial. J Clin Oncol 28 (27): 4199-206, 2010.</Citation>
+      <Citation idx="14" PMID="22271480">von Tresckow B, Plütschow A, Fuchs M, et al.: Dose-intensification in early unfavorable Hodgkin's lymphoma: final analysis of the German hodgkin study group HD14 trial. J Clin Oncol 30 (9): 907-13, 2012.</Citation>
+      <Citation idx="15">Noordijk EM, Thomas J, Fermé C, et al.: First results of the EORTC-GELA H9 randomized trials: the H9-F trial (comparing 3 radiation dose levels) and H9-U trial (comparing 3 chemotherapy schemes) in patients with favorable or unfavorable early stage Hodgkin's lymphoma (HL) . [Abstract] J Clin Oncol  23 (Suppl 16): A-6505, 561s, 2005.</Citation>
+      <Citation idx="16" PMID="20159818">Canellos GP, Abramson JS, Fisher DC, et al.: Treatment of favorable, limited-stage Hodgkin's lymphoma with chemotherapy without consolidation by radiation therapy. J Clin Oncol 28 (9): 1611-5, 2010.</Citation>
+      <Citation idx="17" PMID="19028275">Bar Ad V, Paltiel O, Glatstein E: Radiotherapy for early-stage Hodgkin's lymphoma: a 21st century perspective and review of multiple randomized clinical trials. Int J Radiat Oncol Biol Phys 72 (5): 1472-9, 2008.</Citation>
+      <Citation idx="18" PMID="22821764">Meyer RM, Hoppe RT: Point/counterpoint: early-stage Hodgkin lymphoma and the role of radiation therapy. Blood 120 (23): 4488-95, 2012.</Citation>
+      <Citation idx="19" PMID="21328291">Herbst C, Rehan FA, Skoetz N, et al.: Chemotherapy alone versus chemotherapy plus radiotherapy for early stage Hodgkin lymphoma. Cochrane Database Syst Rev  (2): CD007110, 2011.</Citation>
+      <Citation idx="20" PMID="9363863" MedlineID="98028493">Longo DL, Glatstein E, Duffey PL, et al.: Alternating MOPP and ABVD chemotherapy plus mantle-field radiation therapy in patients with massive mediastinal Hodgkin's disease. J Clin Oncol 15 (11): 3338-46, 1997.</Citation>
+      <Citation idx="21" PMID="11821442" MedlineID="21679479">Horning SJ, Hoppe RT, Breslin S, et al.: Stanford V and radiotherapy for locally extensive and advanced Hodgkin's disease: mature results of a prospective clinical trial. J Clin Oncol 20 (3): 630-7, 2002.</Citation>
+    </ReferenceSection>
+  </SummarySection>
+  <SummarySection id="_392">
+    <SectMetaData>
+      <SpecificDiagnosis ref="CDR0000042483">stage III adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SpecificDiagnosis ref="CDR0000042945">stage IV adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SectionType>Treatment options by stage</SectionType>
+      <SectionType>Treatment options by prognostic factors</SectionType>
+    </SectMetaData>
+    <Title>Advanced Favorable  HL</Title>
+    <Para id="_394">
+      <Strong>Drug combinations described in this section include the following:</Strong>
+    </Para>
+    <ItemizedList id="_395" Style="bullet" Compact="No">
+      <ListItem>ABVD:   doxorubicin, bleomycin, vinblastine, and dacarbazine.</ListItem>
+      <ListItem>CEC:  cyclophosphamide, lomustine, vindesine, melphalan, prednisone, epidoxorubicin, vincristine, procarbazine, vinblastine, and bleomycin.</ListItem>
+      <ListItem>MOPP:    mechlorethamine, vincristine, procarbazine, and prednisone.</ListItem>
+      <ListItem>MOPP/ABV hybrid: mechlorethamine, vincristine, procarbazine, prednisone/doxorubicin, bleomycin, and vinblastine.</ListItem>
+      <ListItem>Stanford V: doxorubicin, vinblastine, mechlorethamine, etoposide, vincristine, bleomycin, and prednisone.</ListItem>
+      <ListItem>MOPPEBVCAD:    mechlorethamine, vincristine, procarbazine, prednisone, epidoxorubicin, bleomycin, vinblastine, lomustine, doxorubicin, and vindesine.</ListItem>
+    </ItemizedList>
+    <Para id="_396">
+      Patients are designated as having advanced favorable Hodgkin lymphoma (HL) if they have clinical stage III or stage IV disease and three  or fewer risk factors on the
+      <SummaryRef href="CDR0000062675#_358" url="/types/lymphoma/hp/adult-hodgkin-treatment-pdq">International Prognostic Index</SummaryRef>
+      for HL, which corresponds to a freedom-from-progression at greater than 80% at 5 years with combination chemotherapy.
+      <Reference refidx="1" />
+    </Para>
+    <Para id="_397">
+      ABVD therapy for 6 to 8 months is as effective as 12 months of MOPP alternating
+      with ABVD, and both are superior to MOPP alone in terms of failure-free
+      survival (FFS) (50% vs. 36% with a 14-year median follow-up;
+      <Emphasis>P</Emphasis>
+      = .03).
+      <Reference refidx="2" />
+      <Reference refidx="3" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ] The Intergroup trial comparing ABVD with MOPP/ABV hybrid showed equivalent efficacy in FFS and overall
+      survival (OS), but increased toxic effects in the hybrid arm, especially from second
+      malignancies.
+      <Reference refidx="4" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_572">
+      A prospective, randomized study, from the Medical Research Council (MRC) (
+      <ProtocolRef href="CDR0000066441" nct_id="NCT00003421">MRC-UKLG-LY09</ProtocolRef>
+      ), of 807 patients compared ABVD with two multidrug regimens also incorporating etoposide, chlorambucil, vincristine, and procarbazine.  With 52 months' median follow-up, the 3-year event-free survival was 75% (confidence interval [CI], 71%–79%) for all three regimens, and 88% to 90% OS (CI, 84%–93%) for all three regimens, but there were significantly fewer toxic effects with ABVD.
+      <Reference refidx="5" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_573">
+      A prospective, randomized study of 331 patients compared ABVD with escalated BEACOPP, along with a planned autologous stem cell transplantation after reinduction chemotherapy for relapsed or resistant disease.  With 61 months' median follow-up, although 7-year freedom from first progression favored escalated BEACOPP (73% vs. 85%,
+      <Emphasis>P</Emphasis>
+      = .004), 7-year OS was not statistically different (84% vs. 89%,
+      <Emphasis>P</Emphasis>
+      = .39).
+      <Reference refidx="6" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]  Escalated BEACOPP is associated with increased rates of myelodysplasia and acute myelogenous leukemia (3%–4%).
+      <Reference refidx="7" />
+      Stanford V is an alternative drug combination  with mandated radiation consolidation for most patients and survival rates comparable to those with ABVD.
+      <Reference refidx="8" />
+      <Reference refidx="9" />
+      <Reference refidx="10" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_546">
+      A prospective, randomized trial of 307 patients with advanced-stage disease, including IIB disease and advanced-favorable Hodgkin lymphoma patients, compared ABVD, BEACOPP (four escalated courses plus two standard courses), and CEC.
+      <Reference refidx="11" />
+      With a median follow-up of 41 months, although progression-free survival  favored BEACOPP over ABVD (78% vs. 68%,
+      <Emphasis>P</Emphasis>
+      = .038), there was no significant difference in OS.
+      <Reference refidx="11" />
+      [
+      <LOERef href="CDR0000335131">Level of evidence: 1iiDiii</LOERef>
+      ] Further follow-up is required to assess rates of secondary malignancies with these regimens.
+    </Para>
+    <Para id="_398">
+      In a meta-analysis of 1,740 patients treated on 14 different trials, no improvement was observed in 10-years' OS for patients with advanced-stage
+      HL who received combined modality therapy versus chemotherapy
+      alone.
+      <Reference refidx="12" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]  Three prospective, randomized trials and a meta-analysis did not show a benefit in OS from the addition of consolidative radiation therapy to chemotherapy for patients with advanced-stage disease.
+      <Reference refidx="13" />
+      <Reference refidx="14" />
+      <Reference refidx="15" />
+      <Reference refidx="16" />
+      The lack of difference in OS
+      was attributed to a greater number of second malignancies and poorer response
+      and survival after relapse among patients who received combined modality
+      therapy.
+    </Para>
+    <Para id="_399">Proposed clinical trials will explore consolidation for patients with positive positron emission tomography testing after four cycles of ABVD.</Para>
+    <Para id="_400">
+      <Strong>Treatment options include the following:</Strong>
+    </Para>
+    <ItemizedList id="_401" Style="bullet">
+      <ListItem>ABVD for six  to eight  cycles.</ListItem>
+      <ListItem>ABVD for six  to eight cycles plus IF-XRT for some patients with bulky disease.</ListItem>
+    </ItemizedList>
+    <SummarySection id="_TrialSearch_392_sid_7">
+      <Title>Current Clinical Trials</Title>
+      <Para id="_TrialSearch_392_10">
+        Check for U.S. clinical trials from NCI's list of cancer clinical trials that are now accepting patients with
+        <ExternalRef xref="http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?Diagnosis=42483&amp;tt=1&amp;format=2&amp;cn=1">stage III adult Hodgkin lymphoma</ExternalRef>
+        and
+        <ExternalRef xref="http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?Diagnosis=42945&amp;tt=1&amp;format=2&amp;cn=1">stage IV adult Hodgkin lymphoma</ExternalRef>
+        . The list of clinical trials can be further narrowed by location, drug, intervention, and other criteria.
+      </Para>
+      <Para id="_TrialSearch_392_18">
+        General information about clinical trials is also available from the
+        <ExternalRef xref="http://www.cancer.gov/clinicaltrials">NCI Web site</ExternalRef>
+        .
+      </Para>
+    </SummarySection>
+    <ReferenceSection>
+      <Citation idx="1" PMID="22869887">Moccia AA, Donaldson J, Chhanabhai M, et al.: International Prognostic Score in advanced-stage Hodgkin's lymphoma: altered utility in the modern era. J Clin Oncol 30 (27): 3383-8, 2012.</Citation>
+      <Citation idx="2" PMID="1383821" MedlineID="93024813">Canellos GP, Anderson JR, Propert KJ, et al.: Chemotherapy of advanced Hodgkin's disease with MOPP, ABVD, or MOPP alternating with ABVD. N Engl J Med 327 (21): 1478-84, 1992.</Citation>
+      <Citation idx="3" PMID="11986425" MedlineID="21982675">Canellos GP, Niedzwiecki D: Long-term follow-up of Hodgkin's disease trial. N Engl J Med 346 (18): 1417-8, 2002.</Citation>
+      <Citation idx="4" PMID="12586796" MedlineID="22474350">Duggan DB, Petroni GR, Johnson JL, et al.: Randomized comparison of ABVD and MOPP/ABV hybrid for the treatment of advanced Hodgkin's disease: report of an intergroup trial. J Clin Oncol 21 (4): 607-14, 2003.</Citation>
+      <Citation idx="5" PMID="16314615">Johnson PW, Radford JA, Cullen MH, et al.: Comparison of ABVD and alternating or hybrid multidrug regimens for the treatment of advanced Hodgkin's lymphoma: results of the United Kingdom Lymphoma Group LY09 Trial (ISRCTN97144519). J Clin Oncol 23 (36): 9208-18, 2005.</Citation>
+      <Citation idx="6" PMID="21774708">Viviani S, Zinzani PL, Rambaldi A, et al.: ABVD versus BEACOPP for Hodgkin's lymphoma when high-dose salvage is planned. N Engl J Med 365 (3): 203-12, 2011.</Citation>
+      <Citation idx="7" PMID="20720088">Scholz M, Engert A, Franklin J, et al.: Impact of first- and second-line treatment for Hodgkin's lymphoma on the incidence of AML/MDS and NHL--experience of the German Hodgkin's Lymphoma Study Group analyzed by a parametric model of carcinogenesis. Ann Oncol 22 (3): 681-8, 2011.</Citation>
+      <Citation idx="8" PMID="19738111">Hoskin PJ, Lowry L, Horwich A, et al.: Randomized comparison of the stanford V regimen and ABVD in the treatment of advanced Hodgkin's Lymphoma: United Kingdom National Cancer Research Institute Lymphoma Group Study ISRCTN 64141244. J Clin Oncol 27 (32): 5390-6, 2009.</Citation>
+      <Citation idx="9" PMID="16172458">Gobbi PG, Levis A, Chisesi T, et al.: ABVD versus modified stanford V versus MOPPEBVCAD with optional and limited radiotherapy in intermediate- and advanced-stage Hodgkin's lymphoma: final results of a multicenter randomized trial by the Intergruppo Italiano Linfomi. J Clin Oncol 23 (36): 9198-207, 2005.</Citation>
+      <Citation idx="10" PMID="23182987">Gordon LI, Hong F, Fisher RI, et al.: Randomized phase III trial of ABVD versus Stanford V with or without radiation therapy in locally extensive and advanced-stage Hodgkin lymphoma: an intergroup study coordinated by the Eastern Cooperative Oncology Group (E2496). J Clin Oncol 31 (6): 684-91, 2013.</Citation>
+      <Citation idx="11" PMID="19124807">Federico M, Luminari S, Iannitto E, et al.: ABVD compared with BEACOPP compared with CEC for the initial treatment of patients with advanced Hodgkin's lymphoma: results from the HD2000 Gruppo Italiano per lo Studio dei Linfomi Trial. J Clin Oncol 27 (5): 805-11, 2009.</Citation>
+      <Citation idx="12" PMID="9508162" MedlineID="98167587">Loeffler M, Brosteanu O, Hasenclever D, et al.: Meta-analysis of chemotherapy versus combined modality treatment trials in Hodgkin's disease. International Database on Hodgkin's Disease Overview Study Group. J Clin Oncol 16 (3): 818-29, 1998.</Citation>
+      <Citation idx="13" PMID="8172436" MedlineID="94226429">Fabian CJ, Mansfield CM, Dahlberg S, et al.: Low-dose involved field radiation after chemotherapy in advanced Hodgkin disease. A Southwest Oncology Group randomized study. Ann Intern Med 120 (11): 903-12, 1994.</Citation>
+      <Citation idx="14" PMID="12802025" MedlineID="22687036">Aleman BM, Raemaekers JM, Tirelli U, et al.: Involved-field radiotherapy for advanced Hodgkin's lymphoma. N Engl J Med 348 (24): 2396-406, 2003.</Citation>
+      <Citation idx="15" PMID="16478882">Fermé C, Mounier N, Casasnovas O, et al.: Long-term results and competing risk analysis of the H89 trial in patients with advanced-stage Hodgkin lymphoma: a study by the Groupe d'Etude des Lymphomes de l'Adulte (GELA). Blood 107 (12): 4636-42, 2006.</Citation>
+      <Citation idx="16" PMID="16235316">Franklin JG, Paus MD, Pluetschow A, et al.: Chemotherapy, radiotherapy and combined modality for Hodgkin's disease, with emphasis on second cancer risk. Cochrane Database Syst Rev  (4): CD003187, 2005.</Citation>
+    </ReferenceSection>
+  </SummarySection>
+  <SummarySection id="_402">
+    <SectMetaData>
+      <SpecificDiagnosis ref="CDR0000042483">stage III adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SpecificDiagnosis ref="CDR0000042945">stage IV adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SectionType>Treatment options by stage</SectionType>
+      <SectionType>Treatment options by prognostic factors</SectionType>
+    </SectMetaData>
+    <Title>Advanced Unfavorable  HL</Title>
+    <Para id="_404">
+      <Strong>Drug combinations described in this section include the following:</Strong>
+    </Para>
+    <ItemizedList id="_405" Style="bullet" Compact="No">
+      <ListItem>ABVD:   doxorubicin, bleomycin, vinblastine, dacarbazine.</ListItem>
+      <ListItem>BEACOPP: bleomycin, etoposide, doxorubicin, cyclophosphamide, vincristine, procarbazine, and prednisone.</ListItem>
+      <ListItem>CEC:  cyclophosphamide, lomustine, vindesine, melphalan, prednisone, epidoxorubicin, vincristine, procarbazine, vinblastine, and bleomycin.</ListItem>
+      <ListItem>COPP/ABVD: cyclophosphamide, vincristine, procarbazine, prednisone/doxorubicin, bleomycin, vinblastine, and dacarbazine.</ListItem>
+      <ListItem>MOPP:    mechlorethamine, vincristine, procarbazine, and prednisone.</ListItem>
+      <ListItem>MOPP alternating with ABVD: mechlorethamine, vincristine, procarbazine, prednisone alternating with doxorubicin, bleomycin, vinblastine, and  dacarbazine.</ListItem>
+      <ListItem>MOPP/ABV hybrid: mechlorethamine, vincristine, procarbazine, prednisone/doxorubicin, bleomycin, and vinblastine.</ListItem>
+      <ListItem>
+        Stanford V: doxorubicin,
+        vinblastine, mechlorethamine, etoposide, vincristine, bleomycin, and  prednisone.
+      </ListItem>
+    </ItemizedList>
+    <Para id="_406">
+      Patients are designated as having advanced unfavorable Hodgkin lymphoma (HL) if they have clinical stage III or stage IV disease and four  or more risk factors on the
+      <SummaryRef href="CDR0000062675#_358" url="/types/lymphoma/hp/adult-hodgkin-treatment-pdq">International Prognostic Index</SummaryRef>
+      for HL, which corresponds to a freedom-from-progression at worse than 70% at 5 years with combination chemotherapy.
+      <Reference refidx="1" />
+    </Para>
+    <Para id="_407">
+      ABVD therapy for 6 to 8 months is as effective as 12 months of MOPP alternating
+      with ABVD, and both are superior to MOPP alone in terms of failure-free survival (FFS) (50% vs. 36% with a 14-year median follow-up;
+      <Emphasis>P</Emphasis>
+      = .03).
+      <Reference refidx="2" />
+      <Reference refidx="3" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ] The Intergroup trial comparing ABVD with MOPP/ABV hybrid showed equivalent efficacy in FFS and overall
+      survival (OS), but increased toxic effects in the hybrid arm, especially from second
+      malignancies.
+      <Reference refidx="4" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_576">
+      The German Hodgkin Study Group (GHSG HD9 trial) randomly assigned 1,201 patients with advanced-stage disease to COPP/ABVD, BEACOPP,  or to escalated BEACOPP, with most patients receiving consolidative radiation therapy to sites of initial bulky disease (≥5 cm).
+      <Reference refidx="5" />
+      The 10-year OS rates from time of treatment were 75% for COPP/ABVD, 80% for BEACOPP, and 86% for escalated BEACOPP (
+      <Emphasis>P</Emphasis>
+      = .19 for the comparison of COPP/ABVD with BEACOPP,
+      <Emphasis>P</Emphasis>
+      = .005 for the comparison of BEACOPP with escalated BEACOPP, and
+      <Emphasis>P</Emphasis>
+      &lt; .001 for the comparison of COPP/ABVD with increased-dose BEACOPP).
+      <Reference refidx="5" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]  The actuarial rate of secondary acute leukemias 10 years after diagnosis of HL was 0.4% for COPP/ABVD, 1.5% for BEACOPP, and 3.0% for escalated BEACOPP (
+      <Emphasis>P</Emphasis>
+      = .03).
+    </Para>
+    <Para id="_607">
+      In the GHSG HD15 trial, six cycles of escalated BEACOPP showed less toxicity and equivalent efficacy when compared with eight cycles of escalated BEACOPP or BEACOP delivered every 2 weeks.
+      <Reference refidx="6" />
+      [
+      <LOERef href="CDR0000632558">Level of evidence: 1iiD</LOERef>
+      ]
+    </Para>
+    <Para id="_408">
+      A prospective, randomized trial of 307 patients with advanced-stage disease, including IIB disease and advanced-favorable HL patients, compared ABVD, BEACOPP (four escalated courses plus two standard courses), and CEC.
+      <Reference refidx="7" />
+      With a median follow-up of 41 months, although progression-free survival (PFS) favored BEACOPP over ABVD (78% vs. 68%,
+      <Emphasis>P</Emphasis>
+      = .038), there was no significant difference in OS.
+      <Reference refidx="7" />
+      [
+      <LOERef href="CDR0000335131">Level of evidence: 1iiDiii</LOERef>
+      ]
+    </Para>
+    <Para id="_574">
+      A prospective, randomized study of 331 patients compared ABVD with escalated BEACOPP, along with a planned autologous stem cell transplantation after reinduction chemotherapy for relapsed or resistant disease.  With 61 months' median follow-up, although 7-year freedom from first progression favored escalated BEACOPP (73% vs. 85%,
+      <Emphasis>P</Emphasis>
+      = .004), 7-year OS was not statistically different (84% vs. 89%,
+      <Emphasis>P</Emphasis>
+      = .39).
+      <Reference refidx="8" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ] Escalated BEACOPP is associated with increased rates of myelodysplasia and acute myelogenous leukemia (3%–4%).
+      <Reference refidx="9" />
+    </Para>
+    <Para id="_618">
+      A Cochrane meta-analysis of randomized clinical trials comparing escalated BEACOPP and ABVD for early unfavorable HL or advanced-stage disease could identify no difference in OS.
+      <Reference refidx="10" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_575">
+      Further follow-up is required to assess rates of secondary malignancies with these regimens. Stanford V is an alternative drug combination with mandated radiation therapy consolidation for most patients and survival rates comparable to those with ABVD.
+      <Reference refidx="11" />
+      <Reference refidx="12" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_409">
+      Three prospective, randomized trials did not show a benefit
+      in OS from the addition of consolidative radiation therapy to
+      chemotherapy for patients with advanced-stage disease.
+      <Reference refidx="13" />
+      <Reference refidx="14" />
+      <Reference refidx="15" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]  In a meta-analysis
+      of 1,740 patients treated on 14 different trials, no improvement was observed in
+      10-years' OS for patients with advanced-stage HL who
+      received combined modality therapy versus chemotherapy alone.
+      <Reference refidx="16" />
+      [
+      <LOERef href="CDR0000335150">
+        Level of
+        evidence: 3iiiA
+      </LOERef>
+      ]  The German Hodgkin Lymphoma Study Group HD15 trial  showed that a negative positive–emission tomographic (PET) scan after BEACOPP induction therapy was highly predictive for a good outcome even with omission of consolidative radiation therapy (negative predictive value for PET was 94% [95% confidence interval, 91%–97%]).
+      <Reference refidx="17" />
+      No survival advantage is known for the use of radiation consolidation for patients with massive mediastinal disease and advanced stage disease, though differences exist in sites of first relapse.
+      <Reference refidx="18" />
+    </Para>
+    <Para id="_410">
+      Clinical trials are addressing the role of more intensive regimens for patients
+      with advanced-stage disease and poor prognostic factors.  Early chemotherapy intensification resulting from  an interim, PET-positive scan after two cycles of ABVD has also been proposed.
+      <Reference refidx="19" />
+      Controversy
+      exists about whether the optimal strategy should involve early dose intensification,
+      with subsequent risks of increased late toxic effects (such as leukemia) or
+      whether ABVD should be employed and patients who relapse be salvaged with
+      high-dose treatment and autografting. In a prospective, randomized trial of 163 patients with unfavorable advanced-stage disease who attained a complete or partial remission after four  cycles of ABVD, no difference was observed in OS or FFS either with high-dose therapy with autologous stem cell transplant or with four  more cycles of ABVD.
+      <Reference refidx="20" />
+      [
+      <LOERef href="CDR0000335125">Level of evidence: 1iiA</LOERef>
+      ]
+    </Para>
+    <Para id="_411">
+      <Strong>Treatment options include the following:</Strong>
+    </Para>
+    <ItemizedList id="_412" Style="bullet">
+      <ListItem>ABVD for six to eight cycles.</ListItem>
+      <ListItem>BEACOPP (increased dose).</ListItem>
+    </ItemizedList>
+    <SummarySection id="_TrialSearch_402_sid_8">
+      <Title>Current Clinical Trials</Title>
+      <Para id="_TrialSearch_402_10">
+        Check for U.S. clinical trials from NCI's list of cancer clinical trials that are now accepting patients with
+        <ExternalRef xref="http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?Diagnosis=42483&amp;tt=1&amp;format=2&amp;cn=1">stage III adult Hodgkin lymphoma</ExternalRef>
+        and
+        <ExternalRef xref="http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?Diagnosis=42945&amp;tt=1&amp;format=2&amp;cn=1">stage IV adult Hodgkin lymphoma</ExternalRef>
+        . The list of clinical trials can be further narrowed by location, drug, intervention, and other criteria.
+      </Para>
+      <Para id="_TrialSearch_402_18">
+        General information about clinical trials is also available from the
+        <ExternalRef xref="http://www.cancer.gov/clinicaltrials">NCI Web site</ExternalRef>
+        .
+      </Para>
+    </SummarySection>
+    <ReferenceSection>
+      <Citation idx="1" PMID="22869887">Moccia AA, Donaldson J, Chhanabhai M, et al.: International Prognostic Score in advanced-stage Hodgkin's lymphoma: altered utility in the modern era. J Clin Oncol 30 (27): 3383-8, 2012.</Citation>
+      <Citation idx="2" PMID="1383821" MedlineID="93024813">Canellos GP, Anderson JR, Propert KJ, et al.: Chemotherapy of advanced Hodgkin's disease with MOPP, ABVD, or MOPP alternating with ABVD. N Engl J Med 327 (21): 1478-84, 1992.</Citation>
+      <Citation idx="3" PMID="11986425" MedlineID="21982675">Canellos GP, Niedzwiecki D: Long-term follow-up of Hodgkin's disease trial. N Engl J Med 346 (18): 1417-8, 2002.</Citation>
+      <Citation idx="4" PMID="12586796" MedlineID="22474350">Duggan DB, Petroni GR, Johnson JL, et al.: Randomized comparison of ABVD and MOPP/ABV hybrid for the treatment of advanced Hodgkin's disease: report of an intergroup trial. J Clin Oncol 21 (4): 607-14, 2003.</Citation>
+      <Citation idx="5" PMID="19704068">Engert A, Diehl V, Franklin J, et al.: Escalated-dose BEACOPP in the treatment of patients with advanced-stage Hodgkin's lymphoma: 10 years of follow-up of the GHSG HD9 study. J Clin Oncol 27 (27): 4548-54, 2009.</Citation>
+      <Citation idx="6" PMID="22480758">Engert A, Haverkamp H, Kobe C, et al.: Reduced-intensity chemotherapy and PET-guided radiotherapy in patients with advanced stage Hodgkin's lymphoma (HD15 trial): a randomised, open-label, phase 3 non-inferiority trial. Lancet 379 (9828): 1791-9, 2012.</Citation>
+      <Citation idx="7" PMID="19124807">Federico M, Luminari S, Iannitto E, et al.: ABVD compared with BEACOPP compared with CEC for the initial treatment of patients with advanced Hodgkin's lymphoma: results from the HD2000 Gruppo Italiano per lo Studio dei Linfomi Trial. J Clin Oncol 27 (5): 805-11, 2009.</Citation>
+      <Citation idx="8" PMID="21774708">Viviani S, Zinzani PL, Rambaldi A, et al.: ABVD versus BEACOPP for Hodgkin's lymphoma when high-dose salvage is planned. N Engl J Med 365 (3): 203-12, 2011.</Citation>
+      <Citation idx="9" PMID="20720088">Scholz M, Engert A, Franklin J, et al.: Impact of first- and second-line treatment for Hodgkin's lymphoma on the incidence of AML/MDS and NHL--experience of the German Hodgkin's Lymphoma Study Group analyzed by a parametric model of carcinogenesis. Ann Oncol 22 (3): 681-8, 2011.</Citation>
+      <Citation idx="10" PMID="21833963">Bauer K, Skoetz N, Monsef I, et al.: Comparison of chemotherapy including escalated BEACOPP versus chemotherapy including ABVD for patients with early unfavourable or advanced stage Hodgkin lymphoma. Cochrane Database Syst Rev  (8): CD007941, 2011.</Citation>
+      <Citation idx="11" PMID="19738111">Hoskin PJ, Lowry L, Horwich A, et al.: Randomized comparison of the stanford V regimen and ABVD in the treatment of advanced Hodgkin's Lymphoma: United Kingdom National Cancer Research Institute Lymphoma Group Study ISRCTN 64141244. J Clin Oncol 27 (32): 5390-6, 2009.</Citation>
+      <Citation idx="12" PMID="21990405">Chisesi T, Bellei M, Luminari S, et al.: Long-term follow-up analysis of HD9601 trial comparing ABVD versus Stanford V versus MOPP/EBV/CAD in patients with newly diagnosed advanced-stage Hodgkin's lymphoma: a study from the Intergruppo Italiano Linfomi. J Clin Oncol 29 (32): 4227-33, 2011.</Citation>
+      <Citation idx="13" PMID="8172436" MedlineID="94226429">Fabian CJ, Mansfield CM, Dahlberg S, et al.: Low-dose involved field radiation after chemotherapy in advanced Hodgkin disease. A Southwest Oncology Group randomized study. Ann Intern Med 120 (11): 903-12, 1994.</Citation>
+      <Citation idx="14" PMID="12802025" MedlineID="22687036">Aleman BM, Raemaekers JM, Tirelli U, et al.: Involved-field radiotherapy for advanced Hodgkin's lymphoma. N Engl J Med 348 (24): 2396-406, 2003.</Citation>
+      <Citation idx="15" PMID="16478882">Fermé C, Mounier N, Casasnovas O, et al.: Long-term results and competing risk analysis of the H89 trial in patients with advanced-stage Hodgkin lymphoma: a study by the Groupe d'Etude des Lymphomes de l'Adulte (GELA). Blood 107 (12): 4636-42, 2006.</Citation>
+      <Citation idx="16" PMID="9508162" MedlineID="98167587">Loeffler M, Brosteanu O, Hasenclever D, et al.: Meta-analysis of chemotherapy versus combined modality treatment trials in Hodgkin's disease. International Database on Hodgkin's Disease Overview Study Group. J Clin Oncol 16 (3): 818-29, 1998.</Citation>
+      <Citation idx="17" PMID="18757777">Kobe C, Dietlein M, Franklin J, et al.: Positron emission tomography has a high negative predictive value for progression or early relapse for patients with residual disease after first-line chemotherapy in advanced-stage Hodgkin lymphoma. Blood 112 (10): 3989-94, 2008.</Citation>
+      <Citation idx="18" PMID="11505388" MedlineID="21395913">Brice P, Colin P, Berger F, et al.: Advanced Hodgkin disease with large mediastinal involvement can be treated with eight cycles of chemotherapy alone after a major response to six cycles of chemotherapy: a study of 82 patients from the Groupes d'Etudes des Lymphomes de l'Adulte H89 trial. Cancer 92 (3): 453-9, 2001.</Citation>
+      <Citation idx="19" PMID="21166786">Gallamini A, Patti C, Viviani S, et al.: Early chemotherapy intensification with BEACOPP in advanced-stage Hodgkin lymphoma patients with a interim-PET positive after two ABVD courses. Br J Haematol 152 (5): 551-60, 2011.</Citation>
+      <Citation idx="20" PMID="12805333" MedlineID="22689292">Federico M, Bellei M, Brice P, et al.: High-dose therapy and autologous stem-cell transplantation versus conventional therapy for patients with advanced Hodgkin's lymphoma responding to front-line therapy. J Clin Oncol 21 (12): 2320-5, 2003.</Citation>
+    </ReferenceSection>
+  </SummarySection>
+  <SummarySection id="_174">
+    <SectMetaData>
+      <SpecificDiagnosis ref="CDR0000042968">recurrent adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SectionType>Treatment options by stage</SectionType>
+    </SectMetaData>
+    <Title>Recurrent Adult  HL</Title>
+    <Para id="_176">
+      Patients who experience a relapse after initial wide-field, high-dose radiation
+      therapy have a good prognosis.  Combination chemotherapy results in 10-year
+      disease-free survival (DFS) and overall survival (OS) rates of 57% to 81% and 57% to 89%,
+      respectively.
+      <Reference refidx="1" />
+      <Reference refidx="2" />
+      <Reference refidx="3" />
+      <Reference refidx="4" />
+      For patients who experience a relapse after initial
+      combination chemotherapy, prognosis is determined more by the duration of the
+      first remission than by the specific induction or salvage combination
+      chemotherapy regimen.  Patients whose initial remission after chemotherapy was
+      longer than 1 year (late relapse) have long-term survival with salvage
+      chemotherapy of 22% to 71%.
+      <Reference refidx="4" />
+      <Reference refidx="5" />
+      <Reference refidx="6" />
+      <Reference refidx="7" />
+      <Reference refidx="8" />
+      <Reference refidx="9" />
+      Patients whose initial remission after
+      chemotherapy was shorter than 1 year (early relapse) do much worse and have
+      long-term survival of 11% to 46%.
+      <Reference refidx="4" />
+      <Reference refidx="8" />
+      <Reference refidx="10" />
+    </Para>
+    <Para id="_609">
+      Patients who relapse after initial
+      combination chemotherapy usually undergo reinduction with the same or another
+      chemotherapy regimen followed by high-dose chemotherapy and autologous bone
+      marrow or peripheral stem cell or allogeneic bone marrow rescue.
+      <Reference refidx="11" />
+      <Reference refidx="12" />
+      <Reference refidx="13" />
+      <Reference refidx="14" />
+      <Reference refidx="15" />
+      This
+      therapy has resulted in a 3- to 4-year DFS rate of 27% to
+      48%.  Patients who are responsive to reinduction chemotherapy may have a better
+      prognosis.
+    </Para>
+    <Para id="_610">
+      Two randomized trials have compared aggressive conventional chemotherapy versus high-dose chemotherapy with autologous hematopoietic stem cell transplantation for relapsed chemosensitive Hodgkin lymphoma (HL).  Both trials show improvement in freedom from treatment failure at 3 years for the transplantation arm (75% vs. 45% and 55% vs. 34%, respectively); but no difference was observed in OS.
+      <Reference refidx="16" />
+      <Reference refidx="17" />
+      [
+      <LOERef href="CDR0000335129">Level of evidence: 1iiDii</LOERef>
+      ]
+    </Para>
+    <Para id="_248">
+      In two   retrospective reviews of patients who
+      underwent autologous bone marrow transplantation (ABMT) for relapsed or refractory disease, a comparison was made of
+      those who received involved-field radiation therapy (IF-XRT) for residual masses after
+      high-dose therapy versus no further treatment.
+      <Reference refidx="18" />
+      <Reference refidx="19" />
+      Those who received
+      IF-XRT had improved progression-free survival.  Normalization of 18F-fluorodeoxyglucose–positron emission tomography–computed tomography (FDG-PET-CT) scans after reinduction therapy predicted a much better outcome after stem cell transplantation, with an event-free survival rate of 80% versus 29% in one phase II trial.
+      <Reference refidx="20" />
+      [
+      <LOERef href="CDR0000335153">Level of evidence: 3iiiDi</LOERef>
+      ] For patients at high risk of residual HL after stem cell transplant, a phase III study (the
+      <ProtocolRef href="CDR0000670731" nct_id="NCT01100502">AETHERA</ProtocolRef>
+      trial [NCT01100502]) is evaluating the role of brentuximab vedotin.
+    </Para>
+    <Para id="_611">
+      The use of human
+      leukocyte antigen-matched sibling marrow (allogeneic transplantation) results
+      in a lower relapse rate, but the benefit may be offset by increased toxic
+      effects.
+      <Reference refidx="13" />
+      <Reference refidx="21" />
+      <Reference refidx="22" />
+      Reduced-intensity conditioning for allogeneic stem cell transplantation is also under clinical evaluation.
+      <Reference refidx="23" />
+      <Reference refidx="24" />
+      <Reference refidx="25" />
+      <Reference refidx="26" />
+      <Reference refidx="27" />
+    </Para>
+    <Para id="_616">
+      Phase II trials support responses in relapsing patients using brentuximab vedotin (anti-tubulin agent attached to a CD30-specific monoclonal antibody)
+      <Reference refidx="28" />
+      <Reference refidx="29" />
+      and for bendamustine.
+      <Reference refidx="30" />
+      [
+      <LOERef href="CDR0000587991">Level of evidence: 3iiiDiv</LOERef>
+      ] For patients with recurrent disease after ABMT, weekly
+      vinblastine therapy has provided palliation with minimal toxic
+      effects.
+      <Reference refidx="31" />
+      [
+      <LOERef href="CDR0000587991">Level of evidence: 3iiiDiv</LOERef>
+      ]
+    </Para>
+    <Para id="_619">
+      Because of CD30 expression on malignant Reed-Sternberg cells of HL, but limited expression on normal cells, CD30 is a target for therapy.   Brentuximab vedotin is a chimeric antibody directed against CD30, which is linked to the microtubule-disrupting agent, monomethyl auristatin E.
+      <Reference refidx="28" />
+      <Reference refidx="32" />
+      <Reference refidx="33" />
+      Response rates around 75% are seen with complete remissions around 30% to 50% and median progression-free survival of 4 to 8 months.
+      <Reference refidx="28" />
+      <Reference refidx="32" />
+      <Reference refidx="33" />
+      [
+      <LOERef href="CDR0000587991">Level of evidence: 3iiiDiv</LOERef>
+      ]
+    </Para>
+    <Para id="_177">
+      For the small subgroup of patients with only limited nodal recurrence following
+      initial chemotherapy, radiation therapy with or without additional chemotherapy
+      may provide long-term survival for about 50% of these highly selected patients.
+      <Reference refidx="34" />
+      <Reference refidx="35" />
+    </Para>
+    <Para id="_178">
+      Patients who do not respond to induction chemotherapy (about 10%–20% of all
+      presenting patients) have less than a 10% survival rate at 8 years.
+      <Reference refidx="8" />
+      For these
+      patients, high-dose chemotherapy and autologous bone marrow or peripheral stem
+      cell or allogeneic bone marrow rescue are under clinical evaluation.
+      <Reference refidx="13" />
+      <Reference refidx="14" />
+      <Reference refidx="36" />
+      <Reference refidx="37" />
+      <Reference refidx="38" />
+      <Reference refidx="39" />
+      <Reference refidx="40" />
+      <Reference refidx="41" />
+      <Reference refidx="42" />
+      These trials have resulted in a 3- to
+      5-year DFS rate of 17% to 48%.
+      <Reference refidx="11" />
+      <Reference refidx="12" />
+      <Reference refidx="13" />
+      <Reference refidx="14" />
+      <Reference refidx="41" />
+    </Para>
+    <SummarySection id="_TrialSearch_174_sid_9">
+      <Title>Current Clinical Trials</Title>
+      <Para id="_TrialSearch_174_10">
+        Check for U.S. clinical trials from NCI's list of cancer clinical trials that are now accepting patients with
+        <ExternalRef xref="http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?Diagnosis=42968&amp;tt=1&amp;format=2&amp;cn=1">recurrent adult Hodgkin lymphoma</ExternalRef>
+        . The list of clinical trials can be further narrowed by location, drug, intervention, and other criteria.
+      </Para>
+      <Para id="_TrialSearch_174_18">
+        General information about clinical trials is also available from the
+        <ExternalRef xref="http://www.cancer.gov/clinicaltrials">NCI Web site</ExternalRef>
+        .
+      </Para>
+    </SummarySection>
+    <ReferenceSection>
+      <Citation idx="1" PMID="14760121">Ng AK, Li S, Neuberg D, et al.: Comparison of MOPP versus ABVD as salvage therapy in patients who relapse after radiation therapy alone for Hodgkin's disease. Ann Oncol 15 (2): 270-5, 2004.</Citation>
+      <Citation idx="2" PMID="7960982" MedlineID="95049714">Specht L, Horwich A, Ashley S: Salvage of relapse of patients with Hodgkin's disease in clinical stages I or II who were staged with laparotomy and initially treated with radiotherapy alone. A report from the international database on Hodgkin's disease. Int J Radiat Oncol Biol Phys 30 (4): 805-11, 1994.</Citation>
+      <Citation idx="3" PMID="9291804" MedlineID="97437271">Horwich A, Specht L, Ashley S: Survival analysis of patients with clinical stages I or II Hodgkin's disease who have relapsed after initial treatment with radiotherapy alone. Eur J Cancer 33 (6): 848-53, 1997.</Citation>
+      <Citation idx="4" PMID="11773173" MedlineID="21635076">Josting A, Franklin J, May M, et al.: New prognostic score based on treatment outcome of patients with relapsed Hodgkin's lymphoma registered in the database of the German Hodgkin's lymphoma study group. J Clin Oncol 20 (1): 221-30, 2002.</Citation>
+      <Citation idx="5" PMID="6206757" MedlineID="84305413">Harker WG, Kushlan P, Rosenberg SA: Combination chemotherapy for advanced Hodgkin's disease after failure of MOPP: ABVD and B-CAVe. Ann Intern Med 101 (4): 440-6, 1984.</Citation>
+      <Citation idx="6" PMID="1607915" MedlineID="92300411">Tourani JM, Levy R, Colonna P, et al.: High-dose salvage chemotherapy without bone marrow transplantation for adult patients with refractory Hodgkin's disease. J Clin Oncol 10 (7): 1086-94, 1992.</Citation>
+      <Citation idx="7" PMID="7636541" MedlineID="95363483">Canellos GP, Petroni GR, Barcos M, et al.: Etoposide, vinblastine, and doxorubicin: an active regimen for the treatment of Hodgkin's disease in relapse following MOPP. Cancer and Leukemia Group B. J Clin Oncol 13 (8): 2005-11, 1995.</Citation>
+      <Citation idx="8" PMID="9053474" MedlineID="97178741">Bonfante V, Santoro A, Viviani S, et al.: Outcome of patients with Hodgkin's disease failing after primary MOPP-ABVD. J Clin Oncol 15 (2): 528-34, 1997.</Citation>
+      <Citation idx="9" PMID="9690550" MedlineID="98352860">Garcia-Carbonero R, Paz-Ares L, Arcediano A, et al.: Favorable prognosis after late relapse of Hodgkin's disease. Cancer 83 (3): 560-5, 1998.</Citation>
+      <Citation idx="10" PMID="1732422" MedlineID="92121930">Longo DL, Duffey PL, Young RC, et al.: Conventional-dose salvage combination chemotherapy in patients relapsing with Hodgkin's disease after combination chemotherapy: the low probability for cure. J Clin Oncol 10 (2): 210-8, 1992.</Citation>
+      <Citation idx="11" PMID="7858268" MedlineID="95161767">Nademanee A, O'Donnell MR, Snyder DS, et al.: High-dose chemotherapy with or without total body irradiation followed by autologous bone marrow and/or peripheral blood stem cell transplantation for patients with relapsed and refractory Hodgkin's disease: results in 85 patients with analysis of prognostic factors. Blood 85 (5): 1381-90, 1995.</Citation>
+      <Citation idx="12" PMID="9028311" MedlineID="97180135">Horning SJ, Chao NJ, Negrin RS, et al.: High-dose therapy and autologous hematopoietic progenitor cell transplantation for recurrent or refractory Hodgkin's disease: analysis of the Stanford University results and prognostic indices. Blood 89 (3): 801-13, 1997.</Citation>
+      <Citation idx="13" PMID="11731514" MedlineID="21588294">Akpek G, Ambinder RF, Piantadosi S, et al.: Long-term results of blood and marrow transplantation for Hodgkin's lymphoma. J Clin Oncol 19 (23): 4314-21, 2001.</Citation>
+      <Citation idx="14" PMID="12767087">Tarella C, Cuttica A, Vitolo U, et al.: High-dose sequential chemotherapy and peripheral blood progenitor cell autografting in patients with refractory and/or recurrent Hodgkin lymphoma: a multicenter study of the intergruppo Italiano Linfomi showing prolonged disease free survival in patients treated at first recurrence. Cancer 97 (11): 2748-59, 2003.</Citation>
+      <Citation idx="15" PMID="21917627">Holmberg L, Maloney DG: The role of autologous and allogeneic hematopoietic stem cell transplantation for Hodgkin lymphoma. J Natl Compr Canc Netw 9 (9): 1060-71, 2011.</Citation>
+      <Citation idx="16" PMID="8096958" MedlineID="93225710">Linch DC, Winfield D, Goldstone AH, et al.: Dose intensification with autologous bone-marrow transplantation in relapsed and resistant Hodgkin's disease: results of a BNLI randomised trial. Lancet 341 (8852): 1051-4, 1993.</Citation>
+      <Citation idx="17" PMID="12086759" MedlineID="22082098">Schmitz N, Pfistner B, Sextro M, et al.: Aggressive conventional chemotherapy compared with high-dose chemotherapy with autologous haemopoietic stem-cell transplantation for relapsed chemosensitive Hodgkin's disease: a randomised trial. Lancet 359 (9323): 2065-71, 2002.</Citation>
+      <Citation idx="18" PMID="7673013" MedlineID="95403194">Mundt AJ, Sibley G, Williams S, et al.: Patterns of failure following high-dose chemotherapy and autologous bone marrow transplantation with involved field radiotherapy for relapsed/refractory Hodgkin's disease. Int J Radiat Oncol Biol Phys 33 (2): 261-70, 1995.</Citation>
+      <Citation idx="19" PMID="8823253" MedlineID="96420555">Poen JC, Hoppe RT, Horning SJ: High-dose therapy and autologous bone marrow transplantation for relapsed/refractory Hodgkin's disease: the impact of involved field radiotherapy on patterns of failure and survival. Int J Radiat Oncol Biol Phys 36 (1): 3-12, 1996.</Citation>
+      <Citation idx="20" PMID="22184409">Moskowitz CH, Matasar MJ, Zelenetz AD, et al.: Normalization of pre-ASCT, FDG-PET imaging with second-line, non-cross-resistant, chemotherapy programs improves event-free survival in patients with Hodgkin lymphoma. Blood 119 (7): 1665-70, 2012.</Citation>
+      <Citation idx="21" PMID="8648386" MedlineID="96243094">Milpied N, Fielding AK, Pearce RM, et al.: Allogeneic bone marrow transplant is not better than autologous transplant for patients with relapsed Hodgkin's disease. European Group for Blood and Bone Marrow Transplantation. J Clin Oncol 14 (4): 1291-6, 1996.</Citation>
+      <Citation idx="22" PMID="8636773" MedlineID="96223417">Gajewski JL, Phillips GL, Sobocinski KA, et al.: Bone marrow transplants from HLA-identical siblings in advanced Hodgkin's disease. J Clin Oncol 14 (2): 572-8, 1996.</Citation>
+      <Citation idx="23" PMID="18086796">Sureda A, Robinson S, Canals C, et al.: Reduced-intensity conditioning compared with conventional allogeneic stem-cell transplantation in relapsed or refractory Hodgkin's lymphoma: an analysis from the Lymphoma Working Party of the European Group for Blood and Marrow Transplantation. J Clin Oncol 26 (3): 455-62, 2008.</Citation>
+      <Citation idx="24" PMID="18195684">Thomson KJ, Peggs KS, Smith P, et al.: Superiority of reduced-intensity allogeneic transplantation over conventional treatment for relapse of Hodgkin's lymphoma following autologous stem cell transplantation. Bone Marrow Transplant 41 (9): 765-70, 2008.</Citation>
+      <Citation idx="25" PMID="20220116">Sarina B, Castagna L, Farina L, et al.: Allogeneic transplantation improves the overall and progression-free survival of Hodgkin lymphoma patients relapsing after autologous transplantation: a retrospective study based on the time of HLA typing and donor availability. Blood 115 (18): 3671-7, 2010.</Citation>
+      <Citation idx="26" PMID="19915625">Kuruvilla J, Pintilie M, Stewart D, et al.: Outcomes of reduced-intensity conditioning allo-SCT for Hodgkin's lymphoma: a national review by the Canadian Blood and Marrow Transplant Group. Bone Marrow Transplant 45 (7): 1253-5, 2010.</Citation>
+      <Citation idx="27" PMID="21282545">Peggs KS, Kayani I, Edwards N, et al.: Donor lymphocyte infusions modulate relapse risk in mixed chimeras and induce durable salvage in relapsed patients after T-cell-depleted allogeneic transplantation for Hodgkin's lymphoma. J Clin Oncol 29 (8): 971-8, 2011.</Citation>
+      <Citation idx="28" PMID="22454421">Younes A, Gopal AK, Smith SE, et al.: Results of a pivotal phase II study of brentuximab vedotin for patients with relapsed or refractory Hodgkin's lymphoma. J Clin Oncol 30 (18): 2183-9, 2012.</Citation>
+      <Citation idx="29" PMID="22611160">Chen R, Palmer JM, Thomas SH, et al.: Brentuximab vedotin enables successful reduced-intensity allogeneic hematopoietic cell transplantation in patients with relapsed or refractory Hodgkin lymphoma. Blood 119 (26): 6379-81, 2012.</Citation>
+      <Citation idx="30" PMID="23248254">Moskowitz AJ, Hamlin PA Jr, Perales MA, et al.: Phase II study of bendamustine in relapsed and refractory Hodgkin lymphoma. J Clin Oncol 31 (4): 456-60, 2013.</Citation>
+      <Citation idx="31" PMID="9469345" MedlineID="98129247">Little R, Wittes RE, Longo DL, et al.: Vinblastine for recurrent Hodgkin's disease following autologous bone marrow transplant. J Clin Oncol 16 (2): 584-8, 1998.</Citation>
+      <Citation idx="32" PMID="22510871">Gopal AK, Ramchandren R, O'Connor OA, et al.: Safety and efficacy of brentuximab vedotin for Hodgkin lymphoma recurring after allogeneic stem cell transplantation. Blood 120 (3): 560-8, 2012.</Citation>
+      <Citation idx="33" PMID="21047225">Younes A, Bartlett NL, Leonard JP, et al.: Brentuximab vedotin (SGN-35) for relapsed CD30-positive lymphomas. N Engl J Med 363 (19): 1812-21, 2010.</Citation>
+      <Citation idx="34" PMID="7685241" MedlineID="93284576">Uematsu M, Tarbell NJ, Silver B, et al.: Wide-field radiation therapy with or without chemotherapy for patients with Hodgkin disease in relapse after initial combination chemotherapy. Cancer 72 (1): 207-12, 1993.</Citation>
+      <Citation idx="35" PMID="15632410">Josting A, Nogová L, Franklin J, et al.: Salvage radiotherapy in patients with relapsed and refractory Hodgkin's lymphoma: a retrospective analysis from the German Hodgkin Lymphoma Study Group. J Clin Oncol 23 (7): 1522-9, 2005.</Citation>
+      <Citation idx="36" PMID="10073563" MedlineID="99171571">Marshall NA, DeVita VT Jr: Hodgkin's disease and transplantation: a room with a (nontransplanter's) view. Semin Oncol 26 (1): 67-73, 1999.</Citation>
+      <Citation idx="37" PMID="10080597" MedlineID="99178682">Lazarus HM, Rowlings PA, Zhang MJ, et al.: Autotransplants for Hodgkin's disease in patients never achieving remission: a report from the Autologous Blood and Marrow Transplant Registry. J Clin Oncol 17 (2): 534-45, 1999.</Citation>
+      <Citation idx="38" PMID="11786576" MedlineID="21646462">Fermé C, Mounier N, Diviné M, et al.: Intensive salvage therapy with high-dose chemotherapy for patients with advanced Hodgkin's disease in relapse or failure after initial chemotherapy: results of the Groupe d'Etudes des Lymphomes de l'Adulte H89 Trial. J Clin Oncol 20 (2): 467-75, 2002.</Citation>
+      <Citation idx="39" PMID="10506605" MedlineID="99438175">Sweetenham JW, Carella AM, Taghipour G, et al.: High-dose therapy and autologous stem-cell transplantation for adult patients with Hodgkin's disease who do not enter remission after induction chemotherapy: results in 175 patients reported to the European Group for Blood and Marrow Transplantation. Lymphoma Working Party. J Clin Oncol 17 (10): 3101-9, 1999.</Citation>
+      <Citation idx="40" PMID="10462330" MedlineID="99389426">Laurence AD, Goldstone AH: High-dose therapy with hematopoietic transplantation for Hodgkin's lymphoma. Semin Hematol 36 (3): 303-12, 1999.</Citation>
+      <Citation idx="41" PMID="18623377">Gopal AK, Metcalfe TL, Gooley TA, et al.: High-dose therapy and autologous stem cell transplantation for chemoresistant Hodgkin lymphoma: the Seattle experience. Cancer 113 (6): 1344-50, 2008.</Citation>
+      <Citation idx="42" PMID="19018090">Morschhauser F, Brice P, Fermé C, et al.: Risk-adapted salvage treatment with single or tandem autologous stem-cell transplantation for first relapse/refractory Hodgkin's lymphoma: results of the prospective multicenter H96 trial by the GELA/SFGM study group. J Clin Oncol 26 (36): 5980-7, 2008.</Citation>
+    </ReferenceSection>
+  </SummarySection>
+  <SummarySection id="_448">
+    <SectMetaData>
+      <SpecificDiagnosis ref="CDR0000040208">adult Hodgkin lymphoma</SpecificDiagnosis>
+      <SectionType>Treatment options by stage</SectionType>
+    </SectMetaData>
+    <Title>HL During Pregnancy</Title>
+    <SummarySection id="_449">
+      <Title>Introduction</Title>
+      <Para id="_450">
+        Since Hodgkin lymphoma affects primarily young adults, most oncologists will
+        eventually face the dilemma of how to provide therapy to a pregnant woman while
+        minimizing the risk to the fetus.  Treatment choice must be individualized,
+        taking into consideration the mother’s wishes, the severity and pace of the
+        Hodgkin lymphoma (HL), and the length of the remaining pregnancy.  Since general
+        guidelines can never substitute for clinical judgment, oncologists should be
+        prepared to alter the initial plans when necessary.
+      </Para>
+    </SummarySection>
+    <SummarySection id="_451">
+      <SectMetaData>
+        <SpecificDiagnosis ref="CDR0000040208">adult Hodgkin lymphoma</SpecificDiagnosis>
+        <SectionType>Stage explanation--legacy</SectionType>
+      </SectMetaData>
+      <Title>Stage Information for HL During Pregnancy</Title>
+      <Para id="_452">
+        To avoid exposure to ionizing
+        radiation, magnetic resonance imaging
+        is the preferred tool for staging evaluation.
+        <Reference refidx="1" />
+        The presenting stage, clinical behavior, prognosis, and histologic subtypes of HL during pregnancy do not differ from those of nonpregnant women during their childbearing years.
+        <Reference refidx="2" />
+        See the
+        <SummaryRef href="CDR0000062675#_12" url="/types/lymphoma/hp/adult-hodgkin-treatment-pdq">Stage Information for Adult Hodgkin Lymphoma (HL)</SummaryRef>
+        section for more information.
+      </Para>
+    </SummarySection>
+    <SummarySection id="_453">
+      <SectMetaData>
+        <SpecificDiagnosis ref="CDR0000040208">adult Hodgkin lymphoma</SpecificDiagnosis>
+        <SectionType>Treatment option overview--legacy</SectionType>
+      </SectMetaData>
+      <Title>Treatment Option Overview for HL During Pregnancy</Title>
+      <Para id="_454">
+        HL that is diagnosed in the first trimester of pregnancy does not constitute an absolute indication for therapeutic abortion.  Each patient must be looked at individually to take into account the stage and rapidity of growth of the lymphoma and the patient's wishes.
+        <Reference refidx="3" />
+        If the HL presents in
+        early stage above the diaphragm and appears to be growing slowly, patients can
+        be followed carefully with plans to induce delivery early and proceed with
+        definitive therapy.
+        <Reference refidx="4" />
+        Alternatively, these patients can receive radiation
+        therapy with proper shielding.
+        <Reference refidx="5" />
+        <Reference refidx="6" />
+        <Reference refidx="7" />
+        <Reference refidx="8" />
+        Investigators at M.D. Anderson reported no
+        congenital abnormalities in 16 babies delivered after the mothers had received
+        supradiaphragmatic radiation while shielding the uterus with five half-value
+        layers of lead.
+        <Reference refidx="9" />
+        Because of  theoretical risks that the fetus might develop future malignancies from even minimal scattered radiation doses outside the radiation field, radiation therapy should be postponed, if possible, until after delivery.
+        <Reference refidx="10" />
+      </Para>
+      <Para id="_455">
+        Chemotherapy that is administered in the first trimester has been
+        associated with congenital abnormalities in as many as 33% of infants.
+        <Reference refidx="11" />
+        <Reference refidx="12" />
+        However, in one  series, there were no adverse effects in 14 children of mothers
+        who received a combination of mechlorethamine, vincristine,  procarbazine, and prednisone (MOPP) or
+        a combination of doxorubicin, bleomycin, vinblastine, and dacarbazine (ABVD) during gestation, five 
+        of whom began treatment during the first trimester.
+        <Reference refidx="13" />
+        Consequently, some
+        women may opt to continue the pregnancy and agree to radiation therapy or
+        chemotherapy if immediate treatment is required.
+      </Para>
+      <Para id="_456">
+        In the second half of pregnancy, most patients can be followed carefully
+        and can postpone therapy until induction of delivery at 32 to 36 weeks.
+        <Reference refidx="11" />
+        <Reference refidx="14" />
+        <Reference refidx="15" />
+        If
+        chemotherapy is mandatory prior to delivery, such as for patients with
+        symptomatic advanced stage disease, vinblastine alone (given at 6 mg/m²  intravenously every 2 weeks until induction of delivery) may
+        be considered because  it has never been associated with fetal abnormalities in the
+        second half of pregnancy.
+        <Reference refidx="14" />
+        <Reference refidx="15" />
+        Steroids are employed both for their
+        antitumor effect and  for hastening fetal pulmonary maturity.  As an
+        alternative, a short course of radiation therapy can  be used prior to delivery in
+        cases of respiratory compromise caused by the  rapidly enlarging mediastinal mass. 
+        Combination chemotherapy with ABVD appears to be safe in the second half of
+        pregnancy.
+        <Reference refidx="13" />
+        If chemotherapy is required after the first trimester, many
+        clinicians prefer the combination of drugs over single-agent drugs or radiation
+        therapy.
+      </Para>
+      <Para id="_457">
+        In one study, the 20-year survival rate of pregnant women with HL did not differ  from the 20-year survival rate of nonpregnant women who were matched for similar stage of disease, age
+        at diagnosis, and calendric year of treatment.
+        <Reference refidx="16" />
+        The long-term effects on
+        progeny after chemotherapy in utero are unknown, though present evidence
+        tends to be reassuring.
+        <Reference refidx="12" />
+        <Reference refidx="13" />
+        <Reference refidx="14" />
+        <Reference refidx="15" />
+        <Reference refidx="16" />
+      </Para>
+    </SummarySection>
+    <ReferenceSection>
+      <Citation idx="1" PMID="11130469" MedlineID="21013025">Nicklas AH, Baker ME: Imaging strategies in the pregnant cancer patient. Semin Oncol 27 (6): 623-32, 2000.</Citation>
+      <Citation idx="2" PMID="8674008" MedlineID="96284299">Gelb AB, van de Rijn M, Warnke RA, et al.: Pregnancy-associated lymphomas. A clinicopathologic study. Cancer 78 (2): 304-10, 1996.</Citation>
+      <Citation idx="3" PMID="2198503">Koren G, Weiner L, Lishner M, et al.: Cancer in pregnancy: identification of unanswered questions on maternal and fetal risks. Obstet Gynecol Surv 45 (8): 509-14, 1990.</Citation>
+      <Citation idx="4" PMID="10085508">Anselmo AP, Cavalieri E, Enrici RM, et al.: Hodgkin's disease during pregnancy: diagnostic and therapeutic management. Fetal Diagn Ther 14 (2): 102-5, 1999 Mar-Apr.</Citation>
+      <Citation idx="5" PMID="12742274">Mazonakis M, Varveris H, Fasoulaki M, et al.: Radiotherapy of Hodgkin's disease in early pregnancy: embryo dose measurements. Radiother Oncol 66 (3): 333-9, 2003.</Citation>
+      <Citation idx="6" PMID="11130470" MedlineID="21013026">Greskovich JF Jr, Macklis RM: Radiation therapy in pregnancy: risk calculation and risk minimization. Semin Oncol 27 (6): 633-45, 2000.</Citation>
+      <Citation idx="7" PMID="8958407">Fisher PM, Hancock BW: Hodgkin's disease in the pregnant patient. Br J Hosp Med 56 (10): 529-32, 1996 Nov 20-Dec 10.</Citation>
+      <Citation idx="8" PMID="8221483">Friedman E, Jones GW: Fetal outcome after maternal radiation treatment of supradiaphragmatic Hodgkin's disease. CMAJ 149 (9): 1281-3, 1993.</Citation>
+      <Citation idx="9" PMID="1587764" MedlineID="92267905">Woo SY, Fuller LM, Cundiff JH, et al.: Radiotherapy during pregnancy for clinical stages IA-IIA Hodgkin's disease. Int J Radiat Oncol Biol Phys 23 (2): 407-12, 1992.</Citation>
+      <Citation idx="10" PMID="12821536">Lishner M: Cancer in pregnancy. Ann Oncol 14 (Suppl 3): iii31-6, 2003.</Citation>
+      <Citation idx="11" PMID="15120665">Cardonick E, Iacobucci A: Use of chemotherapy during human pregnancy. Lancet Oncol 5 (5): 283-91, 2004.</Citation>
+      <Citation idx="12" PMID="953978" MedlineID="76255463">Thomas PR, Biochem D, Peckham MJ: The investigation and management of Hodgkin's disease in the pregnant patient. Cancer 38 (3): 1443-51, 1976.</Citation>
+      <Citation idx="13" PMID="1707227" MedlineID="91189165">Avilés A, Díaz-Maqueo JC, Talavera A, et al.: Growth and development of children of mothers treated with chemotherapy during pregnancy: current status of 43 children. Am J Hematol 36 (4): 243-8, 1991.</Citation>
+      <Citation idx="14" PMID="7305142" MedlineID="82066428">Jacobs C, Donaldson SS, Rosenberg SA, et al.: Management of the pregnant patient with Hodgkin's disease. Ann Intern Med 95 (6): 669-75, 1981.</Citation>
+      <Citation idx="15" PMID="3717081" MedlineID="86239106">Nisce LZ, Tome MA, He S, et al.: Management of coexisting Hodgkin's disease and pregnancy. Am J Clin Oncol 9 (2): 146-51, 1986.</Citation>
+      <Citation idx="16" PMID="1733434" MedlineID="92126487">Lishner M, Zemlickis D, Degendorfer P, et al.: Maternal and foetal outcome following Hodgkin's disease in pregnancy. Br J Cancer 65 (1): 114-7, 1992.</Citation>
+    </ReferenceSection>
+  </SummarySection>
+  <SummarySection id="_207">
+    <SectMetaData>
+      <SectionType>Changes to summary</SectionType>
+    </SectMetaData>
+    <Title>Changes to This Summary (04/22/2015)</Title>
+    <Para id="_208">
+      The PDQ cancer information summaries are reviewed regularly and updated as
+      new information becomes available.  This section describes the latest
+      changes made to this summary as of the date above.
+    </Para>
+    <Para id="_655">Editorial changes were made to this summary.</Para>
+    <Para id="_disclaimerHP_3">
+      This summary is written and maintained by the
+      <ExternalRef xref="http://www.cancer.gov/cancertopics/pdq/adult-treatment-board">PDQ Adult Treatment Editorial Board</ExternalRef>
+      , which is
+      editorially independent of NCI.  The summary reflects an independent review of
+      the literature and does not represent a policy statement of NCI or NIH.  More
+      information about summary policies and the role of the PDQ Editorial Boards  in
+      maintaining the PDQ summaries can be found on the
+      <SummaryRef href="CDR0000062675#_AboutThis_1" url="http://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq">About This PDQ Summary</SummaryRef>
+      and
+      <ExternalRef xref="http://www.cancer.gov/cancertopics/pdq">PDQ NCI's Comprehensive Cancer Database</ExternalRef>
+      pages.
+    </Para>
+  </SummarySection>
+  <SummarySection id="_AboutThis_1">
+    <Title>About This PDQ Summary</Title>
+    <SummarySection id="_AboutThis_2">
+      <Title>Purpose of This Summary</Title>
+      <Para id="_AboutThis_3">This PDQ cancer information summary for health professionals provides comprehensive, peer-reviewed, evidence-based information about the treatment of adult Hodgkin lymphoma. It is intended as a resource to inform and assist clinicians who care for cancer patients.  It does not provide formal guidelines or recommendations for making health care decisions.</Para>
+    </SummarySection>
+    <SummarySection id="_AboutThis_4">
+      <Title>Reviewers and Updates</Title>
+      <Para id="_AboutThis_5">
+        This summary is reviewed regularly and updated as necessary by the
+        <ExternalRef xref="http://www.cancer.gov/cancertopics/pdq/adult-treatment-board">PDQ Adult Treatment Editorial Board</ExternalRef>
+        , which is editorially independent of the National Cancer Institute (NCI).  The summary reflects an independent review of the literature and does not represent a policy statement of NCI or the National Institutes of Health (NIH).
+      </Para>
+      <Para id="_AboutThis_22">Board members review recently published articles each month to determine whether an article should:</Para>
+      <ItemizedList id="_AboutThis_6" Style="bullet">
+        <ListItem>be discussed at a meeting,</ListItem>
+        <ListItem>be cited with text, or</ListItem>
+        <ListItem>replace or update an existing article that is already cited.</ListItem>
+      </ItemizedList>
+      <Para id="_AboutThis_7">Changes to the summaries are made through a consensus process in which Board members evaluate the strength of the evidence in  the published articles and determine how the article should be included in the summary.</Para>
+      <Para>The lead reviewer for Adult Hodgkin Lymphoma Treatment is:</Para>
+      <ItemizedList Style="bullet">
+        <ListItem>Eric J. Seifter, MD (Johns Hopkins University)</ListItem>
+      </ItemizedList>
+      <Para id="_AboutThis_9">
+        Any comments or questions about the summary content should be submitted to Cancer.gov through the Web site's
+        <ExternalRef xref="http://www.cancer.gov/contact">Contact Form</ExternalRef>
+        . Do not contact the individual Board Members with questions or comments about the summaries. Board members will not respond to individual inquiries.
+      </Para>
+    </SummarySection>
+    <SummarySection id="_AboutThis_10">
+      <Title>Levels of Evidence</Title>
+      <Para id="_AboutThis_11">
+        Some of the reference citations in this summary are accompanied by a level-of-evidence designation. These designations are intended to help readers assess the strength of the evidence supporting the use of specific interventions or approaches. The PDQ Adult Treatment Editorial Board uses a
+        <SummaryRef href="CDR0000062796" url="/publications/pdq/levels-evidence/treatment">formal evidence ranking system</SummaryRef>
+        in developing its level-of-evidence designations.
+      </Para>
+    </SummarySection>
+    <SummarySection id="_AboutThis_12">
+      <Title>Permission to Use This Summary</Title>
+      <Para id="_AboutThis_13">PDQ is a registered trademark. Although the content of PDQ documents can be used freely as text, it cannot be identified as an NCI PDQ cancer information summary unless it is presented in its entirety and is regularly updated. However, an author would be permitted to write a sentence such as “NCI’s PDQ cancer information summary about breast cancer prevention states the risks succinctly: [include excerpt from the summary].”</Para>
+      <Para id="_AboutThis_14">The preferred citation for this PDQ summary is:</Para>
+      <Para id="_AboutThis_15">
+        National Cancer Institute: PDQ® Adult Hodgkin Lymphoma Treatment. Bethesda, MD: National Cancer Institute. Date last modified  &lt;MM/DD/YYYY&gt;. Available at:
+        <ExternalRef xref="http://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq">http://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq</ExternalRef>
+        .  Accessed &lt;MM/DD/YYYY&gt;.
+      </Para>
+      <Para id="_AboutThis_16">
+        Images in this summary are used with permission of the author(s), artist, and/or publisher for use within the PDQ summaries only. Permission to use images outside the context of PDQ information must be obtained from the owner(s) and cannot be granted by  the National Cancer Institute. Information about using the illustrations in this summary, along with many other cancer-related images, is available in
+        <ExternalRef xref="http://visualsonline.cancer.gov/">Visuals Online</ExternalRef>
+        , a collection of over 2,000 scientific images.
+
+      </Para>
+    </SummarySection>
+    <SummarySection id="_AboutThis_17">
+      <Title>Disclaimer</Title>
+      <Para id="_AboutThis_18">
+        Based on the strength of the available evidence, treatment options may be described as either “standard” or “under clinical evaluation.” These classifications should not be used as a basis for insurance reimbursement determinations. More information on insurance coverage is available on Cancer.gov on the
+        <ExternalRef xref="http://www.cancer.gov/cancertopics/coping/financial-legal">Coping with Cancer: Financial, Insurance, and Legal Information</ExternalRef>
+        page.
+      </Para>
+    </SummarySection>
+    <SummarySection id="_AboutThis_20">
+      <Title>Contact Us</Title>
+      <Para id="_AboutThis_21">
+        More information about contacting us or receiving help with the Cancer.gov Web site can be found on our
+        <ExternalRef xref="http://www.cancer.gov/help">Contact Us for Help</ExternalRef>
+        page. Questions can also be submitted to Cancer.gov through the Web site’s
+        <ExternalRef xref="http://www.cancer.gov/contact">Contact Form</ExternalRef>
+        .
+      </Para>
+    </SummarySection>
+  </SummarySection>
+  <SummarySection id="_GetMore_3">
+    <Title>Get More Information From NCI</Title>
+    <Para id="_GetMore_15">
+      <Emphasis>
+        <Strong>Call 1-800-4-CANCER</Strong>
+      </Emphasis>
+    </Para>
+    <Para id="_GetMore_16">For more information, U.S. residents may call the National Cancer Institute's (NCI's) Cancer Information Service toll-free at 1-800-4-CANCER (1-800-422-6237) Monday through Friday from 8:00 a.m. to 8:00 p.m., Eastern Time.  A trained Cancer Information Specialist is available to answer your questions.</Para>
+    <Para id="_GetMore_25">
+      <Emphasis>
+        <Strong>Chat online</Strong>
+      </Emphasis>
+    </Para>
+    <Para id="_GetMore_26">
+      The
+      <ExternalRef xref="https://livehelp.cancer.gov/">NCI's LiveHelp®</ExternalRef>
+      online chat service provides Internet users with the ability to chat online with an Information Specialist. The service is available from 8:00 a.m. to 11:00 p.m. Eastern time, Monday through Friday. Information Specialists can help Internet users find information on NCI Web sites and answer questions about cancer.
+    </Para>
+    <Para id="_GetMore_27">
+      <Emphasis>
+        <Strong>Write to us</Strong>
+      </Emphasis>
+    </Para>
+    <Para id="_GetMore_28">For more information from the NCI, please write to this address:</Para>
+    <ItemizedList id="_GetMore_29" Style="simple">
+      <ListItem>NCI Public Inquiries Office</ListItem>
+      <ListItem>9609 Medical Center Dr.</ListItem>
+      <ListItem>Room 2E532 MSC 9760</ListItem>
+      <ListItem>Bethesda, MD 20892-9760</ListItem>
+    </ItemizedList>
+    <Para id="_GetMore_17">
+      <Emphasis>
+        <Strong>Search the NCI Web site</Strong>
+      </Emphasis>
+    </Para>
+    <Para id="_GetMore_18">
+      The
+      <ExternalRef xref="http://cancer.gov">NCI Web site</ExternalRef>
+      provides online access to information on cancer, clinical trials, and other Web sites and organizations that offer support and resources for cancer patients and their families.  For a quick search, use the search box in the upper right corner of each Web page. The results for a wide range of search terms will include a list of "Best Bets," editorially chosen Web pages that are most closely related to the search term entered.
+    </Para>
+    <Para id="_GetMore_30">There are also many other places to get materials and information about cancer treatment and services.      Hospitals in your area may have information about  local and regional agencies that have information on finances, getting to and from treatment, receiving care at home, and dealing with problems related to cancer treatment.</Para>
+    <Para id="_GetMore_19">
+      <Emphasis>
+        <Strong>Find Publications</Strong>
+      </Emphasis>
+    </Para>
+    <Para id="_GetMore_20">
+      The NCI has booklets and other materials for patients, health professionals, and the public.  These publications discuss types of cancer, methods of cancer treatment, coping with cancer, and clinical trials.  Some publications provide information on tests for cancer, cancer causes and prevention, cancer statistics, and NCI research activities.  NCI materials on these and other topics may be ordered online or printed directly from the
+      <ExternalRef xref="https://pubs.cancer.gov/ncipl">NCI Publications Locator</ExternalRef>
+      . These materials can also be ordered by telephone from the Cancer Information Service toll-free at 1-800-4-CANCER (1-800-422-6237).
+    </Para>
+  </SummarySection>
+  <DateLastModified>2015-04-22</DateLastModified>
+</Summary>

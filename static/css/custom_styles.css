@@ -1,0 +1,705 @@
+.tabbable .vertical-tabs-panes {
+  background: #FFF;
+  border-radius: 0px;
+}
+/*Custom styles for treatment*/
+.pdq-on-this-page {
+  /*  border: 1px solid;
+    float: left;
+    margin-right: 20px;
+    width: 30%;
+  */
+}
+.node-type-cancer-type .node .group-cancer-vertical .horizontal-tabs fieldset.group-patient-tab {
+  padding-right: 0px;
+}
+.group-nci-treatment .contentzone #_article h1,
+.group-nci-treatment .summary-sections #_article h1{
+  font-weight: bold;
+  font-style: normal;
+  font-size: 36px;
+  color: #606060;
+  text-rendering: optimizeLegibility;
+}
+.group-nci-treatment .summary-sections #pdq-toptoc h3{
+  background-color: #499db8;
+  margin: 0;
+  padding: 10px;
+  color: #FFFFFF;
+}
+#c1ecfa
+.group-nci-treatment .contentzone #_article h2,
+.group-nci-treatment .contentzone #_article h3,
+.group-nci-treatment .summary-sections #pdq-toptoc h2{
+  color: #606060;  
+}
+.group-nci-treatment .contentzone #_toc_article,
+.group-nci-treatment .summary-sections #pdq-toptoc {
+  float: right;
+  width: 30%;
+}
+.group-nci-treatment .summary-sections #pdq-toptoc:nth-child(2) {display: none;}
+.group-nci-treatment .contentzone section.pdq-sections  {}
+.group-nci-treatment .contentzone .pdq-sections .keyPoints,
+.group-nci-treatment .summary-sections .pdq-sections .keyPoints {
+  display: none;
+}
+.group-nci-treatment .contentzone #_toc_article ul,
+.group-nci-treatment .summary-sections #pdq-toptoc ul {
+  padding-left: 0;
+}
+.group-nci-treatment .contentzone #_toc_article ul li ul,
+.group-nci-treatment .summary-sections #pdq-toptoc ul li ul{
+  display: none;
+}
+.group-nci-treatment .contentzone #_toc_article ul li a,
+.group-nci-treatment .summary-sections #pdq-toptoc ul li a{
+  color: #000000;
+}
+.group-nci-treatment .contentzone #_toc_article ul li,
+.group-nci-treatment .summary-sections #pdq-toptoc ul li{
+  list-style: none;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;  
+  padding: 10px;
+}
+.group-nci-treatment .contentzone #_toc_article ul li:before,
+.group-nci-treatment .summary-sections #pdq-toptoc ul li:before{
+	content:'';
+}
+.group-nci-treatment .contentzone #_toc_article h4,
+.group-nci-treatment .summary-sections #pdq-toptoc h4{
+  margin: 0;
+  padding: 20px 5px;
+  background:  #499db8;
+  color: #FFF;  
+}
+.group-nci-treatment .contentzone #_toc_article ul li:hover,
+.group-nci-treatment .summary-sections #pdq-toptoc ul li:hover{
+  border-left: 5px solid #499db8;
+}
+.field-name-field-treatment .contentzone ul li {
+  background: none !important;
+  list-style-type: disc !important;
+}
+.pdq-sections {
+/*    float: left;
+    width: 65%;
+    display: none;
+ */ }
+#_section_1_1.pdq-sections {
+    display: block;
+}
+
+/***images**/
+.node-cancer-type .field-name-field-images .field-item{
+/*    float: left;
+    width:220px;
+    height:220px;
+*/
+}
+.node-cancer-type .view-cancer-image-slideshow{
+  clear: both;
+  padding: 10px 0px !important;
+}
+.node-cancer-type .group-treatment-vertical .group-groud-codes,
+.node-cancer-type .group-groud-codes div:first-child {
+  float: left;
+  width: 100%;
+}
+.node-cancer-type .group-groud-codes > div > span{
+  cursor: pointer;
+  padding: 10px;
+  background: #499db8;
+  float: left;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+.node-cancer-type .group-treatment-vertical .field-name-field-treatment,
+.node-cancer-type .group-treatment-vertical .field-name-field-treatment-default-field {
+  display: none;
+}
+
+
+.node-type-cancer-type #block-views-6ca950daa59e9d553b1558eebe0456d7 h2.block-title {
+  font-size: 16px;
+    color: #fff;
+    background-color: #aaa;
+    border-radius: 3px 3px 0 0;
+    padding: 8px 15px;
+    font-weight: normal;
+    margin: 0px;
+}
+.node-type-cancer-type #block-views-6ca950daa59e9d553b1558eebe0456d7 .view-content{
+	max-height:190px;
+	overflow-y:auto;
+}
+.node-type-cancer-type #block-views-6ca950daa59e9d553b1558eebe0456d7 ul{
+  padding-left: 0;
+  margin:0px;
+}
+.node-type-cancer-type #block-views-6ca950daa59e9d553b1558eebe0456d7 ul li a{
+  color: #929292;
+}
+
+.node-type-cancer-type #block-views-6ca950daa59e9d553b1558eebe0456d7 ul li{
+  list-style: none;
+  padding: 5px 15px;
+   border-bottom: #eee 1px solid;
+}
+.node-type-cancer-type #block-views-6ca950daa59e9d553b1558eebe0456d7 ul li:before{content:'';}
+.node-type-cancer-type #block-views-6ca950daa59e9d553b1558eebe0456d7 ul li.views-row-last{
+	border:none;
+}
+.node-cancer-type .group-clinical-trials .field-name-field-clinical-trials-image {
+  text-align: center;
+}
+.node-cancer-type .group-clinical-trials .field-name-field-clinical-trials-image img {
+  height: 300px;
+  width: 300px;
+}
+.node-cancer-type .group-treatment-vertical .group-nci-treatment{
+  border-right: 1px solid #E5E5E5;
+  margin: 5px 0px 0px 0px;  
+}
+
+.region-content .node-cancer-type .field-name-field-icd-o-codes,
+.region-content .node-cancer-type .field-name-field-icd-10-code,
+.region-content .node-cancer-type .field-name-field-omim-number,
+.region-content .node-cancer-type .field-name-field-mesh,
+.region-content .node-cancer-type .field-name-field-medra,
+.region-content .node-cancer-type .field-name-field-umls {
+  float: left;
+  padding: 5px 10px;
+  border: 1px solid #E5E5E5;
+  margin: 5px -1px 0px 0px;
+}
+.region-content .node-cancer-type .field-group-tabs-wrapper {
+  clear: both;
+}
+
+.node-cancer-type .field-name-field-expert-reference {
+  margin-left: 40px;
+}
+.node-cancer-type .field-name-field-expert-reference .node-expert h2{
+  margin-left: 130px;
+}
+.node-type-cancer-type #modalContent .modal-content .field-label {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 10px 0px 5px;
+  margin: 15px 0px;
+  font-size: 16px;
+  color: #0AA89E;
+}
+.node-type-cancer-type #modalContent .modal-content .modal-header {
+  border-bottom: 0px;
+}
+.node-type-cancer-type #modalContent .modal-content .modal-header  .modal-title{
+  display: none;
+}
+
+.node-type-cancer-type #cboxLoadedContent .node-expert {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-bottom: 0px solid #ccc;
+  padding: 10px;
+}
+.node-type-cancer-type #cboxWrapper .group-footer {
+  clear: both;
+}
+.node-type-cancer-type #cboxWrapper .group-footer .field-label {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 10px 0px 5px;
+  margin: 15px 0px;
+  font-size: 18px;
+  color: #0AA89E;
+}
+.node-type-cancer-type #modalContent .modal-content .group-left {
+  width: 35%;
+}
+.node-type-cancer-type #modalContent .modal-content .group-right {
+  width: 65%;
+}
+.node-type-cancer-type #modalContent .modal-content .group-right .field-name-title h2,
+.node-type-cancer-type #cboxWrapper .group-right .field-name-title h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #0AA89E;
+}
+.node-type-cancer-type #modalContent .modal-content .group-right .field-name-field-speciality a,
+.node-type-cancer-type #cboxWrapper .group-right  .field-name-field-speciality a {
+  color: #000000;
+  font-weight: bold;
+}
+.node-type-cancer-type #cboxWrapper .main-header {
+  display: none;
+}
+.node-type-cancer-type .field-group-htabs > ul > li > a {
+  font-size: 16px; 
+  color: red;
+}
+.node-type-cancer-type .group-health-professional .field-name-field-images img,
+.node-type-cancer-type .group-details-patient-health .field-name-field-patient-version-images img{
+  height: 150px;
+  width: 140px;
+  float: left;
+  margin: 10px 10px 0px 0px;
+  border: 1px solid #E5E5E5;
+}
+.node-type-cancer-type #cboxWrapper .field-name-field-research-interests .field-item {
+  float:left;
+  width: 33%;
+}
+
+
+.node-type-cancer-type #cboxWrapper .field-name-body,
+.node-type-cancer-type #cboxWrapper .field-name-field-research-interests,
+.node-type-cancer-type #cboxWrapper .field-name-field-medical-education,
+.node-type-cancer-type #cboxWrapper .field-name-field-training-new,
+.node-type-cancer-type #cboxWrapper .field-name-field-publications,
+.node-type-cancer-type #modalContent .modal-content .field-name-body,
+.node-type-cancer-type #modalContent .modal-content .field-name-field-research-interests,
+.node-type-cancer-type #modalContent .modal-content .field-name-field-medical-education,
+.node-type-cancer-type #modalContent .modal-content .field-name-field-training-new,
+.node-type-cancer-type #modalContent .modal-content .field-name-field-publications {
+  font-size: 12px;
+  clear: both;
+  margin-top: 5px;
+  float: left;
+  width: 100%;
+}
+/*.node-expert .field-name-field-profile-picture img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+}*/
+.page-taxonomy-term .view-mode-teaser .group-left {
+  width: 15%;
+}
+.page-taxonomy-term .view-mode-teaser .group-right {
+  width: 85%;  
+}
+.page-taxonomy-term .view-mode-teaser .group-left img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px; 
+}
+.page-taxonomy-term .view-mode-teaser .group-right .field-name-title  {
+/*  margin-top: 25px;*/
+  font-size: 16px;
+  font-weight: 400;
+}
+.page-taxonomy-term .view-mode-teaser .group-right .field-name-field-institution,
+.page-taxonomy-term .view-mode-teaser .group-right .field-name-field-institution a {
+  font-size: 12px;
+  font-weight: bold;  
+}
+.page-taxonomy-term .view-mode-teaser .group-right .field-name-field-research-interests,
+.page-taxonomy-term .view-mode-teaser .group-right .field-name-field-research-interests a {
+  font-size: 12px;
+  font-style: italic;
+}
+.page-taxonomy-term .view-mode-teaser .group-right .field-name-field-research-interests .field-label,
+.page-taxonomy-term .view-mode-teaser .group-right .field-name-field-research-interests .field-item {
+  float: left;
+}
+.page-taxonomy-term .view-mode-teaser .group-right .field-name-field-research-interests .field-item h2 {
+  margin: 0;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+.view-experts-from-cancer-type .views-field-field-profile-picture img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  cursor:pointer;
+}
+.node-expert .field-name-field-profile-picture img{
+  height: 150px;
+  width: 150px;
+}
+.node-expert .field-name-field-profile-picture,
+.view-experts-from-cancer-type .views-field-field-profile-picture {
+  margin-right: 25px;
+  margin-bottom: 30px;
+  float:left;
+}
+#edit-group-experts-vertical > .view-experts-from-cancer-type > .view-content > .views-row {
+  clear: both;
+  float: left;
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  margin-bottom: 2px;
+  background-color: #ffffff;
+  color: #313534;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+}
+.view-experts-from-cancer-type .views-row .views-field-nothing{
+	clear:both;
+}
+.view-experts-from-cancer-type .views-row .views-field-nothing .experts-field-wrapper {
+    border-top: #ddd 1px solid;
+    padding: 10px 0;
+}
+.view-experts-from-cancer-type .views-row .expert-map{padding-left:125px; margin-bottom:24px;}
+.view-experts-from-cancer-type .views-row .expert-map .gmap-gmap{width:100% !important;}
+.view-experts-from-cancer-type .views-row .expert-detail{clear:both;}
+.view-experts-from-cancer-type .views-row .expert-detail .card{
+  background-color: #f7f7f7;
+}
+.view-experts-from-cancer-type .views-row .expert-detail .card:first-child .experts-field-data{
+	  clear: both;
+    padding: 10px 0 10px 50px;
+    display: block;
+}
+.experts-field-data .location.vcard, .experts-field-data .location-hidden {
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+	padding:0 0 15px 0;
+}
+.node-cancer-type .group-experts .panel-body,
+.node-cancer-type #edit-group_pubmed .panel-body {
+  padding: 15px 0px;
+}
+.node-cancer-type .view-id-experts_from_cancer_type {
+}
+.node-cancer-type .publications ul.pagination li{
+	padding:0px !important;
+}
+.node-cancer-type .publications ul.pagination li:before{content:'';}
+.node-cancer-type .publications ul.pagination li.activeSlide a{
+	background-color: #0AA89E;
+  border-color: #0AA89E;
+  color:#fff;
+}
+.node-cancer-type .publications ul.asd{
+  clear: both;
+  padding-left: 0px;
+}
+
+.node-cancer-type .publications ul.asd li{
+  list-style: none;
+  padding: 20px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.node-cancer-type .publications ul.asd li:before{content:'';}
+.node-cancer-type .publications ul li .publication-link,
+.node-cancer-type .publications ul li .publication-authors,
+.node-cancer-type .publications ul li .publication-journal,
+.node-cancer-type .publications ul li .eLocator {
+  font-weight: bold;
+}
+.node-cancer-type .publications ul li .pubmedid {
+  color: #ccc;
+}
+
+.node-cancer-type .group-experts .main-header,
+.node-cancer-type .publications .main-header {
+  border-bottom: 1px solid #E5E5E5;
+  float: left;
+  width: 100%;
+}
+.node-cancer-type .group-related-cancer-tab .panel-body{
+  padding: 0;
+}
+.node-cancer-type .group-related-cancer-tab .views-row {
+  font-size: 14px;
+  padding: 10px;
+}
+.node-cancer-type .group-related-cancer-tab .page-title {
+  color: #0AA89E;
+  font-size: 16px;
+  border-bottom: 1px solid #E5E5E5;
+  font-weight: bold;
+  padding: 10px 20px 15px;
+}
+.node-cancer-type .publications .page-title{
+  
+  font-size: 20px;  
+  margin-bottom:0px;
+  color: #0AA89E;
+}
+
+.node-cancer-type .group-experts .page-title{
+  color: #0AA89E;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  margin-bottom: 10px;
+  padding: 0px 20px 0px;
+}
+
+.node-cancer-type .group-experts .main-header .text-center,
+.node-cancer-type .publications  .main-header .text-center {
+  float: right;
+  padding-right: 15px;
+}
+.node-cancer-type .group-experts .main-header .text-center .pagination {
+  margin: 0px;
+/*  padding-bottom: 12px; */
+}
+/*.node-cancer-type .group-experts .main-header .text-center:before {
+  content: "Page: ";
+  padding: 5px 20px;
+  float: left;
+}*/
+
+.node-cancer-type .group-experts .main-header .text-center .pagination .pager-ellipsis span {
+  border: none;
+  background-color: transparent;
+  padding: 2px 2px;
+  margin: 0px;
+  color: #0AA89E;
+}
+.node-cancer-type .group-experts .main-header .text-center .pagination li a {
+  margin: 5px 2px;
+  border: none;
+  background-color: transparent;
+  padding: 10px 2px 5px;
+  color: #0AA89E;
+}
+.node-cancer-type .group-experts .main-header .text-center .pagination li.active a {
+  background: url(../images/ellipse.png);
+  width: 26px;
+  height: 26px;
+  margin: 12px 5px;
+  background-repeat: no-repeat;
+  padding: 5px 2px 5px;
+}
+
+.view-experts-from-cancer-type .views-row .views-field-field-institution a{
+  font-weight: bold;
+}
+.view-experts-from-cancer-type .views-row .views-field-field-speciality,
+.view-experts-from-cancer-type .views-row .views-field-field-research-interests {
+  font-size: 14px;
+  padding: 5px 0px;
+  line-height: 16px;
+}
+.view-experts-from-cancer-type .views-row .views-field-field-speciality .views-label ,
+.view-experts-from-cancer-type .views-row .views-field-field-research-interests .views-label {
+/*  font-style: italic;*/
+}
+/*.view-experts-from-cancer-type .views-row .views-field-field-speciality .field-content a,
+.view-experts-from-cancer-type .views-row .views-field-field-research-interests .field-content a,
+.view-experts-from-cancer-type .views-row .views-field-field-institution .field-content a{
+  color: #000000;
+}*/
+
+.view-experts-from-cancer-type .views-row .views-field .views-label {
+  float: left;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.view-experts-from-cancer-type .views-row .views-field .field-content {
+/*  font-weight: bold;*/
+}
+
+.view-experts-from-cancer-type .views-row .views-field-title {
+/*  margin-top: 25px;*/
+  font-size: 16px;
+  font-weight: 400;
+  color: #0AA89E;
+  margin-bottom: 10px;
+  cursor:pointer;
+}
+.view-experts-from-cancer-type .views-row .views-field-title .field-content {
+  font-weight: bold;
+}
+.field-name-field-expert-reference > .field-items > .field-item{
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.node-expert .links .node-readmore {
+  display:none;
+}
+/*.ctools-modal-content #modal-content{
+  overflow-y: scroll;
+  width: 100% !important;
+
+}*/
+
+.publications .inputelement {
+  display: none;
+}
+/*LOGIN AND REGISTER THEME*/
+body.page-user {
+  background: url(../images/front_page/CancerInfo_Home.jpg);
+}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-title-wrapper .views-widget,
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-title-1-wrapper .views-widget{
+  float:left;
+}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-title-wrapper label,
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-title-1-wrapper label{
+  float: left;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-title-wrapper input{width:66px;}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-title-1-wrapper input{width:58px;}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-institution-tid-wrapper,
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-speciality-tid-wrapper{
+  float: left;
+  width: auto;
+}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-institution-tid-wrapper select{
+	width:265px;
+}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-institution-tid-wrapper label,
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-speciality-tid-wrapper label{
+	display:none;
+}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form .views-exposed-widget.views-submit-button{padding-right:0px;}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form .views-exposed-widget .form-submit{margin-top:0px; font-size:0px;}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form .views-exposed-widget .form-submit:before{content:'GO'; font-size:14px;}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form label{
+  text-transform: uppercase;
+}
+.node-type-cancer-type .view-experts-from-cancer-type .view-filters{clear:both; margin-bottom:20px;}
+.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form {
+  padding: 0px 0px;
+}
+.region-content .node-cancer-type #edit-group_details_vertical .panel-body,
+.region-content .node-cancer-type #edit-group_treatment_vetical .panel-body{
+  padding: 0px;
+}
+.region-content .node-cancer-type #edit-group_treatment_vetical .panel-body .node-treatment > h2 a {
+  display: none;
+}
+.region-content .node-cancer-type #edit-group_treatment_vetical .panel-body .ncci-tab-content {
+  padding: 0px 10px;
+}
+.region-content .node-cancer-type > .field-group-htabs-wrapper .horizontal-tabs-panes {
+  padding: 15px;
+}
+.panel,
+.tabs-left>.tab-content, .tabs-right>.tab-content {
+  box-shadow: none;
+}
+.node-cancer-type .group-health-professional .field-label-above .field-label{
+  border-bottom: 1px solid #E5E5E5;
+  text-transform: uppercase;
+  margin: 10px 0px;
+  padding: 2px 0px;
+}
+.node-cancer-type .view-cancer-image-slideshow {
+  margin: 15px 3px;
+  background: transparent;
+  border: 1px solid #499db8;
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+.node-cancer-type .views_slideshow_jcarousel_pager {
+  margin-top: 10px;
+}
+
+.node-cancer-type .views_slideshow_jcarousel_pager {
+/*  width: 600px;*/
+}
+.node-cancer-type .jcarousel-skin-tango .jcarousel-clip-horizontal,
+.node-cancer-type .views_slideshow_jcarousel_pager .jcarousel-list  {
+  width: 100%;
+}
+.node-cancer-type .views_slideshow_jcarousel_pager .jcarousel-list li {
+  width: 100px !important;
+}
+.node-cancer-type .views_slideshow_jcarousel_pager .jcarousel-list li img{
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+.node-cancer-type #views_slideshow_cycle_main_cancer_image_slideshow-block_1 {
+  text-align: center;
+}
+.node-cancer-type .jcarousel-skin-tango .jcarousel-container {
+  border-radius: 0px;
+  background: transparent;
+  border: 1px solid #FFF;
+}
+.node-cancer-type .jcarousel-skin-tango .jcarousel-container .jcarousel-prev {
+  background: url(../images/left-arrow-head.png) no-repeat;
+}
+.node-cancer-type .jcarousel-skin-tango .jcarousel-container .jcarousel-next {
+  background: url(../images/right-arrow-head.png) no-repeat;
+}
+
+.node-cancer-type .views-slideshow-cycle-main-frame,
+.node-cancer-type .views-slideshow-cycle-main-frame .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+}
+.node-cancer-type .views-slideshow-cycle-main-frame .views-field-field-patient-version-images .field-content {
+  text-align: center;
+}
+#changes-summary {
+    clear: both;
+    width: 72%;
+    padding: 10px;
+    font-style: italic;
+    color: #aaa;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+}
+@media screen and (max-width: 768px) {
+    .ctools-modal-dialog #modal-content .group-left,
+    .ctools-modal-dialog #modal-content .group-right{
+      width: 100% !important;
+      margin-bottom: 10px;
+    }
+    .node-type-cancer-type #modalContent .modal-content .group-right .field-name-title h2 {
+      font-size: 20px;
+    }
+    .node-type-cancer-type .node-cancer-type ul.vertical-tabs-list {
+      width: 100%;
+    }
+    .node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-institution-tid-wrapper,
+    .node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-speciality-tid-wrapper{
+      float: left;
+      width: 40%;
+    }
+    .region-content .node-cancer-type .field-name-field-icd-o-codes,
+    .region-content .node-cancer-type .field-name-field-icd-10-code,
+    .region-content .node-cancer-type .field-name-field-omim-number,
+    .region-content .node-cancer-type .field-name-field-mesh,
+    .region-content .node-cancer-type .field-name-field-medra,
+    .region-content .node-cancer-type .field-name-field-umls {
+      float: none;
+      padding: 5px 0px;
+      border-right: 0px;
+      margin: 0px;
+    }
+    .region-content .node-cancer-type .field-name-field-icd-o-codes .field-label,
+    .region-content .node-cancer-type .field-name-field-icd-10-code .field-label,
+    .region-content .node-cancer-type .field-name-field-omim-number .field-label,
+    .region-content .node-cancer-type .field-name-field-mesh .field-label,
+    .region-content .node-cancer-type .field-name-field-medra .field-label,
+    .region-content .node-cancer-type .field-name-field-umls  .field-label{
+      float: left;
+      padding-right: 5px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+	.node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-institution-tid-wrapper,
+  .node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-speciality-tid-wrapper{
+    float: left;
+    width: 100%;
+    padding:0px;
+    margin-bottom: 10px;
+  }
+  .node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-institution-tid-wrapper select,
+  .node-type-cancer-type .view-experts-from-cancer-type .views-exposed-form  #edit-field-speciality-tid-wrapper select{
+      width:100%;
+  }
+	
+}

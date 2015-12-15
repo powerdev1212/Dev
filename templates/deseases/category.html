@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row">
+        {% block breadcrumbs %}{% include "breadcrumbs.html" %}{% endblock breadcrumbs %}
+    </div>
+    <div class="row">
+        <div class="col-xs-12 card force-padding definition">
+            <h3 class="mt-0">{{ ditem.inner_name }}</h3>
+            {{ ditem.definition|safe }}
+        </div>
+        
+    </div>
+    
+    <div class="row">
+        
+        <!-- listing -->
+        {% include "components/optionsnav.html" %}
+        <!-- listing (end) -->
+        
+            {% include 'deseases/details.html' %}
+            {% include 'deseases/treatments.html' %}
+            {% include 'deseases/publications.html' %}
+            {% include 'deseases/experts.html' %}
+            {% include 'deseases/ctrials.html' %}
+            {% include 'deseases/discussions.html' %}
+            {% include 'deseases/resources.html' %}
+            {% include 'deseases/genomic_studies.html' %}
+        
+    </div>
+    
+{% endblock content %}

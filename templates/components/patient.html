@@ -1,0 +1,40 @@
+{% extends 'components/sidenav_authenticated.html'%}
+
+{% block menu_for_model %}
+	<li>
+	<a href="/s/#/patient/profile" class="">
+		<md-icon style="color:white;">perm_identity</md-icon>
+		<span>Profile</span> 
+	</a>
+	</li>
+	<li>
+	<a href="/s/#/patient/measurements" class="">
+		<md-icon style="color:white;">dashboard</md-icon>
+		<span>Dashboard</span> 
+	</a>
+	</li>
+	<li>
+	<a href="/s/#/patient/emr" class="">
+		<md-icon style="color:white;">content_copy</md-icon>
+		<span>Health Data</span> 
+	</a>
+	</li>
+	<li>
+	<a href="/s/#/patient/calendar" class="">
+		<md-icon style="color:white;">event_note</md-icon>
+		<span>Calendar</span> 
+	</a>
+	</li>
+	<li>
+	<a href="/s/#/patient/related-persons" class="">
+		<md-icon style="color:white;">face</md-icon>
+		<span>Care Team</span> 
+	</a>
+	</li>
+	<li>
+	<a href="/s/#/patient/so" class="">
+		<md-icon style="color:white;">supervisor_account</md-icon>
+		<span>Second Opinion</span> 
+	</a>
+	</li>
+{% endblock %}

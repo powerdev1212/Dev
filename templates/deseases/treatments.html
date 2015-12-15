@@ -1,0 +1,44 @@
+<div class="tab{% if 'treatment' in request.GET %} tab-visible{% else %} tab-hidden{% endif %} col-md-9" id="treatment">
+    {#% for treatment in ditem.treatments.all %#}
+    <!-- NCI Guidelines -->
+    <div class="tab-inner{% if 'nci' in request.GET and 'treatment' in request.GET %} tab-visible{% else %} tab-hidden{% endif %}">
+        {% for gnci in guidelines.nci %}
+
+        <div class="row">
+            <div class="col-md-9 card card-noheight">
+                <a ident="{{ gnci.ident }}" class="treatment-header">
+                    <h3>{{ gnci.treatment }}</h3>
+                </a>
+                <div class="treatment-wr" ident="{{ gnci.ident }}">
+                {% if gnci.data %}
+                    {{ gnci.data|safe }}
+                {% else %}
+                    <a href="{{ gnci.link }}">{{ gnci.treatment }}</a>
+                {% endif %}
+                </div>
+            </div>
+            <div class="col-md-3 menu-wrapper">
+                <div class="guide-menu" ident="{{ gnci.ident }}">
+                    <h3>Sections</h3>
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- NCI Guidelines (end) -->
+    
+    <!-- NCCN Guidelines -->
+    <div class="tab-inner{% if 'nccn' in request.GET and 'treatment' in request.GET %}tab-visible{% else %} tab-hidden{% endif %}">
+        <div class="col-md-6 card card-noheight">
+            {% if not guidelines.nccn.0.link %}
+                {{ guidelines.nccn.0.data|safe }}
+            {% else %}
+                <a href="{{ guidelines.nccn.0.data }}">{{ treatment.inner_name }}</a>
+            {% endif %}
+        </div>
+    </div>
+    <!-- NCCN Guidelines (end) -->
+    {#% endfor %#}
+</div>
+<script type="text/javascript" src="/static/jss/treatment_sections.js"></script>

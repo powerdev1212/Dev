@@ -1,0 +1,66 @@
+	<div class="sidenav">
+		<div class="sidenav-logo">
+			<a href="/home.html">
+                <img src="/static/imgs/logo.png" alt="Home">
+            </a>
+		</div>
+			
+			<ul class="top-menu">
+                {% if not user.is_authenticated %}
+				<li {% if '/login' in request.path%}class="active"{% endif %}>
+				<a href="/login/" class="">
+					<i class="fa fa-sign-in"></i><span>Log In</span>
+				</a>
+				</li>
+                {% else %}
+				<li {% if '/logout' in request.path%}class="active"{% endif %}>
+				<a href="/logout/" class="">
+					<i class="fa fa-sign-in"></i><span>Log Out</span>
+				</a>
+				</li>
+                {% endif %}
+				<li {% if '/library' in request.path%}class="active"{% endif %}>
+				<a href="/library/" class="">
+					<i class="fa fa-book"></i><span>Library</span> 
+				</a>
+				</li>
+				<li {% if '/s-opinion' in request.path%}class="active"{% endif %}> 
+				<a href="/s-opinion/" class="">
+					<i class="fa fa-book"></i><span>Second Opinion</span> 
+				</a>
+				</li>
+			</ul>
+			<ul>
+				<li {% if '/about' in request.path%}class="active"{% endif %}>
+				<a href="/about/" class="">
+					<i class="fa fa-info-circle"></i><span>About</span>
+				</a>
+				</li>
+				<li {% if '/team' in request.path%}class="active"{% endif %}>
+				<a href="/team/" class="">
+					<i class="fa fa-users"></i><span>Team</span>
+				</a>
+				</li>
+				<li {% if '/contact' in request.path%}class="active"{% endif %}>
+				<a href="/contact/" class="">
+					<i class="fa fa-phone-square"></i><span>Contact</span>
+				</a>
+				</li>
+			</ul>
+			
+	</div>
+
+
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".sidenav").hover(
+		  function () {
+		    $('body').addClass("sidebar_open");
+		  },
+		  function () {
+		    $('body').removeClass("sidebar_open");
+		  }
+		 );
+		});
+	</script>

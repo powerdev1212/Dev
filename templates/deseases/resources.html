@@ -1,0 +1,13 @@
+<div class="tab{% if 'other-resources' in request.GET %} tab-visible{% else %} tab-hidden{% endif %}" id="other-resources">
+    <div class="col-md-9">
+        
+        {% for i in support_groups %}
+        <div class="row">
+            <div class="views-row col-xs-12">
+                <a href="{{ i.link }}">{{ i.inner_name }}</a>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</div>

@@ -1,0 +1,1 @@
+from .ClinicalTrialsIndexView import ClinicalTrialsIndexView

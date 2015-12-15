@@ -1,0 +1,145 @@
+<div class="tab{% if 'experts' in request.GET %} tab-visible{% else %} tab-hidden{% endif %}" id="experts">
+    
+    <div class="col-md-9">
+        <div class="row">
+            <div class="main-header">
+                <div class="page-title col-xs-3">Experts</div>
+                <div id="exp-paginator" class="col-xs-9">
+                <ul id="pag-right" class="pagination m-0"></ul>
+                </div>
+                {#% include 'experts/experts_paginator.html' %#}
+            </div>
+        </div>
+    {% include 'experts/sort_experts_form.html' %}
+    {% for expert in experts %}
+    <div class="row expert-row">
+    <div class="views-row col-xs-12">
+        <!-- title -->
+        <div class="views-field views-field-title">
+            <div class="field-content">
+                <div class="expert-title">
+                    {{ expert.inner_name }}
+                    {% if expert.so_agreement %}
+                        <a href="{{ partner_page_url }}so/experts/{{ expert.id }}/" class="btn btn-default btn-sm s-op-link pull-right">Request Second Opinion</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <!-- title end -->
+        <!-- picture -->
+        <div class="views-field views-field-field-profile-picture">
+            <div class="field-content">
+                <div class="expert-image">
+                    <img 
+                    alt="{{ expert.inner_name }}" 
+                    src="{% if expert.profile_picture %}{{ expert.profile_picture.url }}{% else %}/files/images/experts/user-icon.jpg{% endif %}"/>
+                </div>
+            </div>
+        </div>
+        <!-- picture end -->
+        <!-- speciality -->
+        <div class="views-field views-field-field-speciality">
+            <div class="field-content"><strong class="inline-title">Speciality:</strong>
+                {% for i in expert.specialities.all %}
+                    {{ i.inner_name }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <!-- speciality (end) -->
+        <!-- clinical expertise  -->
+        {% if expert.clinical_expertises.count != 0 %}
+        <div class="views-field views-field-field-research-interests">
+            <div class="field-content"><strong class="inline-title">Clinical Expertise:</strong>
+                {% for i in expert.clinical_expertises.all %}
+                    {{ i.inner_name }}{% if not forloop.last %}, {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        <!-- clinical expertise (end) -->
+        <div class="profile-togglable">
+            <!-- institution -->
+            <div class="views-field views-field-field-institution">
+                <div class="field-content">
+                    <strong class="inline-title">Appointment:</strong>
+                    {{ expert.appointment }}
+                </div>
+            </div>
+            <!-- institution (end) -->
+            <!-- location -->
+            {% if expert.location_id %}
+            <div class="views-field views-field-field-location">
+                <div class="field-content">
+                    <strong class="inline-title">Location:</strong>
+                    {{ expert.location.inner_name }}
+                </div>
+            </div>
+            {% endif %}
+            <!-- location (end) -->
+            <br/>
+            <!-- card -->
+            <div class="card card-noheight force-padding mt-10">
+                {% if expert.medical_educations.count != 0 %}
+                <!-- education -->
+                <div class="views-field views-field-field-education">
+                    <dl class="field-content">
+                        <dt class="title">Medical Education:</dt>
+                        {% for edu in expert.medical_educations.all %}
+                        <dd>{{ edu.inner_name }}</dd>
+                        {% endfor %}
+                        {% if expert.training_new %}
+                        <dt class="title">Training:</dt>
+                        <dd>{{ expert.training_new | safe }}</dd>
+                        {% endif %}
+                    </dl>
+                </div>
+                <!-- education (end)-->
+                {% endif %}
+            </div>
+            <!-- card (end) -->
+            <!-- card2 -->
+            {% if expert.awards.count != 0 %}
+            <div class="card card-noheight force-padding mt-10">
+                <dl class="field-content">
+                    <dt class="title">Honors and awards:</dt>
+                    {% for award in expert.awards.all %}
+                    <dd>{{ award.inner_name }}</dd>
+                    {% endfor %}
+                </dl>
+            </div>
+            {% endif %}
+            <!-- card2 (end) -->
+            <!-- card3 -->
+            {% if expert.board_certifications.count != 0 %}
+            <div class="card card-noheight force-padding mt-10">
+                <dl class="field-content">
+                    <dt class="title">Board Certifications:</dt>
+                    {% for sert in expert.board_certifications.all %}
+                    <dd>{{ sert.inner_name }}</dd>
+                    {% endfor %}
+                </dl>
+            </div>
+            {% endif %}
+            <!-- card3 (end) -->
+            <!-- card4 -->
+            {% if expert.get_experiences.count != 0 %}
+            <div class="card card-noheight force-padding mt-10">
+                <dl class="field-content">
+                    <dt class="title">Experience:</dt>
+                    {% for exp in expert.get_experiences %}
+                    <dd>{{ exp.inner_name }}</dd>
+                    {% endfor %}
+                </dl>
+            </div>
+            {% endif %}
+            <!-- card4 (end) -->
+        </div>
+    </div>
+    </div>
+    {% endfor %}
+    </div>
+<script type="text/javascript" src="/static/jss/expert_profile.js"></script>
+<script type="text/javascript" src="/static/jss/experts_paginator.js"></script>
+<script type="text/javascript" src="/static/jss/images_processing.js"></script>
+</div>
+

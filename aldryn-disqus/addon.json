@@ -1,0 +1,6 @@
+{
+	"package-name": "aldryn-disqus",
+	"installed-apps": [
+		"aldryn_disqus"
+	]
+}

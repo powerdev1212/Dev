@@ -1,0 +1,29 @@
+<div class="tab{% if 'details' in request.GET or not request.GET %} tab-visible{% else %} tab-hidden{% endif %}" id="details">
+    <div class="col-md-9 pr-0">
+
+        <div class="page-title">{{ pagetitle }}</div>
+
+        <ul class="nav nav-tabs mb-0 pt-10" role="tablist">
+            {% for tab in details %}
+            <li role="presentation" class="{% if forloop.first %}active{% endif %}">
+                <a href="#{{ tab.mnemo }}" aria-controls="{{ tab.mnemo }}" role="tab" data-toggle="tab">
+                    {{ tab.name }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <!---->
+        <div class="tab-content card card-noheight tabbed-card">
+            {% for tab in details %}
+            <div role="tabpanel" class="tab-pane{% if forloop.first %} active{% endif %}" id="{{ tab.mnemo }}">
+                {% if tab.data %}
+                {{ tab.data | safe }}
+                {% else %}
+                <p class="text-info">Information come soon...</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        <!---->
+    </div>
+</div>

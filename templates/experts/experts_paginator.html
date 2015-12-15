@@ -1,0 +1,21 @@
+<div class="col-xs-8">
+    <div class="row">
+        <div class="col-md-2 text-right">
+    <ul class="pagination m-0" id="pag-left">
+        {% if experts.has_previous %}
+        <li class="prev first">
+            <a></a>
+        </li>
+        {% endif %}
+    </ul></div>
+    <div class="col-md-3 paginator-current-page">Page {{ experts.number }} of {{ experts.paginator.num_pages }}</div>
+    <div class="col-md-2 text-left"><ul class="pagination m-0" id="pag-right">
+        {% if experts.has_next %}
+        <li class="next first">
+            <a href="?experts&p={{ experts.next_page_number}}"></a>
+        </li>
+        {% endif %}
+    </ul>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,65 @@
+<form 
+accept-charset="UTF-8" 
+id="views-exposed-form-experts-from-cancer-type-default" 
+method="get" 
+action="" 
+class="jquery-once-1-processed">
+    <input type="hidden" name="experts"/>
+    <div>
+        <div class="views-exposed-form">
+            <div class="views-exposed-widgets clearfix row">
+                <div class="views-exposed-widget views-widget-filter-field_institution_tid" id="edit-field-institution-tid-wrapper">
+                    <!--<label for="edit-field-institution-tid">Institution          </label>-->
+                    <div class="views-widget">
+                        <div class="form-type-select form-item-field-institution-tid form-item form-group">
+                            <select name="field_institution_tid" id="edit-field-institution-tid" class="form-control form-select">
+                                <option selected="selected" value="All">All Institutions</option>
+                                {% if institutions %}
+                                    {% for inst in institutions %}
+                                    <option value="{{inst.id}}">{{ inst.inner_name }}</option>
+                                    {% endfor %}
+                                {% endif %}
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="views-exposed-widget views-widget-filter-field_speciality_tid" id="edit-field-speciality-tid-wrapper">
+                    <!--<label for="edit-field-speciality-tid">Speciality          </label>-->
+                    <div class="views-widget">
+                        <div class="form-type-select form-item-field-speciality-tid form-item form-group">
+                            <select name="field_speciality_tid" id="edit-field-speciality-tid" class="form-control form-select">
+                                <option selected="selected" value="All">All Specialities</option>
+                                {% if specialities %}
+                                    {% for spec in specialities %}
+                                    <option value="{{spec.id}}">{{ spec.inner_name }}</option>
+                                    {% endfor %}
+                                {% endif %}
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="views-exposed-widget views-widget-filter-title_1" id="edit-title-1-wrapper">
+                    <div class="views-widget">
+                        <div class="form-type-textfield form-item-title-1 form-item form-group">
+                            <label for="edit-title-1" class="db fl">within</label>
+                            <input type="text" maxlength="128" size="30" value="" name="title_1" id="edit-title-1" class="form-control form-text">
+                        </div>
+                    </div>
+                </div>
+                <div class="views-exposed-widget views-widget-filter-title" id="edit-title-wrapper">
+                    <div class="views-widget">
+                        <div class="form-type-textfield form-item-title form-item form-group">
+                            <label for="edit-title" class="db fl">miles of</label>
+                            <input type="text" maxlength="128" size="30" value="" name="title" id="edit-title" class="form-control form-text">
+                        </div>
+                    </div>
+                </div>
+                <div class="views-exposed-widget views-submit-button" id="edit-button-wrapper">
+                    <button type="submit" value="GO" name="" id="edit-submit-experts-from-cancer-type" class="btn btn-info form-submit">
+                        GO
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

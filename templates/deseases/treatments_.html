@@ -1,0 +1,27 @@
+<div class="tab{% if 'treatment' in request.GET %} tab-visible{% else %} tab-hidden{% endif %}" id="treatment">
+    {% for treatment in ditem.treatments.all %}
+    <!-- NCI Guidelines -->
+    <div class="tab-inner{% if 'nci' in request.GET or 'treatment' in request.GET %} tab-visible{% else %} tab-hidden{% endif %}">
+        <a href="{{ request.path}}?treatment&nci">
+            <h2>{{ treatment.inner_name }}</h2>
+        </a>
+        <div class="col-md-6 card card-noheight">
+            {% if not guidelines.0.link %}
+            {{ guidelines.0.data|safe }}
+            {% else %}
+            <a href="{{ guidelines.0.data }}">{{ treatment.inner_name }}</a>
+            {% endif %}
+        </div>
+        <div class="col-md-3">
+            <div id="guide-menu">
+                <h3>Sections</h3>
+                <ul></ul>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+    <!-- NCI Guidelines (end) -->
+    <!-- NCCN Guidelines -->
+    <div class="tab-inner{% if 'nccn' in request.GET and 'treatment' in request.GET %}"></div>
+    <!-- NCCN Guidelines (end) -->
+</div>

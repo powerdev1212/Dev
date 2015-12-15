@@ -1,0 +1,13 @@
+<ol class="breadcrumb col-xs-12">
+    <li><a href="#">Home</a></li>
+    {% for b in ditem.get_bcrs %}
+    <li{% if forloop.last %} class="active last"{% endif %}>
+        {% if forloop.last %}
+        {{ b.0 }}
+        {% else %}
+        <a href="{{ b.1 }}">{{ b.0 }}</a>
+        {% endif %}
+        
+    </li>
+    {% endfor %}
+</ol>

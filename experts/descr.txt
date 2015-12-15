@@ -1,0 +1,24 @@
+Expert
+==========================
++ name (inner_name) = string
++ first_name = string
++ last_name = string
++ degrees = string
++ specialities = <- DeseaseItem(expert_reference)
++ body(bio) = text
++ research_interests = -> DeseaseItem
++ appointment = rel ExpertAppointment(FK) NEW->ExpertDepartment(FK)->ExpertInstitution(FK)
++ medical_education = rel -> ExpertEducation(m2m) NEW
++ training_new = text
++ training (trainings) = rel -> ExpertTraining(m2m) NEW
++ board_certifications = rel -> ExpertBoardSertification(m2m) NEW
++ experience = rel -> ExpertExperience (m2m) NEW
++ honors_awards(awards) = rel -> ExpertAward (m2m) NEW
++ publications = rel <- Publication (m2m)
++ seniority = int(null)
++ institution_rank = int(null)
++ institution = as @property
+    get self.appointment.department.institution
++ phone = string
++ email = emailfield
++ profile_picture = imagefield

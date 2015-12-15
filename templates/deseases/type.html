@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row">
+        {% block breadcrumbs %}{% include "breadcrumbs.html" %}{% endblock breadcrumbs %}
+    </div>
+    
+    <div class="row">
+        <!-- listing -->
+        <div class="content col-xs-12">
+            {{ dtype }}
+            <h3>{{ dtype.inner_name }}</h3>
+            <ul>
+                {% for item in dtype.children.all %}
+                <li>
+                    <a href="{% url 'deseases_category' lev0=dtype.mnemo lev1=item.mnemo %}">{{ item.inner_name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- listing (end) -->
+    </div>
+    
+{% endblock content %}

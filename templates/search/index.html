@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row">
+        {% block breadcrumbs %}{% include "breadcrumbs.html" %}{% endblock breadcrumbs %}
+    </div>
+    
+    <div class="row">
+        <!-- listing -->
+        {% for i in trg %}
+        <div class="views-row col-xs-12">
+            <!-- title -->
+            <div class="views-field views-field-title">
+                <div class="field-content">
+                    <div class="trg-title">
+                        <a href="{{ i.path }}">{{ i.inner_name }}</a>
+                    </div>
+                </div>
+            </div>
+            <!-- title end -->
+            
+            <!-- descr -->
+            <div class="views-field views-field-descr">
+                <div class="field-content">
+                    {{ i.descr | safe }}
+                </div>
+            </div>
+            <!-- descr end -->
+            
+            <!-- bcrs -->
+            <div class="views-field views-field-bcrs">
+                <div class="row">
+                    {% if i.bcrs %}
+                    <ol class="breadcrumb nobackgr">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        {% for b in i.bcrs %}
+                        <li>
+                            <a href="{{ b.1 }}">{{ b.0 }}</a>
+                        </li>
+                        {% endfor %}
+                    </ol>
+                    {% endif %}
+                </div>
+            </div>
+            <!-- bcrs end -->
+        </div>
+        {% endfor %}
+        <!-- listing (end) -->
+    </div>
+    
+{% endblock content %}

@@ -1,0 +1,12 @@
+{% if related_cancers %}
+<div class="related-cancer-box card card-noheight">
+    <h2 class="block-title">Related Cancers</h2>
+        <ul>
+            {% for i in related_cancers %}
+            <li>
+                <a href="{{ i.get_path }}">{{ i.inner_name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+</div>
+{% endif %}

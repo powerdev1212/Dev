@@ -1,0 +1,64 @@
+<div class="left-pane col-md-3 col-sm-4">
+        <!-- vertical tabs -->
+        <ul class="custom-vertical-tabs-list card no-padding style-primary">
+            <li {% if 'details' in request.GET %}class="active"{% endif %}>
+                <a href="{{ request.path }}?details">
+                    <span>Details</span>
+                </a>
+            </li>
+            <li {% if 'treatment' in request.GET %}class="active"{% endif %}>
+                <a href="{{ request.path }}?treatment">
+                    <span>Treatment</span>
+                </a>
+                <ul class="custom-vertical-tabs-list custom-inner-vertical-tabs-list">
+                    <li id="vtab-button-edit-group-nci-guidelines-vertical" class="custom-vertical-tab-button custom-inner-vertical-tab-button">
+                        <a href="{{ request.path }}?treatment&nci">
+                            <span>NCI Guidelines</span>
+                        </a>
+                    </li>
+                    <li id="vtab-button-edit-group-nccn-guidelines-vertical" class="custom-vertical-tab-button custom-inner-vertical-tab-button">
+                        <a href="{{ request.path }}?treatment&ncnn">
+                            <span>NCCN Guidelines</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li {% if 'publications' in request.GET %}class="active"{% endif %}>
+                <a href="{{ request.path }}?publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li {% if 'experts' in request.GET %}class="active"{% endif %}>
+                <a href="{{ request.path }}?experts">
+                    <span>Experts</span>
+                </a>
+            </li>
+            <li {% if 'clinical-trials' in request.GET %}class="active"{% endif %}>
+                <a href="{{ request.path }}?clinical-trials">
+                    <span>Clinical Trials</span>
+                </a>
+            </li>
+            <li id="vtab-button-edit-group-clinical-trials-vertical" class="custom-vertical-tab-button">
+                <a href="{{ partner_page_url }}">
+                    <span>Hygeiais Network</span>
+                </a>
+            </li>
+            <li {% if 'discussions' in request.GET %}class="active"{% endif %}>
+                <a href="{{ request.path }}?discussions">
+                    <span>Discussions</span>
+                </a>
+            </li>
+            <li {% if 'other-resources' in request.GET %}class="active"{% endif %}>
+                <a href="{{ request.path }}?other-resources">
+                    <span>Other Resources</span>
+                </a>
+            </li>
+            <li {% if 'genomic-studies' in request.GET %}class="active"{% endif %}>
+                <a href="{{ request.path }}?genomic-studies">
+                    <span>Genomic Studies</span>
+                </a>
+            </li>
+            </ul>
+            <!-- vertical tabs end -->
+            {% include 'related_items.html' %}
+</div>
