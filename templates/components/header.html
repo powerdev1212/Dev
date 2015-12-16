@@ -2,8 +2,10 @@
     <header class="navbar container navbar-default" role="banner" id="navbar">
         <div class="container">
             <div class="navbar-header">
-                <a title="Home" href="/" class="name navbar-brand">Hygeiais Library</a>
-        
+                <a title="Home" href="/" class="name navbar-brand">
+                    <img src="/static/imgs/logo.png" alt="" />
+                </a>
+
                 <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
                 <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
                     <span class="sr-only">Toggle navigation</span>
@@ -14,27 +16,27 @@
             </div>
 
             <div class="navbar-collapse collapse">
-                <div class="col-md-4 col-md-offset-2">
-                <nav role="navigation" class="nav navbar-nav navbar-right">
+                <nav role="navigation">
                     <div class="region region-navigation">
                         <section class="block block-cancerinfo-custom clearfix" id="block-cancerinfo-custom-browse-cancer-list">
-                            <a 
-                            id="desease-browse-link" 
-                            class="ctools-use-modal ctools-use-modal-processed" 
-                            data-toggle="modal" 
-                            data-target=".deseases-modal" 
+                            <a
+                            id="desease-browse-link"
+                            class="ctools-use-modal ctools-use-modal-processed"
+                            data-toggle="modal"
+                            data-target=".deseases-modal"
                             moveto="{% url 'deseases_type' lev0='cancers' %}"
                             >
                             Browse
                             </a>
-                        </section> 
+                        </section>
                         {% include 'components/search_form.html' %}
+
+                        <section id="cabinet-links">
+                            <a href="#" class="signup_button">Sign Up</a>
+                            <a href="/login" class="login_button">Login</a>
+                        </section>
                     </div>
                 </nav>
-                </div>
-                <div class="col-md-4 navbar-right">
-                    {% include 'components/signin_nav.html' %}
-                </div>
             </div>
         </div>
     </header>

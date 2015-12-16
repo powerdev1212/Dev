@@ -1,10 +1,9 @@
 body{
     background:#fafafa!important;
-    /*overflow:hidden;*/
 }
 
 a{
-  color:#00A8FF;
+  color:#315062;
   text-decoration:underline;
 }
 
@@ -17,8 +16,12 @@ a:hover{
     padding-right:0!important;
   }
 
+.navbar-header{
+    padding-top:0!important;
+}
+
 .nav-wrapper, .page-cancer-search .nav-wrapper{
-    background: #00a8ff;
+    background: #48859C!important;
     box-shadow: 0 3px 3px #bfbfbf;
   margin-bottom:80px;
 }
@@ -29,10 +32,18 @@ a:hover{
   text-decoration:none;
   color:#fff!important;
   font-size:25px!important;
+  padding-top:0!important;
+  height:auto!important;
+}
+
+.navbar-brand img{
+    height:81px;
 }
 
 .navbar-collapse{
   padding-right:0!important;
+  width:70%;
+  float: right;
 }
 
 
@@ -155,11 +166,17 @@ div.page-title{
 }
 
 .custom-vertical-tabs-list.card.no-padding.style-primary{
-  background:#0396E3;
+  background:#48859C;
 }
 
 .custom-vertical-tabs-list > li > a{
   font-size:14px;
+  padding:5px 8px 5px 20px;
+  text-decoration:none;
+}
+
+.custom-vertical-tabs-list > li > a:hover{
+    text-decoration:underline;
 }
 
 .custom-vertical-tabs-list > li a span{
@@ -170,19 +187,236 @@ div.page-title{
   font-size:18px;
   padding:10px;
   margin-bottom:0;
-  background:#38de8a;
+  background:#2C393E;
 }
 
 .related-cancer-box.card.card-noheight h2:after{
   display:none;
 }
 
-.custom-vertical-tabs-list > li > a{
-  padding:5px 8px;
-}
 
 .custom-vertical-tabs-list > li > ul{
   padding-left:15px;
+}
+
+.custom-vertical-tabs-list > li.active > a{
+    background:none;
+    color:#bbb;
+}
+
+#block-views-exp-cancer-search-page input.form-text, #edit-combine{
+    width:240px!important;
+  	padding-left:10px;
+    padding-right:10px;
+}
+
+#cabinet-links{
+  float:right;
+}
+
+nav.navigation, nav.navigation > div{
+    width:100%;
+}
+
+.navbar-collapse:after, nav.navigation:after, nav.navigation > div:after{
+    clear:both;
+    display:block;
+    content:"";
+}
+
+#cabinet-links a{
+  display:inline-block;
+  height:35px;
+  border-radius:3px;
+  background:#fff;
+  text-decoration:none;
+  line-height:35px;
+  padding:0px 25px;
+  box-shadow:1px 1px 0px rgba(0,0,0,.1);
+  margin:0 4px;
+}
+
+#cabinet-links a.login_button{
+    background:#8bc34a;
+    color:#fff;
+}
+
+.signup_button{
+    color:#315062;
+}
+
+#cabinet-links a:hover{
+    background: #232323;
+    color: #fff;
+}
+
+.views-row{
+    margin-bottom:30px;
+}
+
+.main-header{
+    margin-bottom: 30px;
+}
+
+#block-views-exp-cancer-search-page input.form-text{
+    width:240px!important;
+}
+
+#navbar.navbar.container, .page-cancer-search #navbar.navbar.container{
+    height:88px!important;
+}
+
+table, tbody{
+  width:100%;
+}
+
+td{
+  padding:8px;
+  color:rgba(0, 0, 0, 0.5);
+  line-height:1.75;
+  vertical-align:top;
+}
+
+
+.custom-vertical-tabs-list.card.no-padding.style-primary > li{
+  padding-left:30px;
+}
+
+.custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(1){
+background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-details-white.png") 10px 7px no-repeat;
+}
+
+.custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(2){
+background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-2.png") 10px 7px no-repeat;
+}
+
+.custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(3){
+background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-3.png") 10px 7px no-repeat;
+}
+
+.custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(4){
+background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-4.png") 10px 7px no-repeat;
+}
+
+.custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(5){
+background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-5.png") 10px 7px no-repeat;
+}
+
+.custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(7){
+background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-6.png") 10px 7px no-repeat;
+}
+
+.custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(8){
+background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-7.png") 10px 7px no-repeat;
+}
+
+#headImage{
+    height:450px;
+    background:url(/static/imgs/headImage.jpg) center cover no-repeat;
+    position:relative;
+    z-index:5;
+    margin-bottom:45px;
+}
+
+#headImage .container{
+    height:100%;
+    position:relative;
+}
+
+.headTable{
+    display:table;
+    height:100%;
+}
+
+.headTable > div{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.headTable h1{
+    color:#fff;
+    text-shadow: 0px 0px 4px rgba(0,0,0,.4);
+    margin-bottom:30px;
+}
+
+.headTable .btns a{
+    display:inline-block;
+    height:35px;
+    line-height:35px;
+    padding:0px 25px;
+    border-radius:3px;
+    margin:0px 5px;
+    text-decoration:none;
+    color:#232323;
+    background:#fff;
+}
+
+.headTable .btns a:hover{
+    color:#fff;
+    background:#232323;
+}
+
+.joinBtn{
+    position:absolute;
+    float:left;
+    height:35px;
+    line-height:35px;
+    padding:0px 25px;
+    border-radius:3px;
+    bottom:-18px;
+    left:50%;
+    width:120px;
+    margin-left:-60px;
+    background:#8bc34a;
+    color:#fff;
+    text-decoration:none;
+}
+
+.joinBtn:hover{
+    background:#232323;
+}
+
+#blocks{
+    margin-bottom:45px;
+}
+
+#blocks h2{
+    text-align:center;
+    margin-bottom:30px;
+    font-weight:normal;
+    text-transform:uppercase;
+    font-size:32px;
+}
+
+#blocks h4{
+    font-size:21px;
+    color:#333;
+    font-weight:normal;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+#blocks p{
+    text-align:center;
+    line-height:1.4;
+}
+
+@media screen and (max-width:992px){
+    .navbar-header, .navbar-collapse{
+        width:100%;
+        float:none;
+        padding:0px 15px!important;
+    }
+    
+  #navbar.navbar.container, .page-cancer-search #navbar.navbar.container{
+    height:auto!important;
+  }
+  
+  .navbar-header{
+    margin-bottom:15px;
+  }
+
 }
 
 @media screen and (max-width:780px){
@@ -194,14 +428,38 @@ div.page-title{
     margin-bottom:30px;
   }
     
-  
-  #navbar.navbar.container, .page-cancer-search #navbar.navbar.container{
-    height:auto!important;
-  }
-  
+      
   #navbar.navbar.container section, .page-cancer-search #navbar.navbar.container section{
     display:inline-block!important;
     vertical-align:top
   }
+
+    .views-exposed-widget.views-widget-filter-field_institution_tid{
+        display:block;
+        float:none!important;
+    }
+    
+    #pub-paginator, .page-title{
+        width:100%;
+    }
+    
+    .navbar-header, .navbar-collapse{
+        padding:0!important;
+        margin:0!important;
+    }
+    
+    #block-cancerinfo-custom-browse-cancer-list{
+        display:block;
+        width:100%;
+        margin-bottom:15px;
+    }
+    
+    #cabinet-links{
+        width:100%;
+    }
+    
+    header{
+        padding-bottom:15px;
+    }
 
 }
