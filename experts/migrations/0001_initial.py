@@ -138,6 +138,9 @@ class Migration(migrations.Migration):
                 ('updated', models.DateTimeField(auto_now=True, verbose_name=b'updated', null=True)),
                 ('rank', models.IntegerField(default=0, verbose_name=b'rank')),
                 ('active', models.BooleanField(default=True, verbose_name=b'in use')),
+                ('old_id', models.IntegerField(null=True, blank=True)),
+                ('old_expert_id', models.IntegerField(null=True, blank=True)),
+                ('experts', models.ManyToManyField(related_name='institutions', verbose_name=b'Experts in this institution', to='experts.Expert')),
             ],
             options={
                 'verbose_name': 'institution',
@@ -177,7 +180,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='expertdepartment',
             name='institution',
-            field=models.ForeignKey(related_name='experts', verbose_name=b'Expert`s institution', blank=True, to='experts.ExpertInstitution', null=True),
+            field=models.ForeignKey(related_name='departments', verbose_name=b'Expert`s institution', blank=True, to='experts.ExpertInstitution', null=True),
         ),
         migrations.AddField(
             model_name='expertappointment',

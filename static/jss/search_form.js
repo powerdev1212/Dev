@@ -2,7 +2,7 @@ $(function(){
     var obj = $(".views-exposed-form");
 
     function enterButton(obj){
-        $("input[name=_trg]").css(
+        $("input[name=trg]").css(
             {
                 "width":150,
                 "display": "block",
