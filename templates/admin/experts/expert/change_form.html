@@ -1,0 +1,14 @@
+{% extends "admin/change_form.html" %}
+{% load i18n %}
+
+{% block submit_buttons_bottom %}
+    <div class="submit-row"
+        style="height:2em;">
+       <a class="btn btn-default"
+        href="http://localhost:8000/import/experts/{{original.pk}}"
+        style="background-color: #A8FF9A !important; cursor:pointer;"/>
+            Import to hygeiais
+        </a>
+    </div>
+    {{ block.super }}
+{% endblock %}

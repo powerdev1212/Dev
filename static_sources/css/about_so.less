@@ -1,0 +1,65 @@
+// out ./about_so.css
+.about-so{
+    margin-bottom: 0px;
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+    //background-color: #060709;
+    h3{
+        float: left;
+        display: inline;
+        width: 38.88888889%;
+        margin: 0 1.38888889%;
+        text-align: right;
+        line-height: 2.5em;
+        text-transform: uppercase;
+        margin-left: 0;
+        font-size: 21px;
+        padding-right: 1em;
+        margin-right: 1em;
+        color: black;
+        &::after{
+            content: "+";
+            color: #f76437;
+            margin-left: .25em;
+            font-weight: 400;
+        }
+    }
+    div{
+        float: left;
+        width: 55.55555556%;
+        margin: 0 1.38888889%;
+        margin-left: 0;
+        margin-right: 0;
+        width: 60%;
+        position: absolute;
+        right: 0;
+        display: none;
+        box-sizing: border-box;
+        padding: 1em;
+        font-size: 1em;
+        color: black;
+        p{
+            color: black;
+        }
+    }
+    .li{
+        display: table;
+        cursor: pointer;
+        width: 100%;
+    }
+    .li:hover, .li:focus{
+        h3, div{
+            color: black;
+            background: rgba(93,255,0,0.15);
+            display: block;
+        }
+    }
+}
+
+
+.modal-so-request{
+    .modal-content{
+        max-width: none;
+    }
+}

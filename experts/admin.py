@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from django.contrib import admin
+from rest_framework.authtoken.models import Token
 
 # -*- coding: utf-8 -*-
 from django.forms import ModelForm
@@ -26,7 +27,7 @@ class ExpertForm(ModelForm):
             "training_new",
             "trainings"
             )
-            
+
 class ExpertInstitutionAdmin(admin.ModelAdmin):
     list_display = ("__str__", "assigned_to", "rank", "active")
     ordering = ("inner_name",)
@@ -47,3 +48,5 @@ class ExpertAdmin(am.APIFeaturedModelAdmin):
     ordering = "last_name",
 admin.site.register(models.Expert, ExpertAdmin)
 
+admin.autodiscover()
+admin.site.unregister(Token)

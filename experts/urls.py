@@ -6,4 +6,6 @@ from . import views
 
 urlpatterns = [
     url(r"^$",views.ExpertsIndexView.as_view(),name="experts_index"),
+    url(r'^experts/(?P<pk>\d+)/$',
+    views.ExpertUpdate().as_view()),
 ]

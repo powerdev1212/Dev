@@ -28,12 +28,11 @@
 		    jQuery('body').removeClass("sidebar_open");
 		  }
 		 );
-		})			
+		})
 	</script>
-    
+
     <link rel="stylesheet" href="/static/css/newDesign.css" />
 </head>
-
     <body>
         {% cms_toolbar %}
         {#% include 'components/modal.html' %#}
@@ -47,20 +46,20 @@
         <!-- menu-slider -->
         {#% block slidemenu %}{% include "sidenav.html" %}{% endblock slidemenu %#}
         <!-- menu-slider (end) -->
-        
+
         <!-- page header -->
         {% if not "about" in request.path %} {% include "header.html" %}{% endif %}
         <!-- page header(end) -->
-        
+
         <!-- page content wrapper -->
         <div class="main-container container">
             {% block content %}{% endblock content %}
         </div>
         <!-- page content wrapper (end) -->
-        
+
         {% static_placeholder "footer" %}
         {% render_block "js" %}
         </div>
     </body>
-    
+
 </html>

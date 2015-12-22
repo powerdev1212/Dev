@@ -259,7 +259,7 @@ CACHES = {
 PARTNER_PAGE_URL = "http://hygeiais.com/"
 SESSION_ENGINE = "django.contrib.sessions.backends.signed_cookies"
 SECRET_KEY = "oka485%0c1fog11e=ucco367-cp#n@#0scw3r13#fj4)_pq4b1"
-SESSION_COOKIE_DOMAIN = ".hygeiais.com"
+#SESSION_COOKIE_DOMAIN = ".hygeiais.com"
 # SESSION_COOKIE_NAME = "hygeiaissessionid"
 
 REST_FRAMEWORK = {

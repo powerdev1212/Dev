@@ -1,5 +1,28 @@
+<div class="modal fade" id="soModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg modal-so-request" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" style="color:white;">Second Opinion using Hygeiais Network</h4>
+      </div>
+      <div class="modal-body">
+        {% include 'deseases/about_so.html' %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button class="btn btn-success"
+            onclick="window.openSoPage()"
+             href="{{ partner_page_url }}so/experts/{{ expert.id }}/"
+             >Continue</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/static/jss/request-so-modal.js"></script>
+
 <div class="tab{% if 'experts' in request.GET %} tab-visible{% else %} tab-hidden{% endif %}" id="experts">
-    
+
     <div class="col-md-9">
         <div class="row">
             <div class="main-header">
@@ -18,9 +41,15 @@
         <div class="views-field views-field-title">
             <div class="field-content">
                 <div class="expert-title">
-                    {{ expert.inner_name }}
+                    <span class="inner">{{ expert.inner_name }}</span>
+
                     {% if expert.so_agreement %}
-                        <a href="{{ partner_page_url }}so/experts/{{ expert.id }}/" class="btn btn-default btn-sm s-op-link pull-right">Request Second Opinion</a>
+
+                        <button class="btn btn-default btn-sm s-op-link pull-right btn-success"
+                            onclick="window.runRequestSOModal({{expert.id}})"
+                            >Request Second Opinion</button>
+
+
                     {% endif %}
                 </div>
             </div>
@@ -30,8 +59,8 @@
         <div class="views-field views-field-field-profile-picture">
             <div class="field-content">
                 <div class="expert-image">
-                    <img 
-                    alt="{{ expert.inner_name }}" 
+                    <img
+                    alt="{{ expert.inner_name }}"
                     src="{% if expert.profile_picture %}{{ expert.profile_picture.url }}{% else %}/files/images/experts/user-icon.jpg{% endif %}"/>
                 </div>
             </div>
@@ -142,4 +171,3 @@
 <script type="text/javascript" src="/static/jss/experts_paginator.js"></script>
 <script type="text/javascript" src="/static/jss/images_processing.js"></script>
 </div>
-

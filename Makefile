@@ -101,3 +101,9 @@ deploy:
 	gcloud compute --project "pivotal-crawler-112414" copy-files ./hygeiais ./deseases diadko_roman@dr:/home/diadko_roman/hygeiais  --zone us-central1-b
 
 
+deploy2:
+	gcloud compute --project "pivotal-crawler-112414" copy-files ./api ./experts ./static_sources ./taxonomy ./templates  diadko_roman@dr:/home/diadko_roman/hygeiais  --zone us-central1-b
+
+
+
+
