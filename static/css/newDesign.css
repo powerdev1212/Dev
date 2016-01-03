@@ -283,7 +283,7 @@ td{
 }
 
 .custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(1){
-background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-details-white.png") 10px 7px no-repeat;
+/*background:url("/files/images/cd-left-menu-details-white.png") 10px 7px no-repeat;*/
 }
 
 .custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(2){

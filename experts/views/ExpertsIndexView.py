@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.views.generic import ListView
 from ..models import Expert
+from deseases.models import DeseaseItem
 
 class ExpertsIndexView(ListView):
     template_name = "experts/index.html"

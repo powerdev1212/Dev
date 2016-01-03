@@ -1,0 +1,43 @@
+[33mcommit fce906becd000e4c1b89564471fce886fc402071[m
+Merge: c41848a 8b86f4e
+Author: ganap <gana.pemmanda@gmail.com>
+Date:   Tue Dec 22 05:11:22 2015 -0800
+
+    Merged gerasev_kirill/cms into master
+
+[33mcommit c41848a1d4b25402919dd315134fc479e3cd8143[m
+Merge: e426e06 8239ff3
+Author: ganap <gana.pemmanda@gmail.com>
+Date:   Sat Dec 19 14:35:21 2015 -0600
+
+    Merged gerasev_kirill/cms into master
+
+[33mcommit 8239ff39c92b5505377be26d595b1fa4c1bca1a0[m
+Author: Gerasev Kirill <gerasev.kirill@gmail.com>
+Date:   Wed Dec 16 23:27:48 2015 +0200
+
+    [^] design
+
+[33mcommit e426e061ee03e1df4b034f5bff7de89ddcc23b48[m
+Author: Gerasev Kirill <gerasev.kirill@gmail.com>
+Date:   Tue Dec 15 22:41:48 2015 +0200
+
+    [^] python requirements
+
+[33mcommit 827732cc13160df258c25ab9e48f0a16ca005d2b[m
+Author: Gerasev Kirill <gerasev.kirill@gmail.com>
+Date:   Tue Dec 15 22:31:41 2015 +0200
+
+    [+] cms.sql
+
+[33mcommit 10fb3807e8611ca034ee4db17ae76be3265ff2b0[m
+Author: Gerasev Kirill <gerasev.kirill@gmail.com>
+Date:   Tue Dec 15 22:30:10 2015 +0200
+
+    [1]
+
+[33mcommit 8b86f4e531714f968cc570430204c6ade6f2fdec[m
+Author: Gerasev Kirill <gerasev.kirill@gmail.com>
+Date:   Mon Dec 14 14:51:34 2015 +0200
+
+    [+] expert import; [*] login cookie.

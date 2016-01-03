@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)http://tympanus.net/codrops/2009/08/27/simple-css-chart-for-dynamic-content/ -->
+<html dir="ltr" lang="en-US" class="js canvas fontface generatedcontent wf-brandongrotesque-n7-active wf-proximanova-i4-active wf-proximanova-i7-active wf-proximanova-n4-active wf-proximanova-n7-active wf-active"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="./Simple CSS chart for dynamic content _ Codrops_files/M9QvL9AtqSxITcxITUzRTy4u1ofzdAz0k_NTivILiksyUnNTDYzB0nn5xclFmQUlAA.css" media="all">
+ 
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Simple CSS chart for dynamic content | Codrops</title>
+				<link rel="stylesheet" type="text/css" href="./Simple CSS chart for dynamic content _ Codrops_files/main.css">
+		<link rel="stylesheet" type="text/css" media="print" href="./Simple CSS chart for dynamic content _ Codrops_files/main_print.css">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		
+		<script src="./Simple CSS chart for dynamic content _ Codrops_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="./Simple CSS chart for dynamic content _ Codrops_files/ga.js"></script><script async="" src="./Simple CSS chart for dynamic content _ Codrops_files/fbds.js"></script><script src="./Simple CSS chart for dynamic content _ Codrops_files/pdd7wbw.js"></script>
+		<style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}.tk-brandon-grotesque{font-family:"brandon-grotesque",sans-serif;}</style><link rel="stylesheet" href="./Simple CSS chart for dynamic content _ Codrops_files/l" media="all"><script>try{Typekit.load();}catch(e){}</script>
+		
+		<script>
+			(function(){var e=window._fbq||(window._fbq=[]);if(!e.loaded){var t=document.createElement("script");t.async=true;t.src="//connect.facebook.net/en_US/fbds.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);e.loaded=true}})();window._fbq=window._fbq||[];window._fbq.push(["track","6024769872202",{value:"0.00",currency:"USD"}])
+		</script>
+		<noscript>&lt;img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6024769872202&amp;amp;cd[value]=0.00&amp;amp;cd[currency]=USD&amp;amp;noscript=1" /&gt;</noscript>
+		
+		<link rel="shortcut icon" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/favicon.ico">
+		<link rel="apple-touch-icon" sizes="57x57" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/apple-touch-icon-152x152.png">
+		<link rel="icon" type="image/png" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/favicon-196x196.png" sizes="196x196">
+		<link rel="icon" type="image/png" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/favicon-160x160.png" sizes="160x160">
+		<link rel="icon" type="image/png" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/favicon-32x32.png" sizes="32x32">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="msapplication-TileImage" content="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/favicons/mstile-144x144.png">
+		<meta name="msapplication-config" content="/codrops/wp-content/themes/codropstheme03/favicons/browserconfig.xml">
+			   
+		
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="./Simple CSS chart for dynamic content _ Codrops_files/Simple CSS chart for dynamic content _ Codrops.html">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Simple CSS chart for dynamic content | Codrops">
+<meta property="og:description" content="This is an example of a very simple CSS + one tiny image chart. The result will look like this: Insert the follwoing style into the head of your html (or add it to your existing CSS): &lt;style&gt; .container{ width:300px; font-family: Arial; } .record{ float: left; width: 100%; border: 1px solid #ccc; background-color: #f0f0f0; margin-bottom: …">
+<meta property="og:url" content="http://tympanus.net/codrops/2009/08/27/simple-css-chart-for-dynamic-content/">
+<meta property="og:site_name" content="Codrops">
+<meta property="article:publisher" content="https://www.facebook.com/pages/Codrops/159107397912">
+<meta property="article:tag" content="chart">
+<meta property="article:tag" content="CSS">
+<meta property="article:section" content="Tutorials">
+<meta property="article:published_time" content="2009-08-27T08:37:40+00:00">
+<meta property="article:modified_time" content="2011-07-20T18:00:27+00:00">
+<meta property="og:updated_time" content="2011-07-20T18:00:27+00:00">
+<meta property="fb:admins" content="508764091">
+<meta property="og:image" content="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2009/08/simplechart1.jpg">
+<meta property="og:image" content="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2009/08/gradient.png">
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Codrops » Simple CSS chart for dynamic content Comments Feed" href="http://tympanus.net/codrops/2009/08/27/simple-css-chart-for-dynamic-content/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/tympanus.net\/codrops\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.4"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Simple CSS chart for dynamic content _ Codrops_files/wp-emoji-release.min.js" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+<script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/jquery.js"></script>
+<script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/highlight.pack.js"></script>
+<script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/highlight.user.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tympanus.net/codrops/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 4.2.4">
+<link rel="shortlink" href="http://tympanus.net/codrops/?p=39">
+		<script src="./Simple CSS chart for dynamic content _ Codrops_files/search.js"></script>
+
+		<script type="text/javascript">
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-7243260-2']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		</script>
+
+				<script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/modernizr.custom.70736.js"></script>
+		<!--[if lt IE 9 ]>
+			<script type="text/javascript" src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/js/css3-mediaqueries.js"></script>
+			<link rel="stylesheet" href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/css/ie.css"/>
+		<![endif]-->
+		<!--[if lt IE 8 ]>
+			<script type="text/javascript" src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/themes/codropstheme03/js/iconfonts.js"></script>
+		<![endif]-->
+		<noscript>
+			
+		</noscript>
+		<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "WebSite",
+		  "url": "http://tympanus.net/codrops/",
+		  "potentialAction": {
+		    "@type": "SearchAction",
+		    "target": "http://tympanus.net/codrops/?s={search_term_string}",
+		    "query-input": "required name=search_term_string"
+		  }
+		}
+		</script>
+	<script type="text/javascript" async="" src="./Simple CSS chart for dynamic content _ Codrops_files/bsa.js"></script><script type="text/javascript" id="_bsap_js_af25dfd2f1908889af7a1aa5f4dcbd9e" src="./Simple CSS chart for dynamic content _ Codrops_files/s_af25dfd2f1908889af7a1aa5f4dcbd9e.js" async="async"></script><script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/pro.js" id="_bsap_premium_pro"></script><script type="text/javascript" id="_bsaPRO_js" src="./Simple CSS chart for dynamic content _ Codrops_files/saved_resource" async="async"></script></head>
+	<body id="codrops-body">
+				<!-- BuySellAds.com Ad Code -->
+		<script type="text/javascript">
+			(function(){
+				var bsa = document.createElement('script');
+				bsa.type = 'text/javascript';
+				bsa.async = true;
+				bsa.src = '//s3.buysellads.com/ac/bsa.js';
+				(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+			})();
+		</script>
+		<!-- END BuySellAds.com Ad Code -->	
+				<div class="ct-container">
+			<header class="ct-header">
+				<div class="ct-inner ct-cf">
+
+											<div class="ct-branding">
+							<a class="ct-logo" href="http://tympanus.net/codrops" rel="home">Codrops</a>
+						</div>
+					
+					<div class="ct-nav-wrapper">
+						<nav class="ct-nav-main">
+						   <ul>
+								<li><a href="http://tympanus.net/codrops/category/tutorials/">Tutorials</a></li>
+								<li><a href="http://tympanus.net/codrops/category/playground/">Playground</a></li>
+								<li><a href="http://tympanus.net/codrops/category/blueprints/">Blueprints</a></li>
+								<li><a href="http://tympanus.net/codrops/collective/">Collective</a></li>
+								<li><a href="http://tympanus.net/codrops/css_reference/">CSS Reference</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="ct-header-items-right ct-cf">
+						<div class="ct-search" id="ct-search">
+							<form method="get" id="searchform" action="http://tympanus.net/codrops/">
+								<div class="ct-search-input-wrap">
+									<span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="tt-hint" type="text" autocomplete="off" spellcheck="off" disabled="" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input class="ct-search-input tt-query" placeholder="Search on Codrops..." type="text" value="" name="s" id="s" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><span style="position: absolute; left: -9999px; visibility: hidden; white-space: nowrap; font-family: proxima-nova, &#39;Proxima Nova&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: bold; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></span><span class="tt-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"></span></span>
+								</div>
+								<input type="hidden" name="search-type" value="posts">
+								<input class="ct-search-submit" type="submit" id="go" value=""><span class="ct-icon-search"></span>
+							</form>
+						</div>
+						<ul class="ct-connect">
+							<li><a class="ct-icon-feed" href="http://feeds2.feedburner.com/tympanus"><span>Rss Feed</span></a></li>
+							<li><a class="ct-icon-mail" href="http://feedburner.google.com/fb/a/mailverify?uri=tympanus&amp;loc=en_US"><span>Email Updates</span></a></li>
+							<li><a class="ct-icon-twitter" href="http://www.twitter.com/codrops"><span>Codrops on Twitter</span></a></li>
+							<li><a class="ct-icon-facebook" href="http://www.facebook.com/pages/Codrops/159107397912"><span>Codrops on Facebook</span></a></li>
+							<li><a class="ct-icon-google-plus" href="https://plus.google.com/101095823814290637419" rel="publisher"><span>Codrops on Google+</span></a></li>
+						    <li><a class="ct-icon-github" href="https://github.com/codrops"><span>Codrops on Github</span></a></li>
+						</ul>
+					</div><!--/ct-header-items-right-->
+
+				</div><!-- ct-inner -->
+			</header><div class="ct-content">
+    <div class="ct-inner">		
+		
+								<div class="ct-main ct-main-post" id="ct-main" role="main">
+					<div class="ct-post">
+						<article id="post-39" class="post-39 post type-post status-publish format-standard hentry category-tutorials tag-chart tag-css">
+							<header>
+								<div class="ct-subline entry-meta ">
+																				<img alt="" src="./Simple CSS chart for dynamic content _ Codrops_files/1b17d4931f914ee75c7f5e5dc7b17734" srcset="http://1.gravatar.com/avatar/1b17d4931f914ee75c7f5e5dc7b17734?s=72&amp;d=identicon&amp;r=g 2x" class="avatar avatar-36 photo" height="36" width="36">																		<div class="ct-subline__author">
+																					<span class="byline author vcard"><a href="http://tympanus.net/codrops/author/crnacura/" title="Posts by Mary Lou" rel="author">Mary Lou</a></span>
+											in 
+																				<a href="http://tympanus.net/codrops/category/tutorials/">Tutorials</a>
+									</div>
+									<div class="ct-subline__time">
+										<time class="ct-subline__pubtime" pubdate="pubdate">2009/08/27</time> 
+										<a href="http://tympanus.net/codrops/2009/08/27/simple-css-chart-for-dynamic-content/#comments">5 Comments</a>																			</div>
+																	</div>
+								<h1 class="ct-h-shd entry-title">
+									Simple CSS chart for dynamic content																	</h1>
+							</header>		
+							<div class="ct-post-content">
+								<div class="ct-post-excerpt">This is an example of a very simple CSS + one tiny image chart. The result will look like this: Insert the follwoing style into the head of your html (or add it to your existing CSS): &lt;style&gt; .container{ width:300px; font-family: Arial; } .record{ float: left; width: 100%; border: 1px solid #ccc; background-color: #f0f0f0; margin-bottom: […]</div>								<div class="ct-ad-article-wrapper">
+										<div class="ct-ad-article">
+																						<img class="ct-ad-img" src="./Simple CSS chart for dynamic content _ Codrops_files/advertisement.jpg">
+												
+											<div id="bsap_1277316" class="bsap bsap_1277316" data-serve="CKYDK5T">
+<style type="text/css">
+div.bsap_1277316{width:100%;display:block;}div.bsap_1277316 a{width:728px;}div.bsap_1277316 a img{padding:0;}div.bsap_1277316 a em{font-style:normal;}div.bsap_1277316 a{display:block;font-size:11px;color:#888;font-family:verdana,sans-serif;margin:0;text-align:center;text-decoration:none;overflow:hidden;float:left;}
+div.bsap_1277316 img{border:0;clear:right;}
+div.bsap_1277316 a.adhere{color:#666;font-weight:bold;font-size:12px;border:1px solid #ccc;background:#e7e7e7;text-align:center;}
+div.bsap_1277316 a.adhere:hover{border:1px solid #999;background:#ddd;color:#333;}div.bsap_1277316 a{line-height:100%;}div.bsap_1277316 a.adhere{width:728px;height:90px;line-height:720%;}html>body div.bsap_1277316 a.adhere{width:726px;height:88px;}div.bsap_1277316 img.s{height:0;width:0;}div.bsap_1277316{line-height:9px;}div.bsap_1277316 .bsap_adhere2,div.bsap_1277316 iframe{float:left;}div.bsap_1277316 .bsap_adhere2 a{height:90px;width:20px;background:url(http:\/\/s3.buysellads.com\/ac\/ah20x90_1.gif) no-repeat 0 0;text-indent:-9999px;}
+</style>
+<a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QICVB4YKQWCWYI52Q7C67DEZ3JCEBI453MCWBDE23KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad0 odd " title="Massive Dynamic Wordpress Theme" id="bsa_6265781" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/297595-1446285713.jpg" width="728" height="90" alt=""></a>
+<script type="text/javascript" id="auto_1" class="ignoreme"> if (typeof(BSACallback) !== 'undefined') BSACallback(); </script></div>
+										</div>
+									</div>
+								
+								<p>This is an example of a very simple CSS + one tiny image chart. The result will look like this:</p>
+<figure id="attachment_41" aria-describedby="figcaption_attachment_41" class="wp-caption aligncenter" itemscope="" itemtype="http://schema.org/ImageObject" style="width: 324px"><img itemprop="contentURL" class="size-full wp-image-41" title="simplechart" src="./Simple CSS chart for dynamic content _ Codrops_files/simplechart1.jpg" alt="Simple CSS chart" width="324" height="156"><figcaption id="figcaption_attachment_41" class="wp-caption-text" itemprop="description">Simple CSS chart</figcaption></figure>
+<p>Insert the follwoing style into the head of your html (or add it to your existing CSS):<span id="more-39"></span></p>
+<pre class="brush: css hljs">&lt;<span class="hljs-tag">style</span>&gt;
+
+<span class="hljs-class">.container</span><span class="hljs-rules">{
+ <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"><span class="hljs-number">300px</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">font-family</span>:<span class="hljs-value"> Arial</span></span>;
+ <span class="hljs-rule">}</span></span>
+
+<span class="hljs-class">.record</span><span class="hljs-rules">{
+ <span class="hljs-rule"><span class="hljs-attribute">float</span>:<span class="hljs-value"> left</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">width</span>:<span class="hljs-value"> <span class="hljs-number">100%</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">border</span>:<span class="hljs-value"> <span class="hljs-number">1px</span> solid <span class="hljs-hexcolor">#ccc</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">background-color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#f0f0f0</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">margin-bottom</span>:<span class="hljs-value"> <span class="hljs-number">2px</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">-moz-border-radius</span>:<span class="hljs-value"> <span class="hljs-number">0px</span> <span class="hljs-number">10px</span> <span class="hljs-number">10px</span> <span class="hljs-number">0px</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">-moz-border-radius</span>:<span class="hljs-value"> <span class="hljs-number">0px</span> <span class="hljs-number">10px</span> <span class="hljs-number">10px</span> <span class="hljs-number">0px</span></span></span>;
+ <span class="hljs-rule">}</span></span>
+
+<span class="hljs-class">.bar</span> <span class="hljs-rules">{
+ <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> transparent <span class="hljs-function">url</span>(gradient.png) repeat-x top left</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">float</span>:<span class="hljs-value"> left</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">clear</span>:<span class="hljs-value"> left</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>;
+ <span class="hljs-rule">}</span></span>
+
+<span class="hljs-class">.bar</span> <span class="hljs-tag">span</span><span class="hljs-rules">{
+ <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">12px</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">font-weight</span>:<span class="hljs-value"> bold</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#fff</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">float</span>:<span class="hljs-value"> left</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">margin-left</span>:<span class="hljs-value"> <span class="hljs-number">5px</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">margin-top</span>:<span class="hljs-value"> <span class="hljs-number">7px</span></span></span>;
+ <span class="hljs-rule">}</span></span>
+
+<span class="hljs-class">.p</span><span class="hljs-rules">{
+ <span class="hljs-rule"><span class="hljs-attribute">padding-top</span>:<span class="hljs-value"> <span class="hljs-number">3px</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">float</span>:<span class="hljs-value"> right</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#6D8591</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">clear</span>:<span class="hljs-value"> right</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">12px</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">font-weight</span>:<span class="hljs-value"> bold</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">25px</span></span></span>;
+ <span class="hljs-rule">}</span></span>
+
+<span class="hljs-class">.p</span> <span class="hljs-tag">span</span><span class="hljs-rules">{
+ <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">12px</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">font-weight</span>:<span class="hljs-value"> bold</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">float</span>:<span class="hljs-value"> left</span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">margin-right</span>:<span class="hljs-value"> <span class="hljs-number">5px</span></span></span>;
+ <span class="hljs-rule"><span class="hljs-attribute">margin-top</span>:<span class="hljs-value"> <span class="hljs-number">5px</span></span></span>;
+ <span class="hljs-rule">}</span></span>
+
+&lt;/<span class="hljs-tag">style</span>&gt;</pre>
+<p>First, we create a container&nbsp; that will hold all the chart with its records. The width of that can be adapted to your needs as we will define the width of each record as a percentage. You can use this very nicely if you have some kind of dynamic content:</p>
+<pre class="brush: html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"container"</span>&gt;</span>
+ <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"record"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"bar"</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">"width:55%;"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>Mozilla<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"p"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>55%<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+ <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"record"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"bar"</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">"width:30%;"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>IE<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"p"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>30%<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+ <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"record"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"bar"</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">"width:22%;"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>Safari<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"p"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>22%<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+ <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"record"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"bar"</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">"width:20%;"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>Opera<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"p"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">span</span>&gt;</span>20%<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></pre>
+<p>The image of the gradient is the following:</p>
+<figure id="attachment_42" aria-describedby="figcaption_attachment_42" class="wp-caption aligncenter" itemscope="" itemtype="http://schema.org/ImageObject" style="width: 3px"><img itemprop="contentURL" class="size-full wp-image-42" title="gradient" src="./Simple CSS chart for dynamic content _ Codrops_files/gradient.png" alt="Gradient image" width="3" height="30"><figcaption id="figcaption_attachment_42" class="wp-caption-text" itemprop="description">Gradient image</figcaption></figure>
+<p>Unfortunately, the rounded borders don’t work in IE, but anyway, it also looks nice without :-)</p>
+<div class="ct-ad-article-wrapper ct-ad-article-wrapper-in"><div class="ct-ad-article"><img class="ct-ad-img" src="./Simple CSS chart for dynamic content _ Codrops_files/advertisement.jpg"><div id="bsap_1279993" class="bsap bsap_1279993" data-serve="CKYDK5V"><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QICVBLYKQWCWYI55QJCWSI5Z3JCEBI427YCASDTK3KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad0 odd " title="The Ultimate WordPress Theme" id="bsa_4573598" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/223422-1400703282.jpg" width="728" height="90" alt=""></a>
+<script type="text/javascript" id="auto_2" class="ignoreme"> if (typeof(BSACallback) !== 'undefined') BSACallback(); </script></div><div style="clear:both;"></div></div></div>
+								
+																	<div class="ct-post-nav">
+										<div class="ct-post-prev">        
+											<strong>Previous:</strong><br> <a href="http://tympanus.net/codrops/2009/08/26/simple-css-update-box-for-category-or-posts/" rel="prev">Simple CSS: Update box for category or posts</a>  
+										</div>
+										<div class="ct-post-next">
+											<strong>Next:</strong><br> <a href="http://tympanus.net/codrops/2009/08/28/cool-css-only-registration-form/" rel="next">Cool CSS-only registration form</a>  
+										</div>
+										<div class="clr"></div>
+									</div> <!-- ct-post-nav -->
+																
+							</div>
+						</article>
+						<p class="ct-tags">
+							Tagged with: <a href="http://tympanus.net/codrops/tag/chart/" rel="tag">chart</a> <a href="http://tympanus.net/codrops/tag/css/" rel="tag">CSS</a>						</p>
+						<div class="clr"></div>
+					</div>
+
+											<div class="ct-row">
+							<div class="ct-author-info ct-box">
+								<div class="ct-author-avatar">
+									<img alt="" src="./Simple CSS chart for dynamic content _ Codrops_files/1b17d4931f914ee75c7f5e5dc7b17734(1)" srcset="http://1.gravatar.com/avatar/1b17d4931f914ee75c7f5e5dc7b17734?s=160&amp;d=identicon&amp;r=g 2x" class="avatar avatar-80 photo" height="80" width="80">								</div>
+								<div class="ct-author-page-desc">
+									<h4><a href="http://tympanus.net/codrops/author/crnacura/" title="Posts by Mary Lou" rel="author">Mary Lou</a></h4>
+									<p>
+										Mary Lou (Manoela Ilic) is a freelance web designer and developer with a passion for interaction design. She studied Cognitive Science and Computational Logic and has a weakness for the smell of freshly ground peppercorns.									</p>
+									<p class="ct-author-page-url"><strong>View all contributions by <a href="http://tympanus.net/codrops/author/crnacura/" title="Posts by Mary Lou" rel="author">Mary Lou</a></strong></p>
+																		
+																											<p class="ct-author-page-url">
+										<strong>Website: </strong>
+										<a href="http://tympanus.net/" target="_blank">http://tympanus.net/</a>
+									</p>
+																		
+									<div>
+										<ul class="ct-social-profiles">
+										
+																																		<li><a class="ct-social-twitter" href="http://twitter.com/crnacura">http://twitter.com/crnacura<span>Manoela on Twitter</span></a></li>
+																																													<li><a class="ct-social-dribbble" href="http://dribbble.com/crnacura">http://dribbble.com/crnacura<span>Manoela on Dribbble</span></a></li>
+																																		<li><a class="ct-social-facebook" href="http://www.facebook.com/manoela.ilic">http://www.facebook.com/manoela.ilic<span>Manoela on Facebook</span></a></li>
+																																													<li><a class="ct-social-github" href="https://github.com/crnacura">https://github.com/crnacura<span>Manoela on Github</span></a></li>
+																																																																																							</ul>
+									</div>
+								</div>
+								<div class="clr"></div>
+							</div>
+						</div>
+
+						<h2 class="ct-letterpress">Related Articles</h2>
+						<div class="ct-related-post ct-row-float cf">
+							
+									<div class="ct-box">
+										<div class="ct-latest-thumb-related">
+											<a href="http://tympanus.net/codrops/2015/11/24/shazam-like-morphing-button-effect/">
+												<img width="300" height="163" src="./Simple CSS chart for dynamic content _ Codrops_files/ShazamButtonEffect-300x163.jpg" class="attachment-medium wp-post-image" alt="ShazamButtonEffect">											</a>
+										</div>
+										<h3><a href="http://tympanus.net/codrops/2015/11/24/shazam-like-morphing-button-effect/">Shazam-Like Morphing Button Effect</a></h3>
+									</div>
+
+								
+									<div class="ct-box">
+										<div class="ct-latest-thumb-related">
+											<a href="http://tympanus.net/codrops/2015/11/12/animating-svg-menu-icon-segment/">
+												<img width="300" height="163" src="./Simple CSS chart for dynamic content _ Codrops_files/AnimatedSVGMenuIcon-300x163.png" class="attachment-medium wp-post-image" alt="AnimatedSVGMenuIcon">											</a>
+										</div>
+										<h3><a href="http://tympanus.net/codrops/2015/11/12/animating-svg-menu-icon-segment/">Animating an SVG Menu Icon with Segment</a></h3>
+									</div>
+
+								
+									<div class="ct-box">
+										<div class="ct-latest-thumb-related">
+											<a href="http://tympanus.net/codrops/2015/09/30/shaded-progress-bars-css-sass-excercise/">
+												<img width="300" height="163" src="./Simple CSS chart for dynamic content _ Codrops_files/CSSProgress-300x163.jpg" class="attachment-medium wp-post-image" alt="CSSProgress">											</a>
+										</div>
+										<h3><a href="http://tympanus.net/codrops/2015/09/30/shaded-progress-bars-css-sass-excercise/">Shaded Progress Bars: A CSS/Sass Exercise</a></h3>
+									</div>
+
+														</div>
+
+						
+										<div class="ct-row-wrapper">
+						<div class="ct-row">
+							
+<div class="ct-sharing ct-box">
+	<h4>Stay connected with us:</h4>
+	<div class="ct-link-list">
+		<a href="http://feeds2.feedburner.com/tympanus" class="ct-link-list-rss">Grab the <strong>RSS Feed</strong></a>
+		<a href="http://feedburner.google.com/fb/a/mailverify?uri=tympanus&amp;loc=en_US" class="ct-link-list-mail">Get <strong>email updates</strong></a>
+		<a href="http://www.twitter.com/codrops" class="ct-link-list-twitter">Follow us on <strong>Twitter</strong></a>
+		<a href="http://www.facebook.com/pages/Codrops/159107397912" class="ct-link-list-fb">Join us on <strong>Facebook</strong></a>
+		<a href="https://plus.google.com/101095823814290637419/?prsrc=3" class="ct-link-list-gplus">Add us on <strong>Google+</strong></a>
+	</div>
+</div>
+							<div class="ct-bottom-ads ct-box">
+								<span class="ct-small-text">Advertisement</span>
+								<!-- BSA Zone Code -->
+								<div id="bsap_1248599" class="bsap bsap_1248599" data-serve="CKYDK2T">
+<style type="text/css">
+div.bsap_1248599{width:100%;display:block;}div.bsap_1248599 a{width:125px;}div.bsap_1248599 a img{padding:0;}div.bsap_1248599 a em{font-style:normal;}div.bsap_1248599 a{display:block;font-size:11px;color:#888;margin:0px 10px 10px 15px;text-align:center;text-decoration:none;overflow:hidden;float:left;}
+div.bsap_1248599 img{border:0;}
+div.bsap_1248599 a.adhere{color: #9DB0C1; text-transform: uppercase; font-size: 10px; border: 1px solid #C8D0E1; text-align: center; background: #D9E3EC; line-height: 1200%;}
+div.bsap_1248599 a.adhere:hover{color: #7E95AA;}div.bsap_1248599 a{line-height:100%;}div.bsap_1248599 a.adhere{width:125px;height:125px;line-height:1000%;}html>body div.bsap_1248599 a.adhere{width:123px;height:123px;}div.bsap_1248599 img.s{height:0;width:0;}
+</style>
+<a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QICVY4YKQWCWYI55QJCYYITZ3JCEBI427YCASD6KQKC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad0 odd " title="Foxyhare Hosting Services" id="bsa_1248692" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/57016-1302600028.gif" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QICVY4YKQWCWYI52QICAYI6Z3JCEBI453YC67IPK3KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad1  even" title="Boost Social Shares, Traffic &amp; Revenue with SociallyViral Theme from MyThemeShop" id="bsa_6409038" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/304703-1450624463.jpg" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QICVY4YKQWCWYI52QNFTADVZ3JCEBI453YCKADV53KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad2 odd " title="Leverage UTM Codes to Deliver Personalized Landing Pages and Increase your Marketing ROI" id="bsa_6363013" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/302639-1449350768.jpg" width="125" height="125" alt=""></a>
+<script type="text/javascript" id="auto_3" class="ignoreme"> if (typeof(BSACallback) !== 'undefined') BSACallback(); </script></div>
+								<div class="clr"></div>
+							</div>
+						</div>
+					</div>
+					
+						<section id="comments" class="ct-comments">
+	
+		
+			<div class="ct-commenttitle ct-cf">
+			<h2 id="comments-title">
+				<span>Feedback</span>
+				<sup>5</sup>
+			</h2>
+						<span class="ct-closed-right">Comments are closed.</span>
+					</div>
+		
+		
+		<ol class="ct-commentlist">
+							<li class="post pingback">
+					<p>
+						Pingback: 
+						<a href="http://devezine.com/simple-css-chart-for-dynamic-content/" rel="external nofollow" class="url">Simple css chart for dynamic content</a>											</p>
+					</li><!-- #comment-## -->
+				<li class="comment even thread-even depth-1" id="li-comment-4119">
+					<article id="comment-4119" class="ct-comment">
+						<footer class="comment-meta">
+							<div class="comment-author vcard">
+								<span class="ct-commentthumb">
+									<img alt="" src="./Simple CSS chart for dynamic content _ Codrops_files/84d230e921ec41763ef729ded483c579" srcset="http://2.gravatar.com/avatar/84d230e921ec41763ef729ded483c579?s=120&amp;d=identicon&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">								</span>
+								<span class="ct-commentauthorname">naro</span> <a href="http://tympanus.net/codrops/2009/08/27/simple-css-chart-for-dynamic-content/comment-page-1/#comment-4119" class="ct-commenttime"><time pubdate="" datetime="2010-02-24T21:12:49+00:00">February 24, 2010 at 21:12</time></a>								
+							</div><!-- .comment-author .vcard -->
+						</footer>
+						<div class="ct-commentnumber">1</div>
+												<div class="ct-commentcontent">
+														<p>i think we need another gradient graphic.</p>
+						</div>
+
+						<div class="ct-commentreply">
+													</div><!-- .reply -->
+						<div class="ct-commentedit">
+												</div>
+						
+					</article><!-- #comment-## -->
+
+					</li><!-- #comment-## -->
+				<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-5719">
+					<article id="comment-5719" class="ct-comment">
+						<footer class="comment-meta">
+							<div class="comment-author vcard">
+								<span class="ct-commentthumb">
+									<img alt="" src="./Simple CSS chart for dynamic content _ Codrops_files/fa32731fc09f9dd79c3663372e07e80e" srcset="http://0.gravatar.com/avatar/fa32731fc09f9dd79c3663372e07e80e?s=120&amp;d=identicon&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">								</span>
+								<span class="ct-commentauthorname">???????</span> <a href="http://tympanus.net/codrops/2009/08/27/simple-css-chart-for-dynamic-content/comment-page-1/#comment-5719" class="ct-commenttime"><time pubdate="" datetime="2010-08-05T06:52:59+00:00">August 5, 2010 at 06:52</time></a>								
+							</div><!-- .comment-author .vcard -->
+						</footer>
+						<div class="ct-commentnumber">2</div>
+												<div class="ct-commentcontent">
+														<p>-webkit-border-radius: 0px 10px 10px 0px;<br>
+ -webkit-border-radius: 0px 10px 10px 0px;</p>
+						</div>
+
+						<div class="ct-commentreply">
+													</div><!-- .reply -->
+						<div class="ct-commentedit">
+												</div>
+						
+					</article><!-- #comment-## -->
+
+					</li><!-- #comment-## -->
+				<li class="comment even thread-even depth-1" id="li-comment-5720">
+					<article id="comment-5720" class="ct-comment">
+						<footer class="comment-meta">
+							<div class="comment-author vcard">
+								<span class="ct-commentthumb">
+									<img alt="" src="./Simple CSS chart for dynamic content _ Codrops_files/fa32731fc09f9dd79c3663372e07e80e" srcset="http://0.gravatar.com/avatar/fa32731fc09f9dd79c3663372e07e80e?s=120&amp;d=identicon&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">								</span>
+								<span class="ct-commentauthorname">Farengate</span> <a href="http://tympanus.net/codrops/2009/08/27/simple-css-chart-for-dynamic-content/comment-page-1/#comment-5720" class="ct-commenttime"><time pubdate="" datetime="2010-08-05T07:05:23+00:00">August 5, 2010 at 07:05</time></a>								
+							</div><!-- .comment-author .vcard -->
+						</footer>
+						<div class="ct-commentnumber">3</div>
+												<div class="ct-commentcontent">
+														<p>Bad that Cyrillic is not supported ?</p>
+						</div>
+
+						<div class="ct-commentreply">
+													</div><!-- .reply -->
+						<div class="ct-commentedit">
+												</div>
+						
+					</article><!-- #comment-## -->
+
+					</li><!-- #comment-## -->
+				<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-404565">
+					<article id="comment-404565" class="ct-comment">
+						<footer class="comment-meta">
+							<div class="comment-author vcard">
+								<span class="ct-commentthumb">
+									<img alt="" src="./Simple CSS chart for dynamic content _ Codrops_files/0c2a53b8c2f75b7fded6f0e32a83fb69" srcset="http://0.gravatar.com/avatar/0c2a53b8c2f75b7fded6f0e32a83fb69?s=120&amp;d=identicon&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60">								</span>
+								<span class="ct-commentauthorname">Savchik</span> <a href="http://tympanus.net/codrops/2009/08/27/simple-css-chart-for-dynamic-content/comment-page-1/#comment-404565" class="ct-commenttime"><time pubdate="" datetime="2012-01-18T10:21:21+00:00">January 18, 2012 at 10:21</time></a>								
+							</div><!-- .comment-author .vcard -->
+						</footer>
+						<div class="ct-commentnumber">4</div>
+												<div class="ct-commentcontent">
+														<p>When one of charts goes to 90% or above, it breaks in half.</p>
+<p>solution: add some css</p>
+<p>.record<br>
+{ …<br>
+position: relative;<br>
+..  }<br>
+.p</p>
+<p>{…<br>
+position: absolute;<br>
+right: 0;<br>
+…}</p>
+						</div>
+
+						<div class="ct-commentreply">
+													</div><!-- .reply -->
+						<div class="ct-commentedit">
+												</div>
+						
+					</article><!-- #comment-## -->
+
+					</li><!-- #comment-## -->
+		</ol>
+		<p class="ct-small-text fright">
+						<span class="ct-closed-right">Comments are closed.</span>
+					</p>
+				
+
+
+		<div class="ct-comment-form">	
+				<div class="clr"></div>
+	</div>
+
+</section><!-- #comments -->
+				</div>
+				<aside class="ct-sidebar">		
+	<div class="ct-ads">
+		<div class="ct-ads-info">
+			<h4>Advertisement</h4>
+			<a href="http://tympanus.net/codrops/advertise/" class="ct-advertise-here">
+				<i class="ct-icon-info"></i>
+				<span>Advertise Here</span>
+			</a>
+		</div>
+		<div id="bsap_1275127" class="bsap bsap_1275127" data-serve="CKYDK2Y"><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QICV7LYKQWCWYI52Q7C67D5Z3JCEBI453MCVYDK27KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad0 odd " title="Massive Dynamic Wordpress Theme" id="bsa_6288573" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/298864-1446873606.jpg" width="300" height="250" alt=""></a>
+
+<div class="bsap_adhere">
+
+<a href="http://www.buysellads.com/buy/detail/17086/zone/1275127?utm_source=site_17086&amp;utm_medium=website&amp;utm_campaign=imagetext&amp;utm_content=zone_1275127" class="">Advertise Here</a>
+
+</div>
+
+
+<script type="text/javascript" id="auto_4" class="ignoreme"> if (typeof(BSACallback) !== 'undefined') BSACallback(); </script></div>
+		<div id="bsap_1243201" class="bsap bsap_1243201" data-serve="CKYDKKY">
+<style type="text/css">
+div.bsap_1243201{width:100%;display:block;}div.bsap_1243201 a{width:125px;}div.bsap_1243201 a img{padding:0;}div.bsap_1243201 a em{font-style:normal;}div.bsap_1243201 a{background: rgba(255, 255, 255, 0.5); padding: 10px;display:block;font-size:11px;color:#888;margin:0 10px 10px 0;text-align:center;text-decoration:none;overflow:hidden;float:left;}
+div.bsap_1243201 img{border:0;}
+div.bsap_1243201 a.adhere{color: #9DB0C1; text-transform: uppercase; font-size: 10px; text-align: center; background: rgba(255,255,255,0.5); line-height: 1200%; width: 125px; height: 125px;}
+div.bsap_1243201 a.adhere:hover{color: #7e95aa;}div.bsap_1243201 a{line-height:100%;}div.bsap_1243201 a.adhere{width:125px;height:125px;line-height:1000%;}html>body div.bsap_1243201 a.adhere{width:123px;height:123px;}div.bsap_1243201 img.s{height:0;width:0;}
+</style>
+<a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QIC6ALYKQWCWYI52JECVAI5Z3JCEBI453YC6YD42JKC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad0 odd " title="NewEdge - Responsive WordPress Magazine Theme" id="bsa_6398688" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/304527-1450438134.jpg" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QIC6ALYKQWCWYI55QJCYYD5Z3JCEBI453JCTYD6K7KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad1  even" title="X WordPress Theme" id="bsa_5335334" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/305774-1451581242.png" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QIC6ALYKQWCWYI55QJCYYDTZ3JCEBI427MCKSI653KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad2 odd " title="Brooklyn for WordPress, what else?" id="bsa_5642467" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/266637-1429324335.jpg" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QIC6ALYKQWCWYI55QJCYYDCZ3JCEBI427UCW7DC2QKC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad3  even" title="GoJS is a fast and powerful JavaScript library for implementing interactive diagrams in web applications. " id="bsa_5931868" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/276422-1435763027.png" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QIC6ALYKQWCWYI55QJCYYDKZ3JCEBI427YCASD5K3KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad4 odd " title="Premium WordPress Themes" id="bsa_2449843" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/223418-1400702611.jpg" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QIC6ALYKQWCWYI55QJCWAILZ3JCEBI427YCASDP53KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad5  even" title="Premium Website Templates &amp; WordPress Themes" id="bsa_562176" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/178447-1373139325.gif" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QIC6ALYKQWCWYI52JECKAI4Z3JCEBI453NCKBI527KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad6 odd " title="Premium Bootstrap templates" id="bsa_6136210" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/305744-1451513681.jpg" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QIC6ALYKQWCWYI52Q7CYYI6Z3JCEBI453MCVYDK2QKC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad7  even" title="Massive Dynamic Wordpress Theme" id="bsa_6288581" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/298866-1446874109.jpg" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QIC6ALYKQWCWYI55QJCYYD6Z3JCEBI453MF67DV53KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad8 odd " title="PSD2HTML.com: Responsive HTML5/CSS3" id="bsa_6204558" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/293176-1443799836.jpg" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QIC6ALYKQWCWYI55QJCYYD4Z3JCEBI427YCASDKK3KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad9  even" title="Online quote, invoice and expense and time management - BillGrid.com" id="bsa_1699101" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/82233-1320521466.jpg" width="125" height="125" alt=""></a>
+<script type="text/javascript" id="auto_5" class="ignoreme"> if (typeof(BSACallback) !== 'undefined') BSACallback(); </script></div>
+		<div class="clr"></div>
+	</div>
+		
+	<div class="ct-widget-wrapper"> 
+
+				<div class="ct-widget ct-widget-deals">
+		    <h5>Check out our deals &amp; offers!</h5>
+		    <article>
+		        <div class="ct-latest-thumb">
+		            <a href="http://tympanus.net/codrops/deals/">
+		                <img src="./Simple CSS chart for dynamic content _ Codrops_files/gifticon.png" alt="Deals Thumbnail">
+		            </a>
+		        </div>
+		        <p><strong>Find great discounts for many useful services and resources on our <a href="http://tympanus.net/codrops/deals/">Deals &amp; Offers</a> page!</strong></p>
+		        <div class="clr"></div>
+		    </article>
+		</div>
+		
+
+									<div class="ct-widget ct-widget-coll">
+					<h5>Latest News:</h5>
+					                <article id="post-25781" class="post-25781 collective type-collective status-publish has-post-thumbnail hentry">
+					<h3><a href="http://tympanus.net/codrops/collective/collective-200/" class="">Collective #200</a></h3>
+                    <div class="ct-latest-thumb">
+                        <a href="http://tympanus.net/codrops/collective/collective-200/" class="ct-trans">
+                            <img width="200" height="280" src="./Simple CSS chart for dynamic content _ Codrops_files/Collective2001.png" class="attachment-collective-thumb wp-post-image" alt="Collective200">                        </a>
+                    </div>
+					
+                    <p class="ct-feat-excerpt">
+                       Progressive Web Apps * Reimagining SPAs * Javascript Fatigue * DocSearch * Expressive CSS * Beyond Offline * DummyText.c...
+                    </p>
+                    <div class="clr"></div>
+                </article>
+                            <article id="post-25741" class="post-25741 collective type-collective status-publish has-post-thumbnail hentry">
+					<h3><a href="http://tympanus.net/codrops/collective/collective-199/" class="">Collective #199</a></h3>
+                    <div class="ct-latest-thumb">
+                        <a href="http://tympanus.net/codrops/collective/collective-199/" class="ct-trans">
+                            <img width="200" height="280" src="./Simple CSS chart for dynamic content _ Codrops_files/Collective199.png" class="attachment-collective-thumb wp-post-image" alt="Collective199">                        </a>
+                    </div>
+					
+                    <p class="ct-feat-excerpt">
+                       ScrollReveal * Interaction Is an Enhancement * Web Accessibility Basics * Animating Clipped Elements In SVG...
+                    </p>
+                    <div class="clr"></div>
+                </article>
+            				</div>
+												<div class="ct-widget ct-widget-default">
+							<h5>Giveaways:</h5>
+										<article id="post-25822" class="post-25822 post type-post status-publish format-standard has-post-thumbnail hentry category-giveaways">
+	                <div class="ct-latest-thumb">
+	                    <a href="http://tympanus.net/codrops/2015/12/28/mythemeshop-membership-macbook-air-giveaway/" class="ct-trans">
+	                        <img width="105" height="105" src="./Simple CSS chart for dynamic content _ Codrops_files/MyThemShopGiveaway-105x105.jpg" class="attachment-thumbnail wp-post-image" alt="MyThemShopGiveaway">	                    </a>
+	                </div>
+					<h3>
+						<a href="http://tympanus.net/codrops/2015/12/28/mythemeshop-membership-macbook-air-giveaway/">
+						MyThemeShop Membership &amp; MacBook Air Giveaway						</a>
+					</h3>
+					
+					
+	                <div class="clr"></div>
+            	</article>
+				</div>			<div class="clr"></div>
+			
+		
+		<div class="ct-widget ct-widget-default">
+			<h5>Hot on Codrops:</h5>
+			                <article id="post-25440" class="post-25440 post type-post status-publish format-standard has-post-thumbnail hentry category-playground tag-3d tag-animation tag-perspective tag-slideshow">
+					
+                    <div class="ct-latest-thumb">
+                        <a href="http://tympanus.net/codrops/2015/11/10/interactive-room-display/" class="ct-trans">
+                            <img width="105" height="105" src="./Simple CSS chart for dynamic content _ Codrops_files/RoomDisplay_feat-105x105.jpg" class="attachment-thumbnail wp-post-image" alt="RoomDisplay_feat">                        </a>
+                    </div>
+					<h3><a href="http://tympanus.net/codrops/2015/11/10/interactive-room-display/" class="">Interactive Room Display</a></h3>
+                   
+                    <div class="clr"></div>
+                </article>
+                            <article id="post-25417" class="post-25417 post type-post status-publish format-standard has-post-thumbnail hentry category-playground tag-canvas tag-drops tag-effect tag-rain tag-webgl">
+					
+                    <div class="ct-latest-thumb">
+                        <a href="http://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/" class="ct-trans">
+                            <img width="105" height="105" src="./Simple CSS chart for dynamic content _ Codrops_files/RainEffects-105x105.jpg" class="attachment-thumbnail wp-post-image" alt="RainEffects">                        </a>
+                    </div>
+					<h3><a href="http://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/" class="">Rain &amp; Water Effect Experiments</a></h3>
+                   
+                    <div class="clr"></div>
+                </article>
+                            <article id="post-25256" class="post-25256 post type-post status-publish format-standard has-post-thumbnail hentry category-playground tag-effect tag-gallery tag-grid tag-svg">
+					
+                    <div class="ct-latest-thumb">
+                        <a href="http://tympanus.net/codrops/2015/10/15/effect-ideas-for-image-grids/" class="ct-trans">
+                            <img width="105" height="105" src="./Simple CSS chart for dynamic content _ Codrops_files/ImageGridEffects-105x105.jpg" class="attachment-thumbnail wp-post-image" alt="ImageGridEffects">                        </a>
+                    </div>
+					<h3><a href="http://tympanus.net/codrops/2015/10/15/effect-ideas-for-image-grids/" class="">Effect Ideas for Image Grids</a></h3>
+                   
+                    <div class="clr"></div>
+                </article>
+                            <article id="post-25030" class="post-25030 post type-post status-publish format-standard has-post-thumbnail hentry category-playground tag-animation tag-button tag-gsap tag-progress tag-svg">
+					
+                    <div class="ct-latest-thumb">
+                        <a href="http://tympanus.net/codrops/2015/09/23/elastic-progress/" class="ct-trans">
+                            <img width="105" height="105" src="./Simple CSS chart for dynamic content _ Codrops_files/ElasticProgress-105x105.jpg" class="attachment-thumbnail wp-post-image" alt="ElasticProgress">                        </a>
+                    </div>
+					<h3><a href="http://tympanus.net/codrops/2015/09/23/elastic-progress/" class="">Elastic Progress</a></h3>
+                   
+                    <div class="clr"></div>
+                </article>
+            					</div>
+		
+		<!--div class="ct-widget" id="md-widget">
+			<h5>From Mightydeals</h5>
+			<div>
+				<div id="md-large-widget"></div>
+				<script type="text/javascript">
+				(function() {
+				var mdWidgetUrl = "http://www.mightydeals.com/widgets/large/refID/06a879/width/283"
+				var s = document.createElement("script"), s1 = document.getElementsByTagName("script")[0];
+				s.type = "text/javascript";
+				s.async = true;
+				s.src = mdWidgetUrl;
+				s1.parentNode.insertBefore(s, s1);
+				})();
+				</script>	
+			</div>
+		</div-->
+	</div>
+
+	<div class="ct-ads">
+		<div class="ct-ads-info">
+			<h4>Advertisement</h4>
+			<a href="http://tympanus.net/codrops/advertise/" class="ct-advertise-here">
+				<i class="ct-icon-info"></i>
+				<span>Advertise Here</span>
+			</a>
+		</div>
+		<div id="bsap_1298539" class="bsap bsap_1298539" data-serve="CKYD5KE"><a href="http://srv.buysellads.com/ads/click/x/GTND423MC6SIL5QUCAS4YKQWCWYI52QICW7ITZ3JCEBI453YCVYI553KC6BDPKQYCTYDEK3EHJNCLSIZ" class="ad0 odd " title="Easily build real-time apps for free with Syncano&#39;s backend platform. " id="bsa_6425066" target="_blank" rel="nofollow">
+<img src="./Simple CSS chart for dynamic content _ Codrops_files/293748-1444166336.png" width="300" height="250" alt=""></a>
+<script type="text/javascript" id="auto_6" class="ignoreme"> if (typeof(BSACallback) !== 'undefined') BSACallback(); </script></div>
+	</div>
+
+    		
+    	<div class="clr"></div>
+</aside>
+
+				<div class="clr"></div>
+				<script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/plusone.js" gapi_processed="true"></script>
+			    </div>
+</div>
+		<footer class="ct-footer">
+			
+			<div class="ct-inner ct-cf">
+				<nav class="ct-cf">
+					<ul>
+						<li><a href="http://tympanus.net/codrops/category/tutorials/">Tutorials</a></li>
+						<li><a href="http://tympanus.net/codrops/category/articles/">Articles</a></li>
+						<li><a href="http://tympanus.net/codrops/category/playground/">Playground</a></li>
+						<li><a href="http://tympanus.net/codrops/category/blueprints/">Blueprints</a></li>
+						<li><a href="http://tympanus.net/codrops/css_reference/">CSS Reference</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://tympanus.net/codrops/category/news/">News</a></li>
+						<li><a href="http://tympanus.net/codrops/category/giveaways/">Giveaways</a></li>
+						<li><a href="http://tympanus.net/codrops/category/freebies/">Freebies</a></li>
+						<li><a href="http://tympanus.net/codrops/collective/">Collective</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://tympanus.net/codrops/about/">About</a></li>
+						<li><a href="http://tympanus.net/codrops/contact/">Contact</a></li>
+						<li><a href="http://tympanus.net/codrops/archives/">Archives</a></li>
+						<li><a href="http://tympanus.net/codrops/deals/">Deals</a></li>
+						<li><a href="http://tympanus.net/codrops/advertise/">Advertise</a></li>
+					</ul>
+					<ul>
+						<li><a href="http://tympanus.net/codrops/privacy-policy/">Privacy Policy</a></li>
+						<li><a href="http://tympanus.net/codrops/licensing/">License</a></li>
+						<li><a href="http://tympanus.net/codrops/credits/">Credits</a></li>
+						<li><a href="http://tympanus.net/codrops/impressum/">Impressum</a></li>
+					</ul>
+				</nav>
+				<div class="ct-items ct-cf">
+					<div class="ct-item ct-copyright">
+						<span>© Codrops 2015 by</span> 
+						<a href="http://tympanus.net/" title="Tympanus">Tympanus</a>
+					</div>
+					<div class="ct-item ct-cdn">
+						<span>Content delivered by</span>
+						<a href="http://tracking.maxcdn.com/c/24359/3982/378?u=http%3A%2F%2Fwww.maxcdn.com%2Fcodrops%2F" title="Content Distribution Network" target="blank">Content Distribution Network</a>
+						<img height="1" width="1" src="./Simple CSS chart for dynamic content _ Codrops_files/378">
+					</div>	
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/comment-reply.min.js"></script>
+<script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/typeahead.min.js"></script>
+<script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/hogan.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wp_typeahead = {"ajaxurl":"http:\/\/tympanus.net\/codrops\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Simple CSS chart for dynamic content _ Codrops_files/wp-typeahead.js"></script>
+		</div><!--ct-container-->
+	
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk: enhanced
+Content Delivery Network via codropspz.tympanus.netdna-cdn.com
+
+ Served from: tympanus.net @ 2015-12-31 19:13:27 by W3 Total Cache --></body></html>

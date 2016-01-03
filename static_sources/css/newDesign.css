@@ -101,7 +101,7 @@ input#edit-combine{
   position:relative;
 }
 
-.main-container h2:after, .card.definition > h3:after{
+.main-container h2:after, .card .definition > h3:after{
   position:absolute;
   bottom:0;
   left:0;
@@ -138,7 +138,7 @@ footer a:hover{
 }
 
 .modal-content .modal-header{
-  background:#38DE8A;
+  background:#48859C;
 }
 
 .plugin_video object{
@@ -237,12 +237,14 @@ nav.navigation, nav.navigation > div{
 }
 
 #cabinet-links a.login_button{
-    background:#8bc34a;
+    background:#FF9800;
     color:#fff;
 }
 
-.signup_button{
-    color:#315062;
+
+#cabinet-links a.signup_button{
+       color:#444;
+    background:#eee;
 }
 
 #cabinet-links a:hover{
@@ -283,49 +285,63 @@ td{
 }
 
 .custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(1){
-background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-details-white.png") 10px 7px no-repeat;
+background:url("../imgs/cd-left-menu-details-white.png") 10px 7px no-repeat;
 }
 
 .custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(2){
-background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-2.png") 10px 7px no-repeat;
+background:url("../imgs/cd-left-menu-2.png") 10px 7px no-repeat;
 }
 
 .custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(3){
-background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-3.png") 10px 7px no-repeat;
+background:url("../imgs/cd-left-menu-3.png") 10px 7px no-repeat;
 }
 
 .custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(4){
-background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-4.png") 10px 7px no-repeat;
+background:url("../imgs/cd-left-menu-4.png") 10px 7px no-repeat;
 }
 
 .custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(5){
-background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-5.png") 10px 7px no-repeat;
+background:url("../imgs/cd-left-menu-5.png") 10px 7px no-repeat;
 }
 
 .custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(7){
-background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-6.png") 10px 7px no-repeat;
+background:url("../imgs/cd-left-menu-6.png") 10px 7px no-repeat;
 }
 
 .custom-vertical-tabs-list.card.no-padding.style-primary > li:nth-child(8){
-background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo/images/cd-left-menu-7.png") 10px 7px no-repeat;
+background:url("../imgs/cd-left-menu-7.png") 10px 7px no-repeat;
 }
+
+.main-container h2.headingCenter::after{left:50%; margin-left:-45px;}
 
 #headImage{
     height:450px;
-    background:url(/static/imgs/headImage.jpg) center cover no-repeat;
+    background:url("../imgs/headimage.jpg") center no-repeat;
+    background-size:cover;
     position:relative;
     z-index:5;
     margin-bottom:45px;
 }
-
+#headImage::before {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 #headImage .container{
     height:100%;
     position:relative;
+    width: auto;
 }
 
 .headTable{
     display:table;
+    width:100%;
     height:100%;
+    align-items: center;
 }
 
 .headTable > div{
@@ -348,8 +364,8 @@ background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo
     border-radius:3px;
     margin:0px 5px;
     text-decoration:none;
-    color:#232323;
-    background:#fff;
+    color:#444;
+    background:#eee;
 }
 
 .headTable .btns a:hover{
@@ -375,6 +391,7 @@ background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo
 
 .joinBtn:hover{
     background:#232323;
+    color:#fff;
 }
 
 #blocks{
@@ -385,7 +402,6 @@ background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo
     text-align:center;
     margin-bottom:30px;
     font-weight:normal;
-    text-transform:uppercase;
     font-size:32px;
 }
 
@@ -396,7 +412,35 @@ background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo
     text-align:center;
     margin-bottom:15px;
 }
+.oportunity {
+    text-align: center;
+    color: #182730;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
+.oportunity-pic > div {
+    display: table;
+    width: 80px;
+    height: 80px;
+    background: #182730;
+    border-radius: 80px;
+    margin: 0 auto;
+}
+.oportunity-pic > div > div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.oportunity-pic {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.oportunity * {
+    color: #182730;
+}
 #blocks p{
     text-align:center;
     line-height:1.4;
@@ -418,7 +462,7 @@ background:url("http://dev-cancerinfohub.pantheon.io/sites/all/themes/cancerinfo
   }
 
 }
-
+#headerSearch input[type='text'] { color: #888!important; width: 320px; height: 32px; border-radius: 3px; border: 0; padding: 0 10px; } #headerSearch input[type='text']::-webkit-input-placeholder { color: #888!important; } #headerSearch input[type='text']:-moz-placeholder { color: #888; } #headerSearch input[type='text']::-moz-placeholder { color: #888; } #headerSearch input[type='text']:-ms-input-placeholder { color: #888; }
 @media screen and (max-width:780px){
   .main-container .column{
     width:100%!important;

@@ -5,3 +5,4 @@ from .DeseasesCategoryView import DeseasesCategoryView
 from .DeseaseItemView import DeseaseItemView
 from .LoginView import LoginView
 from .logoutview import logoutview
+from .HomeView import HomeView

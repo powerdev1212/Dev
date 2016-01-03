@@ -29,11 +29,11 @@ def set_socketpath():
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "HOST": "",
+        "HOST": "localhost",
         "NAME": "hygeiais_sitedb",
-        "PASSWORD": "1",
-        "PORT": "",
-        "USER": "djangouser",
+        "PASSWORD": "root",
+        "PORT": "3306",
+        "USER": "root",
     },
 }
 SITE_ID=1

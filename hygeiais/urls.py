@@ -8,11 +8,13 @@ from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from deseases.views import LoginView
+from django.views.generic import TemplateView
+from deseases.views import HomeView
 
 admin.autodiscover()
 
 urlpatterns = i18n_patterns('',
-url(r'', include('experts.urls')),
+    #url(r'^home/$', HomeView.as_view(), name='home'),
     url(r'^admin/', include(admin.site.urls)),  # NOQA
     url(r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap',
         {'sitemaps': {'cmspages': CMSSitemap}}),
@@ -24,6 +26,7 @@ url(r'', include('experts.urls')),
     url(r"^api/experts/json/$", "api.views.experts_list_json"),
     url(r"^api/experts/(?P<expert_id>[0-9]+)/json/$", "api.views.expert_instance_json"),
     url(r'^', include('cms.urls')),
+    #url(r'^', HomeView.as_view(), name='home'),
 )
 
 # This is only needed when using runserver.

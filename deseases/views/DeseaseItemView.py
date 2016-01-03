@@ -91,7 +91,8 @@ class DeseaseItemView(ListView):
     def get_specialities(self):
         """ Get all specialities """
         specialities = []
-        experts = Expert.objects.all()
+        #experts = Expert.objects.all()
+        experts = self.get_experts()
         for expert in experts:
             specialities.extend([i.id for i in expert.specialities.filter(active=True)])
         specialities = set(tuple(specialities))

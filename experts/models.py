@@ -10,6 +10,7 @@ class ExpertInstitutionManager(models.Manager):
     """ Manager for expert institution model """
     def get_actives(self):
         try:
+            #return ExpertInstitutionManager.all()
             return super(ExpertInstitutionManager, self).get_queryset()\
             .filter(active=True)\
             .order_by("inner_name")
